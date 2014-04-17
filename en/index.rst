@@ -1,9 +1,9 @@
-.. JPHP documentation master file, created by
-
-Welcome to JPHP's documentation!
-================================
-
-Contents:
+English Version
+===============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 6
+
+   introduction
+   getstarted
+   std-lib/index
