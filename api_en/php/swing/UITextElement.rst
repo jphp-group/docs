@@ -36,5 +36,5 @@ UITextElement
   header or footer text. Note: this method
   blocks until printing is done.
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 

@@ -8,11 +8,11 @@ UIWindow
 
  .. php:method:: isActive()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isAlwaysOnTopSupported()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: moveToCenter()
 

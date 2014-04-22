@@ -8,14 +8,14 @@ Environment
  .. php:method:: __construct($parent = NULL, $flags = 0)
 
   :param $parent: :doc:`php\\lang\\Environment </api_en/php/lang/Environment>` 
-  :param $flags: :doc:`int </api_en/int>` Environment::HOT_RELOAD, Environment::CONCURRENT
+  :param $flags: :doc:`int </api_en/.types/int>` Environment::HOT_RELOAD, Environment::CONCURRENT
 
  .. php:method:: execute($runnable)
 
   Executes $runnable in the environment
 
-  :param $runnable: :doc:`callable </api_en/callable>` - in new environment
-  :returns: :doc:`mixed </api_en/mixed>` 
+  :param $runnable: :doc:`callable </api_en/.types/callable>` - in new environment
+  :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:method:: importClass($className)
 
@@ -44,21 +44,21 @@ Environment
  .. php:method:: defineConstant($name, $value, $caseSensitive = true)
 
   :param $name: 
-  :param $value: :doc:`mixed </api_en/mixed>` - scalar value
+  :param $value: :doc:`mixed </api_en/.types/mixed>` - scalar value
   :param $caseSensitive: 
 
  .. php:method:: onMessage($callback)
 
   Handles messages that sent to the environment
 
-  :param $callback: :doc:`callable </api_en/callable>` 
+  :param $callback: :doc:`callable </api_en/.types/callable>` 
 
  .. php:method:: sendMessage($message)
 
   Send message to the environment
 
   :param $message: 
-  :returns: :doc:`mixed </api_en/mixed>` 
+  :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:staticmethod:: current()
 

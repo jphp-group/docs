@@ -22,18 +22,18 @@ Color
 
  .. php:staticmethod:: rgb($r, $g, $b, $alpha = 255)
 
-  :param $r: :doc:`int </api_ru/int>` - 0 .. 255
-  :param $g: :doc:`int </api_ru/int>` - 0 .. 255
-  :param $b: :doc:`int </api_ru/int>` - 0 .. 255
-  :param $alpha: :doc:`int </api_ru/int>` - 0 .. 255
+  :param $r: :doc:`int </api_ru/.types/int>` - 0 .. 255
+  :param $g: :doc:`int </api_ru/.types/int>` - 0 .. 255
+  :param $b: :doc:`int </api_ru/.types/int>` - 0 .. 255
+  :param $alpha: :doc:`int </api_ru/.types/int>` - 0 .. 255
   :returns: :doc:`php\\swing\\Color </api_ru/php/swing/Color>` 
 
  .. php:staticmethod:: floatRgb($r, $g, $b, $alpha = 1.0)
 
-  :param $r: :doc:`double </api_ru/double>` - between 0 and 1
-  :param $g: :doc:`double </api_ru/double>` - between 0 and 1
-  :param $b: :doc:`double </api_ru/double>` - between 0 and 1
-  :param $alpha: :doc:`double </api_ru/double>` - between 0 and 1
+  :param $r: :doc:`double </api_ru/.types/double>` - between 0 and 1
+  :param $g: :doc:`double </api_ru/.types/double>` - between 0 and 1
+  :param $b: :doc:`double </api_ru/.types/double>` - between 0 and 1
+  :param $alpha: :doc:`double </api_ru/.types/double>` - between 0 and 1
   :returns: :doc:`php\\swing\\Color </api_ru/php/swing/Color>` 
 
  .. php:staticmethod:: decode($nm)

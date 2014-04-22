@@ -8,12 +8,12 @@ UICombobox
 
  .. php:method:: setItems($items)
 
-  :param $items: :doc:`array </api_ru/array>` 
+  :param $items: :doc:`array </api_ru/.types/array>` 
 
  .. php:method:: getItem($index)
 
   :param $index: 
-  :returns: :doc:`string </api_ru/string>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`string </api_ru/.types/string>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: addItem($item)
 

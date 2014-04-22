@@ -20,19 +20,19 @@ Socket
 
  .. php:method:: getLocalAddress()
 
-  :returns: :doc:`string </api_ru/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: getAddress()
 
-  :returns: :doc:`string </api_ru/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: getLocalPort()
 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: getPort()
 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: close()
 
@@ -45,23 +45,23 @@ Socket
 
  .. php:method:: isConnected()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isClosed()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isBound()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isInputShutdown()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isOutputShutdown()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: connect($hostname, $port, $timeout = null)
 

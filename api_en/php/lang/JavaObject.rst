@@ -16,5 +16,5 @@ JavaObject
 
   Get name of class of object
 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 

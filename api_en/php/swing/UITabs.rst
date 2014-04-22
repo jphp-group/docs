@@ -17,7 +17,7 @@ UITabs
  .. php:method:: getTitleAt($index)
 
   :param $index: 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: setTitleAt($index, $value)
 
@@ -27,7 +27,7 @@ UITabs
  .. php:method:: getToolTipTextAt($index)
 
   :param $index: 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: setToolTipTextAt($index, $value)
 
@@ -65,12 +65,12 @@ UITabs
 
   :param $x: 
   :param $y: 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: isEnabledAt($index)
 
   :param $index: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setEnabledAt($index, $enabled)
 

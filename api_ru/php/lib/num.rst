@@ -18,7 +18,7 @@ num
   argument as an unsigned integer in base 2.
 
   :param $number: 
-  :returns: :doc:`string </api_ru/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 
  .. php:staticmethod:: toOctal($number)
 
@@ -26,7 +26,7 @@ num
   argument as an unsigned integer in base 8.
 
   :param $number: 
-  :returns: :doc:`string </api_ru/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 
  .. php:staticmethod:: toHex($number)
 
@@ -34,7 +34,7 @@ num
   argument as an unsigned integer in base 16.
 
   :param $number: 
-  :returns: :doc:`string </api_ru/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 
  .. php:staticmethod:: toString($number, $radix)
 
@@ -43,7 +43,7 @@ num
 
   :param $number: 
   :param $radix: 
-  :returns: :doc:`string </api_ru/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 
  .. php:staticmethod:: reverse($number)
 
@@ -52,7 +52,7 @@ num
   value.
 
   :param $number: 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:staticmethod:: decode($string)
 
@@ -60,7 +60,7 @@ num
   Accepts decimal, hexadecimal, and octal numbers
 
   :param $string: 
-  :returns: :doc:`string </api_ru/string>` or false if invalid number format
+  :returns: :doc:`string </api_ru/.types/string>` or false if invalid number format
 
  .. php:staticmethod:: format($number, $pattern, $decSep = '.', $groupSep = ',')
 
@@ -68,5 +68,5 @@ num
   :param $pattern: 
   :param $decSep: 
   :param $groupSep: 
-  :returns: :doc:`string </api_ru/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 

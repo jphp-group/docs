@@ -25,13 +25,13 @@ ServerSocket
 
  .. php:method:: isClosed()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isBound()
 
   Returns the binding state of the ServerSocket.
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setSoTimeout($timeout)
 

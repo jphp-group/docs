@@ -12,26 +12,26 @@ UIFileChooser
 
   :param $approveButtonText: 
   :param $parent: :doc:`php\\swing\\UIWindow </api_en/php/swing/UIWindow>` 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: showSaveDialog($parent = null)
 
   :param $parent: :doc:`php\\swing\\UIWindow </api_en/php/swing/UIWindow>` 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: showOpenDialog($parent = null)
 
   :param $parent: :doc:`php\\swing\\UIWindow </api_en/php/swing/UIWindow>` 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: addChoosableFilter($filter, $description)
 
-  :param $filter: :doc:`callable </api_en/callable>` (File $file) -> bool
+  :param $filter: :doc:`callable </api_en/.types/callable>` (File $file) -> bool
   :param $description: 
 
  .. php:method:: addChoosableExtensions($extensions, $description, $showDirectories = true)
 
-  :param $extensions: :doc:`array </api_en/array>` ['jpg', 'gif', 'png', ... etc]
+  :param $extensions: :doc:`array </api_en/.types/array>` ['jpg', 'gif', 'png', ... etc]
   :param $description: 
   :param $showDirectories: 
 
@@ -41,7 +41,7 @@ UIFileChooser
  .. php:method:: isTraversable($file)
 
   :param $file: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: ensureFileIsVisible($file)
 

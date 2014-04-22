@@ -25,39 +25,39 @@ Flow
 
  .. php:method:: find($filter = null)
 
-  :param $filter: :doc:`callable </api_en/callable>` 
+  :param $filter: :doc:`callable </api_en/.types/callable>` 
   :returns: :doc:`php\\util\\Flow </api_en/php/util/Flow>` 
 
  .. php:method:: findOne($filter = null)
 
-  :param $filter: :doc:`callable </api_en/callable>` 
-  :returns: :doc:`mixed </api_en/mixed>` 
+  :param $filter: :doc:`callable </api_en/.types/callable>` 
+  :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:method:: group($callback)
 
-  :param $callback: :doc:`callable </api_en/callable>` 
+  :param $callback: :doc:`callable </api_en/.types/callable>` 
   :returns: :doc:`php\\util\\Flow </api_en/php/util/Flow>` 
 
  .. php:method:: each($callback)
 
-  :param $callback: :doc:`callable </api_en/callable>` ($el[, $key]): bool
-  :returns: :doc:`int </api_en/int>` - iteration count
+  :param $callback: :doc:`callable </api_en/.types/callable>` ($el[, $key]): bool
+  :returns: :doc:`int </api_en/.types/int>` - iteration count
 
  .. php:method:: eachSlice($sliceSize, $callback, $withKeys = false)
 
   :param $sliceSize: 
-  :param $callback: :doc:`callable </api_en/callable>` (array $items): bool
+  :param $callback: :doc:`callable </api_en/.types/callable>` (array $items): bool
   :param $withKeys: 
-  :returns: :doc:`int </api_en/int>` - slice iteration count
+  :returns: :doc:`int </api_en/.types/int>` - slice iteration count
 
  .. php:method:: map($callback)
 
-  :param $callback: :doc:`callable </api_en/callable>` ($el[, $key])
+  :param $callback: :doc:`callable </api_en/.types/callable>` ($el[, $key])
   :returns: :doc:`php\\util\\Flow </api_en/php/util/Flow>` 
 
  .. php:method:: skip($n)
 
-  :param $n: :doc:`int </api_en/int>` - skip count
+  :param $n: :doc:`int </api_en/.types/int>` - skip count
   :returns: :doc:`php\\util\\Flow </api_en/php/util/Flow>` 
 
  .. php:method:: limit($count)
@@ -67,41 +67,41 @@ Flow
 
  .. php:method:: reduce($callback)
 
-  :param $callback: :doc:`callable </api_en/callable>` ($result, $el[, $key])
-  :returns: :doc:`int </api_en/int>` 
+  :param $callback: :doc:`callable </api_en/.types/callable>` ($result, $el[, $key])
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: toArray()
 
-  :returns: :doc:`array </api_en/array>` 
+  :returns: :doc:`array </api_en/.types/array>` 
 
  .. php:method:: toString($separator)
 
   :param $separator: 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: count()
 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: current()
 
-  :returns: :doc:`mixed </api_en/mixed>` 
+  :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:method:: next()
 
-  :returns: :doc:`void </api_en/void>` 
+  :returns: :doc:`void </api_en/.types/void>` 
 
  .. php:method:: key()
 
-  :returns: :doc:`mixed </api_en/mixed>` 
+  :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:method:: valid()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: rewind()
 
-  :returns: :doc:`void </api_en/void>` 
+  :returns: :doc:`void </api_en/.types/void>` 
 
  .. php:staticmethod:: of($collection)
 

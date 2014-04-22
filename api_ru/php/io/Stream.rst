@@ -13,15 +13,15 @@ Stream
   **abstract**
 
 
-  :param $length: :doc:`int </api_ru/int>` - count of bytes
-  :returns: :doc:`mixed </api_ru/mixed>` 
+  :param $length: :doc:`int </api_ru/.types/int>` - count of bytes
+  :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: readFully()
 
   **abstract**
 
 
-  :returns: :doc:`mixed </api_ru/mixed>` 
+  :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: write($value, $length = null)
 
@@ -30,14 +30,14 @@ Stream
 
   :param $value: 
   :param $length: 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: eof()
 
   **abstract**
 
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: seek($position)
 
@@ -45,21 +45,21 @@ Stream
 
 
   :param $position: 
-  :returns: :doc:`mixed </api_ru/mixed>` 
+  :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: getPosition()
 
   **abstract**
 
 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: close()
 
   **abstract**
 
 
-  :returns: :doc:`mixed </api_ru/mixed>` 
+  :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: __construct($path, $mode = null)
 
@@ -70,31 +70,31 @@ Stream
  .. php:method:: setContext($context)
 
   :param $context: 
-  :returns: :doc:`void </api_ru/void>` 
+  :returns: :doc:`void </api_ru/.types/void>` 
 
  .. php:method:: getContext()
 
-  :returns: :doc:`mixed </api_ru/mixed>` 
+  :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: current()
 
-  :returns: :doc:`mixed </api_ru/mixed>` 
+  :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: next()
 
-  :returns: :doc:`void </api_ru/void>` 
+  :returns: :doc:`void </api_ru/.types/void>` 
 
  .. php:method:: key()
 
-  :returns: :doc:`mixed </api_ru/mixed>` 
+  :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: valid()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: rewind()
 
-  :returns: :doc:`void </api_ru/void>` 
+  :returns: :doc:`void </api_ru/.types/void>` 
 
  .. php:staticmethod:: of($path, $mode = 'r')
 

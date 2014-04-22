@@ -12,25 +12,25 @@ JavaException
 
   Check exception instance of java.lang.RuntimeException
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isNullPointerException()
 
   Check exception instance of java.lang.NullPointerException
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isIllegalArgumentException()
 
   Check exception instance of java.lang.IllegalArgumentException
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isNumberFormatException()
 
   Check exception instance of java.lang.NumberFormatException
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: getExceptionClass()
 

@@ -12,39 +12,39 @@ File
 
  .. php:method:: exists()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: canExecute()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: canWrite()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: canRead()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: getName()
 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: getAbsolutePath()
 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: getCanonicalPath()
 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: getParent()
 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: getPath()
 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: getAbsoluteFile()
 
@@ -60,93 +60,93 @@ File
 
  .. php:method:: mkdir()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: mkdirs()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isFile()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isDirectory()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isAbsolute()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isHidden()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: delete()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: deleteOnExit()
 
-  :returns: :doc:`void </api_en/void>` 
+  :returns: :doc:`void </api_en/.types/void>` 
 
  .. php:method:: createNewFile()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: lastModified()
 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: length()
 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: renameTo($newName)
 
   :param $newName: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setExecutable($value, $ownerOnly = true)
 
   :param $value: 
   :param $ownerOnly: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setWritable($value, $ownerOnly = true)
 
   :param $value: 
   :param $ownerOnly: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setReadable($value, $ownerOnly = true)
 
   :param $value: 
   :param $ownerOnly: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setReadOnly()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setLastModified($time)
 
   :param $time: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: compareTo($file)
 
   :param $file: 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: find($filter = null)
 
-  :param $filter: :doc:`callable </api_en/callable>` 
-  :returns: :doc:`string[] </api_en/string>` 
+  :param $filter: :doc:`callable </api_en/.types/callable>` 
+  :returns: :doc:`string[] </api_en/.types/string>` 
 
  .. php:method:: findFiles($filter = null)
 
-  :param $filter: :doc:`callable </api_en/callable>` 
+  :param $filter: :doc:`callable </api_en/.types/callable>` 
   :returns: :doc:`php\\io\\File[] </api_en/php/io/File>` 
 
  .. php:staticmethod:: createTemp($prefix, $suffix, $directory = null)

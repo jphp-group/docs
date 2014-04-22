@@ -10,12 +10,12 @@ UIListbox
 
  .. php:method:: setItems($items)
 
-  :param $items: :doc:`array </api_en/array>` 
+  :param $items: :doc:`array </api_en/.types/array>` 
 
  .. php:method:: getItem($index)
 
   :param $index: 
-  :returns: :doc:`string </api_en/string>`, :doc:`null </api_en/null>` 
+  :returns: :doc:`string </api_en/.types/string>`, :doc:`null </api_en/.types/null>` 
 
  .. php:method:: addItem($item)
 

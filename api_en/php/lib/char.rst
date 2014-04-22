@@ -16,12 +16,12 @@ char
  .. php:staticmethod:: of($code)
 
   :param $code: 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:staticmethod:: ord($char)
 
   :param $char: 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:staticmethod:: count($code)
 
@@ -31,80 +31,80 @@ char
   the method returns 2. Otherwise, the method returns 1.
 
   :param $code: 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:staticmethod:: compare($char1, $char2)
 
   :param $char1: 
   :param $char2: 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:staticmethod:: lower($char)
 
   :param $char: 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:staticmethod:: upper($char)
 
   :param $char: 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:staticmethod:: title($char)
 
   :param $char: 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:staticmethod:: isSpace($char)
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isDigit($char)
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isLetter($char)
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isLetterOrDigit($char)
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isLower($char)
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isUpper($char)
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isTitle($char)
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isWhitespace($char)
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isISOControl($char)
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isDefined($char)
 
   Determines if a character is defined in Unicode.
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isMirrored($char)
 
@@ -114,7 +114,7 @@ char
   displayed in text that is right-to-left.
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isLowSurrogate($char)
 
@@ -124,7 +124,7 @@ char
   (also known as <i>trailing-surrogate code unit</i>).
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isHighSurrogate($char)
 
@@ -134,12 +134,12 @@ char
   (also known as <i>leading-surrogate code unit</i>).
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: isPrintable($char)
 
   :param $char: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: number($char)
 
@@ -147,5 +147,5 @@ char
   character represents.
 
   :param $char: 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 

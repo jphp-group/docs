@@ -17,47 +17,47 @@ JavaMethod
  .. php:method:: invokeArgs($object = null, $arguments)
 
   :param $object: :doc:`php\\lang\\JavaObject </api_ru/php/lang/JavaObject>` 
-  :param $arguments: :doc:`array </api_ru/array>` 
+  :param $arguments: :doc:`array </api_ru/.types/array>` 
 
  .. php:method:: getName()
 
-  :returns: :doc:`string </api_ru/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: isStatic()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isFinal()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isAbstract()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isPublic()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isProtected()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isPrivate()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isNative()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isSynchronized()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isVarArgs()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: getDeclaringClass()
 
@@ -70,7 +70,7 @@ JavaMethod
  .. php:method:: isAnnotationPresent($annotationClassName)
 
   :param $annotationClassName: 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: getParameterTypes()
 
@@ -78,5 +78,5 @@ JavaMethod
 
  .. php:method:: getParameterCount()
 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 

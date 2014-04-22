@@ -16,7 +16,7 @@ UITable
  .. php:method:: getRowHeight($row = null)
 
   :param $row: 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: setValueAt($value, $row, $column)
 
@@ -28,25 +28,25 @@ UITable
 
   :param $row: 
   :param $column: 
-  :returns: :doc:`string </api_ru/string>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`string </api_ru/.types/string>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: columnAtPoint($x, $y)
 
   :param $x: 
   :param $y: 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: rowAtPoint($x, $y)
 
   :param $x: 
   :param $y: 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: editCellAt($row, $column)
 
   :param $row: 
   :param $column: 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: addColumnSelectionInterval($index0, $index1)
 
@@ -61,7 +61,7 @@ UITable
  .. php:method:: getColumnName($column)
 
   :param $column: 
-  :returns: :doc:`string </api_ru/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: setEditingColumn($column)
 

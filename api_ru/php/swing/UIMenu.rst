@@ -23,5 +23,5 @@ UIMenu
 
  .. php:method:: isTopLevelMenu()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 

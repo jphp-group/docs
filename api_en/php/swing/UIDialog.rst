@@ -26,5 +26,5 @@ UIDialog
   :param $title: 
   :param $optionType: 
   :param $type: 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 

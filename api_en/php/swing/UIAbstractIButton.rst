@@ -10,7 +10,7 @@ UIAbstractIButton
 
  .. php:method:: setIcon($icon)
 
-  :param $icon: :doc:`php\\swing\\Image </api_en/php/swing/Image>`, :doc:`string </api_en/string>` - filename or Image
+  :param $icon: :doc:`php\\swing\\Image </api_en/php/swing/Image>`, :doc:`string </api_en/.types/string>` - filename or Image
 
  .. php:method:: setDisabledIcon($icon)
 
@@ -38,7 +38,7 @@ UIAbstractIButton
 
  .. php:method:: doClick($pressTime = 68)
 
-  :param $pressTime: :doc:`int </api_en/int>` the time to "hold down" the button, in milliseconds
+  :param $pressTime: :doc:`int </api_en/.types/int>` the time to "hold down" the button, in milliseconds
 
  .. php:staticmethod:: getButtons($buttonGroup)
 

@@ -6,41 +6,41 @@ Font
  .. php:method:: __construct($name, $style, $size)
 
   :param $name: 
-  :param $style: :doc:`int </api_ru/int>` - PLAIN, BOLD, ITALIC
+  :param $style: :doc:`int </api_ru/.types/int>` - PLAIN, BOLD, ITALIC
   :param $size: 
 
  .. php:method:: isBold()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isItalic()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isPlain()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isTransformed()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: getBaselineFor($symbol)
 
-  :param $symbol: :doc:`string </api_ru/string>` - one char
-  :returns: :doc:`int </api_ru/int>` 
+  :param $symbol: :doc:`string </api_ru/.types/string>` - one char
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: canDisplay($symbol)
 
-  :param $symbol: :doc:`string </api_ru/string>` - one char
-  :returns: :doc:`bool </api_ru/bool>` 
+  :param $symbol: :doc:`string </api_ru/.types/string>` - one char
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: canDisplayUpTo($string)
 
   Indicates whether or not this Font can display a specified String.
 
   :param $string: 
-  :returns: :doc:`int </api_ru/int>` - an offset into $string that points to the first character in $string that this
+  :returns: :doc:`int </api_ru/.types/int>` - an offset into $string that points to the first character in $string that this
   Font cannot display; or -1 if this Font can display all characters in $string.
 
  .. php:staticmethod:: decode($str)
@@ -63,5 +63,5 @@ Font
   Get font by name
 
   :param $name: 
-  :returns: :doc:`php\\swing\\Font </api_ru/php/swing/Font>`, :doc:`null </api_ru/null>` - return null if not exists
+  :returns: :doc:`php\\swing\\Font </api_ru/php/swing/Font>`, :doc:`null </api_ru/.types/null>` - return null if not exists
 

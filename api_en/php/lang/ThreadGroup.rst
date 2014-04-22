@@ -12,23 +12,23 @@ ThreadGroup
 
  .. php:method:: getName()
 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: getParent()
 
-  :returns: :doc:`php\\lang\\ThreadGroup </api_en/php/lang/ThreadGroup>`, :doc:`null </api_en/null>` 
+  :returns: :doc:`php\\lang\\ThreadGroup </api_en/php/lang/ThreadGroup>`, :doc:`null </api_en/.types/null>` 
 
  .. php:method:: getActiveCount()
 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: getActiveGroupCount()
 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: isDaemon()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setDaemon($value)
 
@@ -36,11 +36,11 @@ ThreadGroup
 
  .. php:method:: isDestroyed()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: getMaxPriority()
 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: setMaxPriority($value)
 

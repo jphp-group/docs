@@ -10,7 +10,7 @@ UITree
 
  .. php:method:: onCellRender($renderer)
 
-  :param $renderer: :doc:`callable </api_ru/callable>` 
+  :param $renderer: :doc:`callable </api_ru/.types/callable>` 
 
  .. php:method:: addSelectionNode($node)
 
@@ -47,32 +47,32 @@ UITree
  .. php:method:: isExpandedRow($row)
 
   :param $row: 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isExpandedNode($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isNodeSelected($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isNodeEditable($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isVisible($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: hasBeenExpanded($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: fireTreeExpanded($node)
 

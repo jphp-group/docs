@@ -22,5 +22,5 @@ UIManager
 
   Get name of OS native look and feel
 
-  :returns: :doc:`string </api_en/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 

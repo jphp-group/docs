@@ -15,5 +15,5 @@ bin
  .. php:staticmethod:: of($string)
 
   :param $string: 
-  :returns: :doc:`string </api_ru/string>` - binary string
+  :returns: :doc:`string </api_ru/.types/string>` - binary string
 

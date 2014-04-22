@@ -7,17 +7,17 @@ Thread
 
  .. php:method:: __construct($runnable, $env = null, $group = null)
 
-  :param $runnable: :doc:`callable </api_ru/callable>` 
+  :param $runnable: :doc:`callable </api_ru/.types/callable>` 
   :param $env: :doc:`php\\lang\\Environment </api_ru/php/lang/Environment>` 
   :param $group: :doc:`php\\lang\\ThreadGroup </api_ru/php/lang/ThreadGroup>` 
 
  .. php:method:: getId()
 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: getName()
 
-  :returns: :doc:`string </api_ru/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: setName($value)
 
@@ -29,7 +29,7 @@ Thread
 
  .. php:method:: isDaemon()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: setDaemon($value)
 
@@ -37,11 +37,11 @@ Thread
 
  .. php:method:: isInterrupted()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isAlive()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: start()
 
@@ -73,7 +73,7 @@ Thread
 
  .. php:staticmethod:: getActiveCount()
 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:staticmethod:: current()
 
@@ -84,5 +84,5 @@ Thread
  .. php:staticmethod:: sync($object, $runnable)
 
   :param $object: 
-  :param $runnable: :doc:`callable </api_ru/callable>` 
+  :param $runnable: :doc:`callable </api_ru/.types/callable>` 
 

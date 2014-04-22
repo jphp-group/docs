@@ -17,8 +17,8 @@ Module
 
   Include module and return result
 
-  :param $variables: :doc:`array </api_en/array>` 
-  :returns: :doc:`mixed </api_en/mixed>` 
+  :param $variables: :doc:`array </api_en/.types/array>` 
+  :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:method:: dump($target, $saveDebugInfo = true)
 

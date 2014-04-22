@@ -6,7 +6,7 @@ Timer
  .. php:method:: __construct($delay, $callback)
 
   :param $delay: 
-  :param $callback: :doc:`callable </api_en/callable>` 
+  :param $callback: :doc:`callable </api_en/.types/callable>` 
 
  .. php:method:: start()
 
@@ -19,5 +19,5 @@ Timer
 
  .. php:method:: isRunning()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 

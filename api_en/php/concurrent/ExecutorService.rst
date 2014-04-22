@@ -15,35 +15,35 @@ ExecutorService
 
   Is Scheduled ?
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isShutdown()
 
   Is Shutdown?
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isTerminated()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: execute($runnable, $env = null)
 
   Execute some $runnable via the Executor Service
 
-  :param $runnable: :doc:`callable </api_en/callable>` 
+  :param $runnable: :doc:`callable </api_en/.types/callable>` 
   :param $env: :doc:`php\\lang\\Environment </api_en/php/lang/Environment>` 
 
  .. php:method:: submit($runnable, $env = null)
 
-  :param $runnable: :doc:`callable </api_en/callable>` 
+  :param $runnable: :doc:`callable </api_en/.types/callable>` 
   :param $env: :doc:`php\\lang\\Environment </api_en/php/lang/Environment>` 
   :returns: :doc:`php\\concurrent\\Future </api_en/php/concurrent/Future>` 
 
  .. php:method:: schedule($runnable, $delay, $env = null)
 
-  :param $runnable: :doc:`callable </api_en/callable>` 
-  :param $delay: :doc:`int </api_en/int>` - milliseconds
+  :param $runnable: :doc:`callable </api_en/.types/callable>` 
+  :param $delay: :doc:`int </api_en/.types/int>` - milliseconds
   :param $env: :doc:`php\\lang\\Environment </api_en/php/lang/Environment>` 
   :returns: :doc:`php\\concurrent\\Future </api_en/php/concurrent/Future>` 
 
@@ -59,8 +59,8 @@ ExecutorService
   request, or the timeout occurs, or the current thread is
   interrupted, whichever happens first.
 
-  :param $timeout: :doc:`int </api_en/int>` - in milliseconds
-  :returns: :doc:`bool </api_en/bool>` 
+  :param $timeout: :doc:`int </api_en/.types/int>` - in milliseconds
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: newFixedThreadPool($max)
 

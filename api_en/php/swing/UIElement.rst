@@ -33,7 +33,7 @@ UIElement
   Add callback for event
 
   :param $name: - name of event
-  :param $callback: :doc:`callable </api_en/callable>` 
+  :param $callback: :doc:`callable </api_en/.types/callable>` 
   :param $group: 
 
  .. php:method:: off($name, $group = NULL)
@@ -42,7 +42,7 @@ UIElement
 
   :param $name: 
   :param $group: 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: trigger($name)
 
@@ -52,7 +52,7 @@ UIElement
 
  .. php:method:: hasFocus()
 
-  :returns: :doc:`bool </api_en/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: add($component, $index = null)
 

@@ -13,19 +13,19 @@ Future
 
  .. php:method:: isCancelled()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isDone()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: cancel($mayInterruptIfRunning)
 
   :param $mayInterruptIfRunning: 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: get($timeout = null)
 
-  :param $timeout: :doc:`null </api_ru/null>`, :doc:`int </api_ru/int>` - in milliseconds
-  :returns: :doc:`mixed </api_ru/mixed>` 
+  :param $timeout: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>` - in milliseconds
+  :returns: :doc:`mixed </api_ru/.types/mixed>` 
 

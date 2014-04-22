@@ -12,9 +12,9 @@ UIReader
 
  .. php:method:: onRead($handle = NULL)
 
-  :param $handle: :doc:`callable </api_ru/callable>` (UIElement $el, $var)
+  :param $handle: :doc:`callable </api_ru/.types/callable>` (UIElement $el, $var)
 
  .. php:method:: onTranslate($handle = NULL)
 
-  :param $handle: :doc:`callable </api_ru/callable>` (UIElement $el, $value) -> mixed
+  :param $handle: :doc:`callable </api_ru/.types/callable>` (UIElement $el, $value) -> mixed
 

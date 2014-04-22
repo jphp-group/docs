@@ -12,11 +12,11 @@ TreeNode
 
  .. php:method:: isRoot()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isLeaf()
 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: getRoot()
 
@@ -25,67 +25,67 @@ TreeNode
  .. php:method:: isNodeChild($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isNodeAncestor($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isNodeDescendant($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isNodeRelated($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isNodeSibling($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`bool </api_ru/bool>` 
+  :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: getNextNode()
 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: getNextLeaf()
 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: getNextSibling()
 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: getPreviousNode()
 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: getPreviousLeaf()
 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: getPreviousSibling()
 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: getFirstChild()
 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: getFirstLeaf()
 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: getLastChild()
 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: getLastLeaf()
 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: add($node)
 
@@ -123,16 +123,16 @@ TreeNode
  .. php:method:: getIndex($node)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: getChild($index)
 
   :param $index: 
-  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/null>` 
+  :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: getChildCount()
 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: duplicate()
 

@@ -16,13 +16,13 @@ Graphics
   Return width of str for drawText + current font
 
   :param $str: 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: getTextHeight()
 
   Return height of one line text with current font
 
-  :returns: :doc:`int </api_ru/int>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: setPaintMode()
 
@@ -106,15 +106,15 @@ Graphics
 
  .. php:method:: drawPolygon($xy)
 
-  :param $xy: :doc:`array </api_ru/array>` - [[x1, y1], [x2, y2], ... ]
+  :param $xy: :doc:`array </api_ru/.types/array>` - [[x1, y1], [x2, y2], ... ]
 
  .. php:method:: fillPolygon($xy)
 
-  :param $xy: :doc:`array </api_ru/array>` - [[x1, y1], [x2, y2], ... ]
+  :param $xy: :doc:`array </api_ru/.types/array>` - [[x1, y1], [x2, y2], ... ]
 
  .. php:method:: drawPolyline($xy)
 
-  :param $xy: :doc:`array </api_ru/array>` - [[x1, y1], [x2, y2], ... ]
+  :param $xy: :doc:`array </api_ru/.types/array>` - [[x1, y1], [x2, y2], ... ]
 
  .. php:method:: drawImage($image, $x = 0, $y = 0, $newWidth = null, $newHeight = null)
 

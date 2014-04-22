@@ -28,7 +28,7 @@ UIContainer
 
  .. php:method:: getComponentCount()
 
-  :returns: :doc:`int </api_en/int>` 
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: getComponent($index)
 
@@ -40,7 +40,7 @@ UIContainer
   Find first component by group
 
   :param $group: 
-  :returns: :doc:`php\\swing\\UIElement </api_en/php/swing/UIElement>`, :doc:`NULL </api_en/NULL>` 
+  :returns: :doc:`php\\swing\\UIElement </api_en/php/swing/UIElement>`, :doc:`NULL </api_en/.types/NULL>` 
 
  .. php:method:: getComponentsByGroup($group)
 
