@@ -4,6 +4,8 @@ JavaException
 .. php:class:: php\\lang\\JavaException
 
  **extends**: :doc:`Exception </api_ru/Exception>`
+
+
  Class JavaException
 
  .. php:method:: isRuntimeException()

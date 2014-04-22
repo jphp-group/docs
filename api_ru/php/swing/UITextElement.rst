@@ -6,6 +6,8 @@ UITextElement
  **abstract** class
 
  **extends**: :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
+
+
  .. php:method:: copy()
 
 

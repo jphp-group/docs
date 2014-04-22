@@ -4,6 +4,8 @@ FileStream
 .. php:class:: php\\io\\FileStream
 
  **extends**: :doc:`php\\io\\Stream </api_en/php/io/Stream>`
+
+
  .. php:method:: read($length)
 
   :param $length: :doc:`int </api_en/int>` - count of bytes

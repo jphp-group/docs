@@ -4,6 +4,8 @@ UITable
 .. php:class:: php\\swing\\UITable
 
  **extends**: :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
+
+
  Class UITable
 
  .. php:method:: setRowHeight($height, $row = null)

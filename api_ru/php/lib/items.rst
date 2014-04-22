@@ -11,6 +11,7 @@ items
   **private**
 
 
+
  .. php:staticmethod:: count($collection)
 
   Возвращает количество элементов коллекции

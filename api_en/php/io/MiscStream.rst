@@ -4,6 +4,8 @@ MiscStream
 .. php:class:: php\\io\\MiscStream
 
  **extends**: :doc:`php\\io\\Stream </api_en/php/io/Stream>`
+
+
  Class MiscStream
 
  .. php:method:: read($length)

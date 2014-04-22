@@ -12,6 +12,7 @@ char
   **private**
 
 
+
  .. php:staticmethod:: of($code)
 
   :param $code: 

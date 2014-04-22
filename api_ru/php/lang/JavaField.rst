@@ -6,6 +6,8 @@ JavaField
  **final** class
 
  **extends**: :doc:`php\\lang\\JavaReflection </api_ru/php/lang/JavaReflection>`
+
+
  .. php:method:: get($object = null)
 
   :param $object: :doc:`php\\lang\\JavaObject </api_ru/php/lang/JavaObject>` 

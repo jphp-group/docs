@@ -10,6 +10,7 @@ ExecutorService
   **private**
 
 
+
  .. php:method:: isScheduled()
 
   Поставлен в расписание?

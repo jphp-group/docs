@@ -4,6 +4,8 @@ UIAbstractIButton
 .. php:class:: php\\swing\\UIAbstractIButton
 
  **extends**: :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
+
+
  Class UIAbstractIButton
 
  .. php:method:: setIcon($icon)

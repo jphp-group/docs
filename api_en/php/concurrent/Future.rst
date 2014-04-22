@@ -10,6 +10,7 @@ Future
   **private**
 
 
+
  .. php:method:: isCancelled()
 
   :returns: :doc:`bool </api_en/bool>` 

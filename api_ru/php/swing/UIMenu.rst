@@ -4,6 +4,8 @@ UIMenu
 .. php:class:: php\\swing\\UIMenu
 
  **extends**: :doc:`php\\swing\\UIMenuItem </api_ru/php/swing/UIMenuItem>`
+
+
  Class UIMenu
 
  .. php:method:: getItem($pos)

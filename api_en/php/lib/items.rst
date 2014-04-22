@@ -10,6 +10,7 @@ items
   **private**
 
 
+
  .. php:staticmethod:: count($collection)
 
   Returns element count of the collection

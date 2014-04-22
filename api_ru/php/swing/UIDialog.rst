@@ -4,6 +4,8 @@ UIDialog
 .. php:class:: php\\swing\\UIDialog
 
  **extends**: :doc:`php\\swing\\UIWindow </api_ru/php/swing/UIWindow>`
+
+
  Class UIDialog
 
  .. php:method:: __construct($owner = null)

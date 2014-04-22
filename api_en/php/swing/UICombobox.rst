@@ -4,6 +4,8 @@ UICombobox
 .. php:class:: php\\swing\\UICombobox
 
  **extends**: :doc:`php\\swing\\UIContainer </api_en/php/swing/UIContainer>`
+
+
  .. php:method:: setItems($items)
 
   :param $items: :doc:`array </api_en/array>` 

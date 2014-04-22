@@ -4,6 +4,8 @@ UIListbox
 .. php:class:: php\\swing\\UIListbox
 
  **extends**: :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
+
+
  Class UIListbox
 
  .. php:method:: setItems($items)

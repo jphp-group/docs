@@ -4,6 +4,8 @@ UITabs
 .. php:class:: php\\swing\\UITabs
 
  **extends**: :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
+
+
  Class UITabs
 
  .. php:method:: addTab($title, $component, $icon = null)

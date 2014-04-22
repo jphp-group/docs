@@ -11,6 +11,7 @@ num
   **private**
 
 
+
  .. php:staticmethod:: toBin($number)
 
   Returns a string representation of the $number

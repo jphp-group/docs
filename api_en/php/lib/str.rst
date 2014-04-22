@@ -10,6 +10,7 @@ str
   **private**
 
 
+
  .. php:staticmethod:: ord($char)
 
   :param $char: 

@@ -4,6 +4,8 @@ UITree
 .. php:class:: php\\swing\\UITree
 
  **extends**: :doc:`php\\swing\\UIContainer </api_en/php/swing/UIContainer>`
+
+
  Class UITree
 
  .. php:method:: onCellRender($renderer)

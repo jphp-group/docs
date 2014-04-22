@@ -11,6 +11,7 @@ UIManager
   **private**
 
 
+
  .. php:staticmethod:: setLookAndFeel($name)
 
   Set look and feel globally

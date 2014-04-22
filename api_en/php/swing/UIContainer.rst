@@ -6,6 +6,8 @@ UIContainer
  **abstract** class
 
  **extends**: :doc:`php\\swing\\UIElement </api_en/php/swing/UIElement>`
+
+
  .. php:method:: add($component, $index = null)
 
   Add child component

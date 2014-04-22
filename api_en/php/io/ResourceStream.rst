@@ -4,6 +4,8 @@ ResourceStream
 .. php:class:: php\\io\\ResourceStream
 
  **extends**: :doc:`php\\io\\Stream </api_en/php/io/Stream>`
+
+
  Class ResourceStream
 
  .. php:method:: __construct($path)

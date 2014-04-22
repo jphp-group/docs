@@ -11,6 +11,7 @@ System
   **private**
 
 
+
  .. php:staticmethod:: halt($status)
 
   Exit from program with status globally

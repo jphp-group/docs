@@ -11,6 +11,7 @@ bin
   **private**
 
 
+
  .. php:staticmethod:: of($string)
 
   :param $string: 

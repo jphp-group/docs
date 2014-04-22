@@ -4,6 +4,8 @@ UIFileChooser
 .. php:class:: php\\swing\\UIFileChooser
 
  **extends**: :doc:`php\\swing\\UIContainer </api_en/php/swing/UIContainer>`
+
+
  Class UIFileChooser
 
  .. php:method:: showDialog($approveButtonText, $parent = null)

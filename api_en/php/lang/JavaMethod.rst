@@ -6,6 +6,8 @@ JavaMethod
  **final** class
 
  **extends**: :doc:`php\\lang\\JavaReflection </api_en/php/lang/JavaReflection>`
+
+
  .. php:method:: invoke($object = null)
 
   Invoke method

@@ -4,6 +4,8 @@ UIImage
 .. php:class:: php\\swing\\UIImage
 
  **extends**: :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
+
+
  Class UIImage
 
  .. php:method:: setImage($image)

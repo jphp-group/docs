@@ -11,6 +11,7 @@ SwingUtilities
   **private**
 
 
+
  .. php:staticmethod:: setExceptionHandler($handler)
 
   :param $handler: :doc:`callable </api_en/callable>` (Exception|JavaObject $exception)

@@ -7,9 +7,11 @@ Stream
 
  **implements**: :doc:`Iterator </api_ru/Iterator>`
 
+
  .. php:method:: read($length)
 
   **abstract**
+
 
   :param $length: :doc:`int </api_ru/int>` - count of bytes
   :returns: :doc:`mixed </api_ru/mixed>` 
@@ -18,11 +20,13 @@ Stream
 
   **abstract**
 
+
   :returns: :doc:`mixed </api_ru/mixed>` 
 
  .. php:method:: write($value, $length = null)
 
   **abstract**
+
 
   :param $value: 
   :param $length: 
@@ -32,11 +36,13 @@ Stream
 
   **abstract**
 
+
   :returns: :doc:`bool </api_ru/bool>` 
 
  .. php:method:: seek($position)
 
   **abstract**
+
 
   :param $position: 
   :returns: :doc:`mixed </api_ru/mixed>` 
@@ -45,11 +51,13 @@ Stream
 
   **abstract**
 
+
   :returns: :doc:`int </api_ru/int>` 
 
  .. php:method:: close()
 
   **abstract**
+
 
   :returns: :doc:`mixed </api_ru/mixed>` 
 

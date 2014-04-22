@@ -4,6 +4,8 @@ UIPopupMenu
 .. php:class:: php\\swing\\UIPopupMenu
 
  **extends**: :doc:`php\\swing\\UIContainer </api_en/php/swing/UIContainer>`
+
+
  Class UIPopupMenu
 
  .. php:method:: addSeparator()

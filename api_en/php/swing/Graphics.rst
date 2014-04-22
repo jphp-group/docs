@@ -10,6 +10,7 @@ Graphics
   **private**
 
 
+
  .. php:method:: getTextWidth($str)
 
   Return width of str for drawText + current font

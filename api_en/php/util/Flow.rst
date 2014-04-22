@@ -5,6 +5,7 @@ Flow
 
  **implements**: :doc:`Iterator </api_en/Iterator>`
 
+
  Class Flow
 
  .. php:method:: __construct($collection)

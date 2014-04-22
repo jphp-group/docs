@@ -4,6 +4,8 @@ UILabel
 .. php:class:: php\\swing\\UILabel
 
  **extends**: :doc:`php\\swing\\UIContainer </api_en/php/swing/UIContainer>`
+
+
  .. php:method:: setLabelFor($component)
 
   :param $component: :doc:`php\\swing\\UIElement </api_en/php/swing/UIElement>` 
