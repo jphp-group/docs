@@ -1,9 +1,17 @@
 Environment
 --------------------
 
+.. include:: /api_ru.desc/php/lang/Environment.header.rst
+
 .. php:class:: php\\lang\\Environment
 
  Class Environment
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($parent = NULL, $flags = 0)
 
@@ -65,4 +73,8 @@ Environment
   Взять окружение текущего выполнения
 
   :returns: :doc:`php\\lang\\Environment </api_ru/php/lang/Environment>` 
+
+
+
+.. include:: /api_ru.desc/php/lang/Environment.footer.rst
 

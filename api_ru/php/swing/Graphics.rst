@@ -1,9 +1,35 @@
 Graphics
 ------------------
 
+.. include:: /api_ru.desc/php/swing/Graphics.header.rst
+
 .. php:class:: php\\swing\\Graphics
 
  Class Graphics
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: color
+
+  :doc:`php\\swing\\Color </api_ru/php/swing/Color>`
+
+  Foreground color
+
+ .. php:attr:: font
+
+  :doc:`php\\swing\\Font </api_ru/php/swing/Font>`
+
+  Font of text
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct()
 
@@ -185,4 +211,8 @@ Graphics
 
  .. php:method:: dispose()
 
+
+
+
+.. include:: /api_ru.desc/php/swing/Graphics.footer.rst
 

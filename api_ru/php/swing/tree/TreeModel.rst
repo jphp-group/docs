@@ -1,9 +1,27 @@
 TreeModel
 ------------------------
 
+.. include:: /api_ru.desc/php/swing/tree/TreeModel.header.rst
+
 .. php:class:: php\\swing\\tree\\TreeModel
 
  Class TreeModel
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: root
+
+  :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($root, $askAllowsChildren = false)
 
@@ -25,4 +43,8 @@ TreeModel
  .. php:method:: reload($node = null)
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
+
+
+
+.. include:: /api_ru.desc/php/swing/tree/TreeModel.footer.rst
 

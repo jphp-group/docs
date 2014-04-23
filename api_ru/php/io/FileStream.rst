@@ -1,10 +1,18 @@
 FileStream
 -----------------
 
+.. include:: /api_ru.desc/php/io/FileStream.header.rst
+
 .. php:class:: php\\io\\FileStream
 
  **extends**: :doc:`php\\io\\Stream </api_ru/php/io/Stream>`
 
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: read($length)
 
@@ -49,4 +57,8 @@ FileStream
  .. php:method:: truncate($size)
 
   :param $size: 
+
+
+
+.. include:: /api_ru.desc/php/io/FileStream.footer.rst
 

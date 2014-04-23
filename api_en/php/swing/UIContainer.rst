@@ -1,12 +1,20 @@
 UIContainer
 ---------------------
 
+.. include:: /api_en.desc/php/swing/UIContainer.header.rst
+
 .. php:class:: php\\swing\\UIContainer
 
  **abstract** class
 
  **extends**: :doc:`php\\swing\\UIElement </api_en/php/swing/UIElement>`
 
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: add($component, $index = null)
 
@@ -48,4 +56,8 @@ UIContainer
 
   :param $group: 
   :returns: :doc:`php\\swing\\UIElement[] </api_en/php/swing/UIElement>` 
+
+
+
+.. include:: /api_en.desc/php/swing/UIContainer.footer.rst
 

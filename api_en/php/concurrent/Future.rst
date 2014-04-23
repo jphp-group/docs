@@ -1,9 +1,17 @@
 Future
 ---------------------
 
+.. include:: /api_en.desc/php/concurrent/Future.header.rst
+
 .. php:class:: php\\concurrent\\Future
 
  Class Future
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct()
 
@@ -28,4 +36,8 @@ Future
 
   :param $timeout: :doc:`null </api_en/.types/null>`, :doc:`int </api_en/.types/int>` - in milliseconds
   :returns: :doc:`mixed </api_en/.types/mixed>` 
+
+
+
+.. include:: /api_en.desc/php/concurrent/Future.footer.rst
 

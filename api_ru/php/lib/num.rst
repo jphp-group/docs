@@ -1,10 +1,18 @@
 num
 -----------
 
+.. include:: /api_ru.desc/php/lib/num.header.rst
+
 .. php:class:: php\\lib\\num
 
  Utils for numbers
  Class num
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct()
 
@@ -69,4 +77,8 @@ num
   :param $decSep: 
   :param $groupSep: 
   :returns: :doc:`string </api_ru/.types/string>` 
+
+
+
+.. include:: /api_ru.desc/php/lib/num.footer.rst
 

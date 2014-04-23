@@ -1,7 +1,42 @@
 Image
 ---------------
 
+.. include:: /api_ru.desc/php/swing/Image.header.rst
+
 .. php:class:: php\\swing\\Image
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: type
+
+  :doc:`int </api_ru/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: width
+
+  :doc:`int </api_ru/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: height
+
+  :doc:`int </api_ru/.types/int>`
+
+  **read-only**
+
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($width, $height, $type = ::)
 
@@ -48,4 +83,8 @@ Image
   :param $image: :doc:`php\\swing\\Image </api_ru/php/swing/Image>` 
   :param $format: 
   :param $stream: :doc:`php\\io\\Stream </api_ru/php/io/Stream>`, :doc:`php\\io\\File </api_ru/php/io/File>`, :doc:`string </api_ru/.types/string>` - file path or stream
+
+
+
+.. include:: /api_ru.desc/php/swing/Image.footer.rst
 

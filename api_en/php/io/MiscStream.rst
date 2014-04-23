@@ -1,12 +1,20 @@
 MiscStream
 -----------------
 
+.. include:: /api_en.desc/php/io/MiscStream.header.rst
+
 .. php:class:: php\\io\\MiscStream
 
  **extends**: :doc:`php\\io\\Stream </api_en/php/io/Stream>`
 
 
  Class MiscStream
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: read($length)
 
@@ -46,4 +54,8 @@ MiscStream
 
  .. php:method:: flush()
 
+
+
+
+.. include:: /api_en.desc/php/io/MiscStream.footer.rst
 

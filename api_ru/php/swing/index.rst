@@ -1,6 +1,9 @@
 swing
 ------------------------------
 
+
+.. include:: /api_ru.desc/php/swing/index.header.rst
+
 .. toctree::
    :maxdepth: 3
 
@@ -49,3 +52,6 @@ swing
    UITree.rst
    UIUnknown.rst
    UIWindow.rst
+
+.. include:: /api_ru.desc/php/swing/index.footer.rst
+

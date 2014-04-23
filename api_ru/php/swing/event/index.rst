@@ -1,6 +1,9 @@
 event
 ------------------------------
 
+
+.. include:: /api_ru.desc/php/swing/event/index.header.rst
+
 .. toctree::
    :maxdepth: 3
 
@@ -14,3 +17,6 @@ event
    MouseWheelEvent.rst
    SimpleEvent.rst
    WindowEvent.rst
+
+.. include:: /api_ru.desc/php/swing/event/index.footer.rst
+

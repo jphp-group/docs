@@ -1,12 +1,20 @@
 JavaField
 ------------------
 
+.. include:: /api_en.desc/php/lang/JavaField.header.rst
+
 .. php:class:: php\\lang\\JavaField
 
  **final** class
 
  **extends**: :doc:`php\\lang\\JavaReflection </api_en/php/lang/JavaReflection>`
 
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: get($object = null)
 
@@ -57,4 +65,8 @@ JavaField
  .. php:method:: getDeclaringClass()
 
   :returns: :doc:`php\\lang\\JavaClass </api_en/php/lang/JavaClass>` 
+
+
+
+.. include:: /api_en.desc/php/lang/JavaField.footer.rst
 

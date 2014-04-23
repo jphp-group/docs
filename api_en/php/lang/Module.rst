@@ -1,9 +1,17 @@
 Module
 ---------------
 
+.. include:: /api_en.desc/php/lang/Module.header.rst
+
 .. php:class:: php\\lang\\Module
 
  Class Module
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($source, $compiled = false, $debugInformation = true)
 
@@ -24,4 +32,8 @@ Module
 
   :param $target: 
   :param $saveDebugInfo: 
+
+
+
+.. include:: /api_en.desc/php/lang/Module.footer.rst
 

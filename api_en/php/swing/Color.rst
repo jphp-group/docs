@@ -1,7 +1,56 @@
 Color
 ---------------
 
+.. include:: /api_en.desc/php/swing/Color.header.rst
+
 .. php:class:: php\\swing\\Color
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: rgb
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: alpha
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: red
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: green
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: blue
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($rgb, $hasAlpha = false)
 
@@ -42,4 +91,8 @@ Color
 
   :param $nm: 
   :returns: :doc:`php\\swing\\Color </api_en/php/swing/Color>` 
+
+
+
+.. include:: /api_en.desc/php/swing/Color.footer.rst
 

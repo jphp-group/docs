@@ -1,12 +1,20 @@
 JavaMethod
 -------------------
 
+.. include:: /api_en.desc/php/lang/JavaMethod.header.rst
+
 .. php:class:: php\\lang\\JavaMethod
 
  **final** class
 
  **extends**: :doc:`php\\lang\\JavaReflection </api_en/php/lang/JavaReflection>`
 
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: invoke($object = null)
 
@@ -79,4 +87,8 @@ JavaMethod
  .. php:method:: getParameterCount()
 
   :returns: :doc:`int </api_en/.types/int>` 
+
+
+
+.. include:: /api_en.desc/php/lang/JavaMethod.footer.rst
 

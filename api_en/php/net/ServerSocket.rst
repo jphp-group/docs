@@ -1,9 +1,17 @@
 ServerSocket
 --------------------
 
+.. include:: /api_en.desc/php/net/ServerSocket.header.rst
+
 .. php:class:: php\\net\\ServerSocket
 
  Class SocketServer
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($port = null, $backLog = 50)
 
@@ -58,4 +66,8 @@ ServerSocket
   :param $connectTime: 
   :param $latency: 
   :param $bandWidth: 
+
+
+
+.. include:: /api_en.desc/php/net/ServerSocket.footer.rst
 

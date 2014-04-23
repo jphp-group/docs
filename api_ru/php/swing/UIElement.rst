@@ -1,10 +1,154 @@
 UIElement
 -------------------
 
+.. include:: /api_ru.desc/php/swing/UIElement.header.rst
+
 .. php:class:: php\\swing\\UIElement
 
  **abstract** class
 
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: uid
+
+  :doc:`string </api_ru/.types/string>`
+
+  **read-only**
+
+
+ .. php:attr:: group
+
+  :doc:`string </api_ru/.types/string>`
+
+ .. php:attr:: x
+
+  :doc:`int </api_ru/.types/int>`
+
+  Position X
+
+ .. php:attr:: y
+
+  :doc:`int </api_ru/.types/int>`
+
+  Position Y
+
+ .. php:attr:: w
+
+  :doc:`int </api_ru/.types/int>`
+
+  Width
+
+ .. php:attr:: h
+
+  :doc:`int </api_ru/.types/int>`
+
+  Height
+
+ .. php:attr:: size
+
+  :doc:`array </api_ru/.types/array>`
+
+  Size (width and height), [int, int]
+
+ .. php:attr:: preferredSize
+
+  :doc:`php\\swing\\array [int, int] </api_ru/php/swing/array [int, int]>`
+
+ .. php:attr:: minSize
+
+  :doc:`array </api_ru/.types/array>`
+
+  Min Size (width and height) [int, int]
+
+ .. php:attr:: autosize
+
+  :doc:`bool </api_ru/.types/bool>`
+
+ .. php:attr:: position
+
+  :doc:`array </api_ru/.types/array>`
+
+  Position (x and y), [int, int]
+
+ .. php:attr:: visible
+
+  :doc:`bool </api_ru/.types/bool>`
+
+ .. php:attr:: enabled
+
+  :doc:`bool </api_ru/.types/bool>`
+
+ .. php:attr:: focusable
+
+  :doc:`bool </api_ru/.types/bool>`
+
+ .. php:attr:: align
+
+  :doc:`php\\swing\\string - NONE, LEFT, RIGHT, TOP, BOTTOM, CLIENT </api_ru/php/swing/string - NONE, LEFT, RIGHT, TOP, BOTTOM, CLIENT>`
+
+ .. php:attr:: anchors
+
+  :doc:`array </api_ru/.types/array>`
+
+  [LEFT, TOP, RIGHT, BOTTOM]
+
+ .. php:attr:: font
+
+  :doc:`php\\swing\\Font </api_ru/php/swing/Font>`
+
+ .. php:attr:: border
+
+  :doc:`php\\swing\\Border </api_ru/php/swing/Border>`
+
+ .. php:attr:: background
+
+  :doc:`php\\swing\\Color </api_ru/php/swing/Color>`
+
+ .. php:attr:: foreground
+
+  :doc:`php\\swing\\Color </api_ru/php/swing/Color>`
+
+ .. php:attr:: tooltipText
+
+  :doc:`string </api_ru/.types/string>`
+
+ .. php:attr:: doubleBuffered
+
+  :doc:`bool </api_ru/.types/bool>`
+
+ .. php:attr:: opaque
+
+  :doc:`bool </api_ru/.types/bool>`
+
+ .. php:attr:: ignoreRepaint
+
+  :doc:`bool </api_ru/.types/bool>`
+
+ .. php:attr:: autoscrolls
+
+  :doc:`bool </api_ru/.types/bool>`
+
+ .. php:attr:: uiClassId
+
+  :doc:`string </api_ru/.types/string>`
+
+  **read-only**
+
+
+ .. php:attr:: popupMenu
+
+  :doc:`php\\swing\\UIPopupMenu </api_ru/php/swing/UIPopupMenu>`
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: getGraphics()
 
@@ -124,4 +268,8 @@ UIElement
 
   :param $uid: 
   :returns: :doc:`php\\swing\\UIElement </api_ru/php/swing/UIElement>` 
+
+
+
+.. include:: /api_ru.desc/php/swing/UIElement.footer.rst
 

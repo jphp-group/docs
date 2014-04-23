@@ -1,9 +1,17 @@
 str
 -----------
 
+.. include:: /api_en.desc/php/lib/str.header.rst
+
 .. php:class:: php\\lib\\str
 
  Class str
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct()
 
@@ -162,4 +170,8 @@ str
   :param $separator: 
   :param $limit: 
   :returns: :doc:`string </api_en/.types/string>` 
+
+
+
+.. include:: /api_en.desc/php/lib/str.footer.rst
 

@@ -1,12 +1,20 @@
 JavaException
 ----------------------
 
+.. include:: /api_ru.desc/php/lang/JavaException.header.rst
+
 .. php:class:: php\\lang\\JavaException
 
  **extends**: :doc:`Exception </api_ru/Exception>`
 
 
  Class JavaException
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: isRuntimeException()
 
@@ -42,4 +50,8 @@ JavaException
 
  .. php:method:: printJVMStackTrace()
 
+
+
+
+.. include:: /api_ru.desc/php/lang/JavaException.footer.rst
 

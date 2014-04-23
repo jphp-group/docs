@@ -1,9 +1,17 @@
 Thread
 ---------------
 
+.. include:: /api_en.desc/php/lang/Thread.header.rst
+
 .. php:class:: php\\lang\\Thread
 
  Class Thread
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($runnable, $env = null, $group = null)
 
@@ -85,4 +93,8 @@ Thread
 
   :param $object: 
   :param $runnable: :doc:`callable </api_en/.types/callable>` 
+
+
+
+.. include:: /api_en.desc/php/lang/Thread.footer.rst
 

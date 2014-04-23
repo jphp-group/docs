@@ -1,9 +1,56 @@
 TreeNode
 -----------------------
 
+.. include:: /api_ru.desc/php/swing/tree/TreeNode.header.rst
+
 .. php:class:: php\\swing\\tree\\TreeNode
 
  Class TreeNode
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: index
+
+  :doc:`int </api_ru/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: depth
+
+  :doc:`int </api_ru/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: level
+
+  :doc:`int </api_ru/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: allowsChildren
+
+  :doc:`bool </api_ru/.types/bool>`
+
+ .. php:attr:: parent
+
+  :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>`
+
+ .. php:attr:: userData
+
+  :doc:`mixed </api_ru/.types/mixed>`
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($object = null, $allowsChildren = true)
 
@@ -137,4 +184,8 @@ TreeNode
  .. php:method:: duplicate()
 
   :returns: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
+
+
+
+.. include:: /api_ru.desc/php/swing/tree/TreeNode.footer.rst
 

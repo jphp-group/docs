@@ -1,10 +1,18 @@
 items
 -------------
 
+.. include:: /api_ru.desc/php/lib/items.header.rst
+
 .. php:class:: php\\lib\\items
 
  Библиотека для работы с коллекциями - массивы, итераторы и т.д.
  Class items
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct()
 
@@ -98,4 +106,8 @@ items
   :param $collection: 
   :param $maxLevel: 
   :returns: :doc:`array </api_ru/.types/array>` 
+
+
+
+.. include:: /api_ru.desc/php/lib/items.footer.rst
 

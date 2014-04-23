@@ -1,9 +1,17 @@
 Invoker
 ----------------
 
+.. include:: /api_ru.desc/php/lang/Invoker.header.rst
+
 .. php:class:: php\\lang\\Invoker
 
  Класс для вызова методов/функций/и т.д.
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($callback)
 
@@ -71,4 +79,8 @@ Invoker
 
   :param $callback: 
   :returns: :doc:`php\\lang\\Invoker </api_ru/php/lang/Invoker>`, :doc:`null </api_ru/.types/null>` возвращает ``null`` если передан не валидный $callback
+
+
+
+.. include:: /api_ru.desc/php/lang/Invoker.footer.rst
 

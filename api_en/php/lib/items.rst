@@ -1,9 +1,17 @@
 items
 -------------
 
+.. include:: /api_en.desc/php/lib/items.header.rst
+
 .. php:class:: php\\lib\\items
 
  Library for working with collections - arrays, iterators, etc.
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct()
 
@@ -100,4 +108,8 @@ items
   :param $collection: 
   :param $maxLevel: 
   :returns: :doc:`array </api_en/.types/array>` 
+
+
+
+.. include:: /api_en.desc/php/lib/items.footer.rst
 

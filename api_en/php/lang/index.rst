@@ -1,6 +1,9 @@
 lang
 ------------------------------
 
+
+.. include:: /api_en.desc/php/lang/index.header.rst
+
 .. toctree::
    :maxdepth: 3
 
@@ -16,3 +19,6 @@ lang
    System.rst
    Thread.rst
    ThreadGroup.rst
+
+.. include:: /api_en.desc/php/lang/index.footer.rst
+

@@ -1,10 +1,18 @@
 UIManager
 -------------------
 
+.. include:: /api_ru.desc/php/swing/UIManager.header.rst
+
 .. php:class:: php\\swing\\UIManager
 
  **final** class
 
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct()
 
@@ -23,4 +31,8 @@ UIManager
   Get name of OS native look and feel
 
   :returns: :doc:`string </api_ru/.types/string>` 
+
+
+
+.. include:: /api_ru.desc/php/swing/UIManager.footer.rst
 

@@ -1,12 +1,20 @@
 ResourceStream
 ---------------------
 
+.. include:: /api_en.desc/php/io/ResourceStream.header.rst
+
 .. php:class:: php\\io\\ResourceStream
 
  **extends**: :doc:`php\\io\\Stream </api_en/php/io/Stream>`
 
 
  Class ResourceStream
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($path)
 
@@ -43,4 +51,8 @@ ResourceStream
  .. php:method:: close()
 
   :returns: :doc:`mixed </api_en/.types/mixed>` 
+
+
+
+.. include:: /api_en.desc/php/io/ResourceStream.footer.rst
 

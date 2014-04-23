@@ -1,10 +1,18 @@
 JavaObject
 -------------------
 
+.. include:: /api_en.desc/php/lang/JavaObject.header.rst
+
 .. php:class:: php\\lang\\JavaObject
 
  **final** class
 
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: getClass()
 
@@ -17,4 +25,8 @@ JavaObject
   Get name of class of object
 
   :returns: :doc:`string </api_en/.types/string>` 
+
+
+
+.. include:: /api_en.desc/php/lang/JavaObject.footer.rst
 

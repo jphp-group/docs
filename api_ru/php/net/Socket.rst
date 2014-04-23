@@ -1,9 +1,17 @@
 Socket
 --------------
 
+.. include:: /api_ru.desc/php/net/Socket.header.rst
+
 .. php:class:: php\\net\\Socket
 
  Class Socket
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($host = null, $port = null)
 
@@ -141,4 +149,8 @@ Socket
   bits of the data parameter.
 
   :param $data: 
+
+
+
+.. include:: /api_ru.desc/php/net/Socket.footer.rst
 

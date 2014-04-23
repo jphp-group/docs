@@ -1,9 +1,17 @@
 ThreadGroup
 --------------------
 
+.. include:: /api_ru.desc/php/lang/ThreadGroup.header.rst
+
 .. php:class:: php\\lang\\ThreadGroup
 
  Class ThreadGroup
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($name, $parent = null)
 
@@ -57,4 +65,8 @@ ThreadGroup
 
  .. php:method:: interrupt()
 
+
+
+
+.. include:: /api_ru.desc/php/lang/ThreadGroup.footer.rst
 

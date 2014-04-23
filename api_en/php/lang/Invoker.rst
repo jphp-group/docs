@@ -1,9 +1,17 @@
 Invoker
 ----------------
 
+.. include:: /api_en.desc/php/lang/Invoker.header.rst
+
 .. php:class:: php\\lang\\Invoker
 
  Class for calling methods/functions/etc.
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($callback)
 
@@ -71,4 +79,8 @@ Invoker
 
   :param $callback: 
   :returns: :doc:`php\\lang\\Invoker </api_en/php/lang/Invoker>`, :doc:`null </api_en/.types/null>` - returns ``null`` if passed is not callable
+
+
+
+.. include:: /api_en.desc/php/lang/Invoker.footer.rst
 

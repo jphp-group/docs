@@ -1,7 +1,95 @@
 Font
 --------------
 
+.. include:: /api_en.desc/php/swing/Font.header.rst
+
 .. php:class:: php\\swing\\Font
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: family
+
+  :doc:`string </api_en/.types/string>`
+
+  **read-only**
+
+
+  Family name of font
+
+ .. php:attr:: fontName
+
+  :doc:`string </api_en/.types/string>`
+
+  **read-only**
+
+
+ .. php:attr:: name
+
+  :doc:`string </api_en/.types/string>`
+
+  **read-only**
+
+
+ .. php:attr:: psName
+
+  :doc:`string </api_en/.types/string>`
+
+  **read-only**
+
+
+  PostScript name of font
+
+ .. php:attr:: size
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: size2D
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: style
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: italicAngle
+
+  :doc:`double </api_en/.types/double>`
+
+  **read-only**
+
+
+ .. php:attr:: attributes
+
+  :doc:`string[] </api_en/.types/string>`
+
+  **read-only**
+
+
+ .. php:attr:: numGlyphs
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($name, $style, $size)
 
@@ -64,4 +152,8 @@ Font
 
   :param $name: 
   :returns: :doc:`php\\swing\\Font </api_en/php/swing/Font>`, :doc:`null </api_en/.types/null>` - return null if not exists
+
+
+
+.. include:: /api_en.desc/php/swing/Font.footer.rst
 

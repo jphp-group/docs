@@ -1,12 +1,38 @@
 UITabs
 ----------------
 
+.. include:: /api_en.desc/php/swing/UITabs.header.rst
+
 .. php:class:: php\\swing\\UITabs
 
  **extends**: :doc:`php\\swing\\UIContainer </api_en/php/swing/UIContainer>`
 
 
  Class UITabs
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: selectedIndex
+
+  :doc:`int </api_en/.types/int>`
+
+ .. php:attr:: selectedComponent
+
+  :doc:`php\\swing\\UIElement </api_en/php/swing/UIElement>`
+
+ .. php:attr:: tabPlacement
+
+  :doc:`php\\swing\\string - left, right, top, bottom </api_en/php/swing/string - left, right, top, bottom>`
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: addTab($title, $component, $icon = null)
 
@@ -76,4 +102,8 @@ UITabs
 
   :param $index: 
   :param $enabled: 
+
+
+
+.. include:: /api_en.desc/php/swing/UITabs.footer.rst
 

@@ -1,6 +1,9 @@
 API (English)
 ------------------------------
 
+
+.. include:: /api_en.desc/index.header.rst
+
 .. toctree::
    :maxdepth: 3
 
@@ -11,3 +14,6 @@ API (English)
    php/net/index
    php/swing/index
    php/util/index
+
+.. include:: /api_en.desc/index.footer.rst
+

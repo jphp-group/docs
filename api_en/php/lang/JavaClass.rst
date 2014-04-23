@@ -1,10 +1,18 @@
 JavaClass
 ------------------
 
+.. include:: /api_en.desc/php/lang/JavaClass.header.rst
+
 .. php:class:: php\\lang\\JavaClass
 
  **final** class
 
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($className)
 
@@ -130,4 +138,8 @@ JavaClass
  .. php:staticmethod:: primitive($name)
 
   :param $name: :doc:`string </api_en/.types/string>` - [int, byte, short, char, float, double, boolean, long]
+
+
+
+.. include:: /api_en.desc/php/lang/JavaClass.footer.rst
 

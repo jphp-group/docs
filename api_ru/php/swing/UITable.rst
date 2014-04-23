@@ -1,12 +1,54 @@
 UITable
 -----------------
 
+.. include:: /api_ru.desc/php/swing/UITable.header.rst
+
 .. php:class:: php\\swing\\UITable
 
  **extends**: :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
 
 
  Class UITable
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: dragEnabled
+
+  :doc:`bool </api_ru/.types/bool>`
+
+ .. php:attr:: selectionBackground
+
+  :doc:`php\\swing\\Color </api_ru/php/swing/Color>`
+
+ .. php:attr:: selectionForeground
+
+  :doc:`php\\swing\\Color </api_ru/php/swing/Color>`
+
+ .. php:attr:: gridColor
+
+  :doc:`php\\swing\\Color </api_ru/php/swing/Color>`
+
+ .. php:attr:: editingColumn
+
+  :doc:`int </api_ru/.types/int>`
+
+ .. php:attr:: editingRow
+
+  :doc:`int </api_ru/.types/int>`
+
+ .. php:attr:: rowMargin
+
+  :doc:`int </api_ru/.types/int>`
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: setRowHeight($height, $row = null)
 
@@ -70,4 +112,8 @@ UITable
  .. php:method:: setEditingRow($row)
 
   :param $row: 
+
+
+
+.. include:: /api_ru.desc/php/swing/UITable.footer.rst
 

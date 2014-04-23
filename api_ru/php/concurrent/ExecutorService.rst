@@ -1,9 +1,17 @@
 ExecutorService
 ------------------------------
 
+.. include:: /api_ru.desc/php/concurrent/ExecutorService.header.rst
+
 .. php:class:: php\\concurrent\\ExecutorService
 
  Класс ExecutorService
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct()
 
@@ -83,4 +91,8 @@ ExecutorService
 
   :param $corePoolSize: 
   :returns: :doc:`php\\concurrent\\ExecutorService </api_ru/php/concurrent/ExecutorService>` 
+
+
+
+.. include:: /api_ru.desc/php/concurrent/ExecutorService.footer.rst
 

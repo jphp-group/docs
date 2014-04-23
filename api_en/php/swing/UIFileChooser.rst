@@ -1,12 +1,64 @@
 UIFileChooser
 -----------------------
 
+.. include:: /api_en.desc/php/swing/UIFileChooser.header.rst
+
 .. php:class:: php\\swing\\UIFileChooser
 
  **extends**: :doc:`php\\swing\\UIContainer </api_en/php/swing/UIContainer>`
 
 
  Class UIFileChooser
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: dialogTitle
+
+  :doc:`string </api_en/.types/string>`
+
+ .. php:attr:: approveButtonText
+
+  :doc:`string </api_en/.types/string>`
+
+ .. php:attr:: selectedFile
+
+  :doc:`php\\io\\File </api_en/php/io/File>`
+
+ .. php:attr:: selectedFiles
+
+  :doc:`php\\swing\\File[] </api_en/php/swing/File>`
+
+ .. php:attr:: multiSelection
+
+  :doc:`bool </api_en/.types/bool>`
+
+ .. php:attr:: selectionMode
+
+  :doc:`int </api_en/.types/int>`
+
+  Example: FILES_AND_DIRECTORIES, FILES_ONLY or DIRECTORIES_ONLY
+
+ .. php:attr:: dragEnabled
+
+  :doc:`bool </api_en/.types/bool>`
+
+ .. php:attr:: fileHiding
+
+  :doc:`bool </api_en/.types/bool>`
+
+ .. php:attr:: controlButtonVisible
+
+  :doc:`bool </api_en/.types/bool>`
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: showDialog($approveButtonText, $parent = null)
 
@@ -55,4 +107,8 @@ UIFileChooser
 
  .. php:method:: changeToParentDirectory()
 
+
+
+
+.. include:: /api_en.desc/php/swing/UIFileChooser.footer.rst
 

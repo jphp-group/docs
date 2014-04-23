@@ -1,9 +1,17 @@
 File
 -----------
 
+.. include:: /api_ru.desc/php/io/File.header.rst
+
 .. php:class:: php\\io\\File
 
  Class File
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($path, $child = NULL)
 
@@ -166,4 +174,8 @@ An>` array of {@code File} objects denoting the available
   filesystem roots, or empty array if the set of roots could not
   be determined.  The array will be empty if there are no
   filesystem roots.
+
+
+
+.. include:: /api_ru.desc/php/io/File.footer.rst
 

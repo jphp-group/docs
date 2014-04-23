@@ -1,12 +1,40 @@
 Stream
 -------------
 
+.. include:: /api_ru.desc/php/io/Stream.header.rst
+
 .. php:class:: php\\io\\Stream
 
  **abstract** class
 
  **implements**: :doc:`Iterator </api_ru/Iterator>`
 
+
+
+
+**Properties**
+
+----------
+
+ .. php:attr:: path
+
+  :doc:`string </api_ru/.types/string>`
+
+  **private**
+
+
+ .. php:attr:: mode
+
+  :doc:`string </api_ru/.types/string>`
+
+  **private**
+
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: read($length)
 
@@ -110,4 +138,8 @@ Stream
  .. php:staticmethod:: unregister($protocol)
 
   :param $protocol: 
+
+
+
+.. include:: /api_ru.desc/php/io/Stream.footer.rst
 

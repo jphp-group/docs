@@ -1,11 +1,19 @@
 char
 ------------
 
+.. include:: /api_en.desc/php/lib/char.header.rst
+
 .. php:class:: php\\lib\\char
 
  Char Utils for working with unicode chars
  (using string[0] char)
  Class char
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct()
 
@@ -148,4 +156,8 @@ char
 
   :param $char: 
   :returns: :doc:`int </api_en/.types/int>` 
+
+
+
+.. include:: /api_en.desc/php/lib/char.footer.rst
 

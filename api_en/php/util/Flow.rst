@@ -1,12 +1,20 @@
 Flow
 -------------
 
+.. include:: /api_en.desc/php/util/Flow.header.rst
+
 .. php:class:: php\\util\\Flow
 
  **implements**: :doc:`Iterator </api_en/Iterator>`
 
 
  Class Flow
+
+
+
+**Methods**
+
+----------
 
  .. php:method:: __construct($collection)
 
@@ -120,4 +128,8 @@ Flow
   :param $string: 
   :param $chunkSize: 
   :returns: :doc:`php\\util\\Flow </api_en/php/util/Flow>` 
+
+
+
+.. include:: /api_en.desc/php/util/Flow.footer.rst
 
