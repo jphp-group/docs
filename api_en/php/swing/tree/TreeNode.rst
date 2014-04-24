@@ -54,8 +54,8 @@ TreeNode
 
  .. php:method:: __construct($object = null, $allowsChildren = true)
 
-  :param $object: 
-  :param $allowsChildren: 
+  :param $object: :doc:`mixed </api_en/.types/mixed>` 
+  :param $allowsChildren: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isRoot()
 
@@ -140,7 +140,7 @@ TreeNode
 
  .. php:method:: insert($childIndex, $node)
 
-  :param $childIndex: 
+  :param $childIndex: :doc:`int </api_en/.types/int>` 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_en/php/swing/tree/TreeNode>` 
 
  .. php:method:: insertAfter($child, $node)
@@ -159,7 +159,7 @@ TreeNode
 
  .. php:method:: removeByIndex($childIndex)
 
-  :param $childIndex: 
+  :param $childIndex: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: removeAllChildren()
 
@@ -174,7 +174,7 @@ TreeNode
 
  .. php:method:: getChild($index)
 
-  :param $index: 
+  :param $index: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`php\\swing\\tree\\TreeNode </api_en/php/swing/tree/TreeNode>`, :doc:`null </api_en/.types/null>` 
 
  .. php:method:: getChildCount()

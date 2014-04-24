@@ -7,6 +7,12 @@ UIWindow
 
  **extends**: :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
 
+**Children**
+
+----------------------
+
+ * **class** :doc:`php\\swing\\UIDialog </api_ru/php/swing/UIDialog>`
+ * **class** :doc:`php\\swing\\UIForm </api_ru/php/swing/UIForm>`
 
 
 

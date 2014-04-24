@@ -12,11 +12,5 @@ SocketException
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_en.desc/php/net/SocketException.footer.rst
 

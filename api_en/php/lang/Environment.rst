@@ -9,6 +9,16 @@ Environment
 
 
 
+**Constants**
+
+----------
+
+ .. php:const:: CONCURRENT
+
+ .. php:const:: HOT_RELOAD
+
+
+
 **Methods**
 
 ----------
@@ -16,44 +26,44 @@ Environment
  .. php:method:: __construct($parent = NULL, $flags = 0)
 
   :param $parent: :doc:`php\\lang\\Environment </api_en/php/lang/Environment>` 
-  :param $flags: :doc:`int </api_en/.types/int>` Environment::HOT_RELOAD, Environment::CONCURRENT
+  :param $flags: :doc:`int </api_en/.types/int>`  - Environment::HOT_RELOAD, Environment::CONCURRENT
 
  .. php:method:: execute($runnable)
 
   Executes $runnable in the environment
 
-  :param $runnable: :doc:`callable </api_en/.types/callable>` - in new environment
+  :param $runnable: :doc:`callable </api_en/.types/callable>`  - - in new environment
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:method:: importClass($className)
 
   Imports the $className to the environment
 
-  :param $className: 
+  :param $className: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: exportClass($className)
 
   Exports the $className from th environment
 
-  :param $className: 
+  :param $className: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: importFunction($functionName)
 
   Imports the $functionName to the environment
 
-  :param $functionName: 
+  :param $functionName: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: exportFunction($functionName)
 
   Exports the $functionName from the environment
 
-  :param $functionName: 
+  :param $functionName: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: defineConstant($name, $value, $caseSensitive = true)
 
-  :param $name: 
-  :param $value: :doc:`mixed </api_en/.types/mixed>` - scalar value
-  :param $caseSensitive: 
+  :param $name: :doc:`string </api_en/.types/string>` 
+  :param $value: :doc:`mixed </api_en/.types/mixed>`  - - scalar value
+  :param $caseSensitive: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: onMessage($callback)
 
@@ -65,7 +75,7 @@ Environment
 
   Send message to the environment
 
-  :param $message: 
+  :param $message: :doc:`mixed </api_en/.types/mixed>` 
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:staticmethod:: current()

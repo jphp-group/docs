@@ -39,7 +39,7 @@ UIMenu
 
  .. php:method:: getItem($pos)
 
-  :param $pos: 
+  :param $pos: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`php\\swing\\UIMenuItem </api_en/php/swing/UIMenuItem>` 
 
  .. php:method:: addSeparator()
@@ -47,8 +47,8 @@ UIMenu
 
  .. php:method:: setMenuPosition($x, $y)
 
-  :param $x: 
-  :param $y: 
+  :param $x: :doc:`int </api_en/.types/int>` 
+  :param $y: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: isTopLevelMenu()
 

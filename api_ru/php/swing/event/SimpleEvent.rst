@@ -22,11 +22,5 @@ SimpleEvent
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_ru.desc/php/swing/event/SimpleEvent.footer.rst
 

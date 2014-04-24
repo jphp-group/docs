@@ -60,11 +60,11 @@ UILabel
 
  .. php:method:: setIcon($icon)
 
-  :param $icon: :doc:`php\\swing\\Image </api_en/php/swing/Image>`, :doc:`string </api_en/.types/string>` - filename or Image
+  :param $icon: :doc:`php\\swing\\Image </api_en/php/swing/Image>`, :doc:`string </api_en/.types/string>`  - - filename or Image
 
  .. php:method:: setDisabledIcon($icon)
 
-  :param $icon: 
+  :param $icon: :doc:`php\\swing\\Image </api_en/php/swing/Image>`, :doc:`string </api_en/.types/string>` 
 
 
 

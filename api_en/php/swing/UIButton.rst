@@ -12,11 +12,5 @@ UIButton
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_en.desc/php/swing/UIButton.footer.rst
 

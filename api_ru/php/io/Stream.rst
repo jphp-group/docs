@@ -9,6 +9,13 @@ Stream
 
  **implements**: :doc:`Iterator </api_ru/Iterator>`
 
+**Children**
+
+----------------------
+
+ * **class** :doc:`php\\io\\FileStream </api_ru/php/io/FileStream>`
+ * **class** :doc:`php\\io\\MiscStream </api_ru/php/io/MiscStream>`
+ * **class** :doc:`php\\io\\ResourceStream </api_ru/php/io/ResourceStream>`
 
 
 
@@ -41,7 +48,7 @@ Stream
   **abstract**
 
 
-  :param $length: :doc:`int </api_ru/.types/int>` - count of bytes
+  :param $length: :doc:`int </api_ru/.types/int>`  - - count of bytes
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: readFully()
@@ -56,8 +63,8 @@ Stream
   **abstract**
 
 
-  :param $value: 
-  :param $length: 
+  :param $value: :doc:`string </api_ru/.types/string>` 
+  :param $length: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: eof()
@@ -72,7 +79,7 @@ Stream
   **abstract**
 
 
-  :param $position: 
+  :param $position: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: getPosition()
@@ -91,8 +98,8 @@ Stream
 
  .. php:method:: __construct($path, $mode = null)
 
-  :param $path: 
-  :param $mode: 
+  :param $path: :doc:`string </api_ru/.types/string>` 
+  :param $mode: :doc:`null </api_ru/.types/null>`, :doc:`string </api_ru/.types/string>` 
   :returns: :doc:`php\\io\\Stream </api_ru/php/io/Stream>` 
 
  .. php:method:: setContext($context)
@@ -126,14 +133,14 @@ Stream
 
  .. php:staticmethod:: of($path, $mode = 'r')
 
-  :param $path: 
-  :param $mode: 
+  :param $path: :doc:`string </api_ru/.types/string>` 
+  :param $mode: :doc:`string </api_ru/.types/string>` 
   :returns: :doc:`php\\io\\Stream </api_ru/php/io/Stream>` 
 
  .. php:staticmethod:: register($protocol, $className)
 
-  :param $protocol: 
-  :param $className: 
+  :param $protocol: :doc:`string </api_ru/.types/string>` 
+  :param $className: :doc:`string </api_ru/.types/string>` 
 
  .. php:staticmethod:: unregister($protocol)
 

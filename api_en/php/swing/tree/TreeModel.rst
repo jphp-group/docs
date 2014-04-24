@@ -26,7 +26,7 @@ TreeModel
  .. php:method:: __construct($root, $askAllowsChildren = false)
 
   :param $root: :doc:`php\\swing\\tree\\TreeNode </api_en/php/swing/tree/TreeNode>` 
-  :param $askAllowsChildren: 
+  :param $askAllowsChildren: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: nodeChanged($node)
 

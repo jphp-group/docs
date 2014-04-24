@@ -12,11 +12,5 @@ UIRadioButton
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_ru.desc/php/swing/UIRadioButton.footer.rst
 

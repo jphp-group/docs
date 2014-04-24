@@ -9,14 +9,26 @@ File
 
 
 
+**Constants**
+
+----------
+
+ .. php:const:: PATH_SEPARATOR
+
+ .. php:const:: DIRECTORY_SEPARATOR
+
+ .. php:const:: PATH_NAME_CASE_INSENSITIVE
+
+
+
 **Methods**
 
 ----------
 
  .. php:method:: __construct($path, $child = NULL)
 
-  :param $path: 
-  :param $child: 
+  :param $path: :doc:`string </api_ru/.types/string>` 
+  :param $child: :doc:`null </api_ru/.types/null>`, :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: exists()
 
@@ -112,25 +124,25 @@ File
 
  .. php:method:: renameTo($newName)
 
-  :param $newName: 
+  :param $newName: :doc:`string </api_ru/.types/string>` 
   :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: setExecutable($value, $ownerOnly = true)
 
-  :param $value: 
-  :param $ownerOnly: 
+  :param $value: :doc:`bool </api_ru/.types/bool>` 
+  :param $ownerOnly: :doc:`bool </api_ru/.types/bool>` 
   :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: setWritable($value, $ownerOnly = true)
 
-  :param $value: 
-  :param $ownerOnly: 
+  :param $value: :doc:`bool </api_ru/.types/bool>` 
+  :param $ownerOnly: :doc:`bool </api_ru/.types/bool>` 
   :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: setReadable($value, $ownerOnly = true)
 
-  :param $value: 
-  :param $ownerOnly: 
+  :param $value: :doc:`bool </api_ru/.types/bool>` 
+  :param $ownerOnly: :doc:`bool </api_ru/.types/bool>` 
   :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: setReadOnly()
@@ -139,12 +151,12 @@ File
 
  .. php:method:: setLastModified($time)
 
-  :param $time: 
+  :param $time: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: compareTo($file)
 
-  :param $file: 
+  :param $file: :doc:`string </api_ru/.types/string>`, :doc:`php\\io\\File </api_ru/php/io/File>` 
   :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: find($filter = null)
@@ -159,21 +171,19 @@ File
 
  .. php:staticmethod:: createTemp($prefix, $suffix, $directory = null)
 
-  :param $prefix: 
-  :param $suffix: 
-  :param $directory: 
+  :param $prefix: :doc:`string </api_ru/.types/string>` 
+  :param $suffix: :doc:`string </api_ru/.types/string>` 
+  :param $directory: :doc:`null </api_ru/.types/null>`, :doc:`php\\io\\File </api_ru/php/io/File>`, :doc:`string </api_ru/.types/string>` 
   :returns: :doc:`php\\io\\File </api_ru/php/io/File>` 
 
  .. php:staticmethod:: listRoots()
 
   List the available filesystem roots.
+  Returns an array of objects denoting the available filesystem roots,
+  or empty array if the set of roots could not be determined.
+  The array will be empty if there are no filesystem roots.
 
-  :returns: :doc:`php\\io\\File[]
-An </api_ru/php/io/File[]
-An>` array of {@code File} objects denoting the available
-  filesystem roots, or empty array if the set of roots could not
-  be determined.  The array will be empty if there are no
-  filesystem roots.
+  :returns: :doc:`php\\io\\File[] </api_ru/php/io/File>` 
 
 
 

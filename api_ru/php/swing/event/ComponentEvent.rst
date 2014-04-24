@@ -7,6 +7,14 @@ ComponentEvent
 
  **abstract** class
 
+**Children**
+
+----------------------
+
+ * **class** :doc:`php\\swing\\event\\FocusEvent </api_ru/php/swing/event/FocusEvent>`
+ * **class** :doc:`php\\swing\\event\\KeyEvent </api_ru/php/swing/event/KeyEvent>`
+ * **class** :doc:`php\\swing\\event\\MouseEvent </api_ru/php/swing/event/MouseEvent>`
+ * **class** :doc:`php\\swing\\event\\WindowEvent </api_ru/php/swing/event/WindowEvent>`
 
 
 
@@ -20,12 +28,6 @@ ComponentEvent
 
   **read-only**
 
-
-
-
-**Methods**
-
-----------
 
 
 

@@ -7,14 +7,13 @@ UIToggleButton
 
  **extends**: :doc:`php\\swing\\UIAbstractIButton </api_en/php/swing/UIAbstractIButton>`
 
+**Children**
+
+----------------------
+
+ * **class** :doc:`php\\swing\\UIRadioButton </api_en/php/swing/UIRadioButton>`
 
  Class UIToggleButton
-
-
-
-**Methods**
-
-----------
 
 
 

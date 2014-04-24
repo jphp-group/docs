@@ -15,8 +15,8 @@ Socket
 
  .. php:method:: __construct($host = null, $port = null)
 
-  :param $host: 
-  :param $port: 
+  :param $host: :doc:`null </api_en/.types/null>`, :doc:`string </api_en/.types/string>` 
+  :param $port: :doc:`null </api_en/.types/null>`, :doc:`int </api_en/.types/int>` 
 
  .. php:method:: getOutput()
 
@@ -75,16 +75,16 @@ Socket
 
   Connects this socket to the server
 
-  :param $hostname: 
-  :param $port: 
-  :param $timeout: 
+  :param $hostname: :doc:`string </api_en/.types/string>` 
+  :param $port: :doc:`int </api_en/.types/int>` 
+  :param $timeout: :doc:`null </api_en/.types/null>`, :doc:`int </api_en/.types/int>` 
 
  .. php:method:: bind($hostname, $port)
 
   Binds the socket to a local address.
 
-  :param $hostname: 
-  :param $port: 
+  :param $hostname: :doc:`string </api_en/.types/string>` 
+  :param $port: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: bindDefault()
 
@@ -94,61 +94,62 @@ Socket
   Enable/disable SO_TIMEOUT with the specified timeout, in
   milliseconds.
 
-  :param $timeout: 
+  :param $timeout: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: setSoLinger($on, $linger)
 
-  :param $on: 
-  :param $linger: 
+  :param $on: :doc:`bool </api_en/.types/bool>` 
+  :param $linger: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: setReuseAddress($on)
 
   Enable/disable the SO_REUSEADDR socket option.
 
-  :param $on: 
+  :param $on: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setReceiveBufferSize($size)
 
-  :param $size: 
+  :param $size: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: setTcpNoDelay($on)
 
-  :param $on: 
+  :param $on: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setKeepAlive($on)
 
-  :param $on: 
+  :param $on: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setOOBInline($on)
 
-  :param $on: 
+  :param $on: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setSendBufferSize($size)
 
-  :param $size: 
+  :param $size: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: setTrafficClass($tc)
 
   Sets traffic class or type-of-service octet in the IP
   header for packets sent from this Socket.
 
-  :param $tc: 
+  :param $tc: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: setPerformancePreferences($connectTime, $latency, $bandWidth)
 
   Sets performance preferences for this ServerSocket.
+  
   ! Not implemented yet for TCP/IP
 
-  :param $connectTime: 
-  :param $latency: 
-  :param $bandWidth: 
+  :param $connectTime: :doc:`int </api_en/.types/int>` 
+  :param $latency: :doc:`int </api_en/.types/int>` 
+  :param $bandWidth: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: sendUrgentData($data)
 
   Send one byte of urgent data on the socket. The byte to be sent is the lowest eight
   bits of the data parameter.
 
-  :param $data: 
+  :param $data: :doc:`int </api_en/.types/int>` 
 
 
 

@@ -16,7 +16,7 @@ JavaClass
 
  .. php:method:: __construct($className)
 
-  :param $className: :doc:`string </api_en/.types/string>` - full name of java class
+  :param $className: :doc:`string </api_en/.types/string>`  - - full name of java class
 
  .. php:method:: isStatic()
 
@@ -80,7 +80,7 @@ JavaClass
 
  .. php:method:: isAnnotationPresent($annotationClassName)
 
-  :param $annotationClassName: 
+  :param $annotationClassName: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: getInterfaces()
@@ -89,7 +89,7 @@ JavaClass
 
  .. php:method:: getDeclaredMethod($name, $types)
 
-  :param $name: 
+  :param $name: :doc:`string </api_en/.types/string>` 
   :param $types: :doc:`array </api_en/.types/array>` 
   :returns: :doc:`php\\lang\\JavaMethod </api_en/php/lang/JavaMethod>` 
 
@@ -123,7 +123,7 @@ JavaClass
 
  .. php:method:: isSubClass($className)
 
-  :param $className: 
+  :param $className: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: getEnumConstants()
@@ -132,12 +132,12 @@ JavaClass
 
  .. php:method:: getResource($name)
 
-  :param $name: 
+  :param $name: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`string </api_en/.types/string>`, :doc:`null </api_en/.types/null>` - filename
 
  .. php:staticmethod:: primitive($name)
 
-  :param $name: :doc:`string </api_en/.types/string>` - [int, byte, short, char, float, double, boolean, long]
+  :param $name: :doc:`string </api_en/.types/string>`  - - [int, byte, short, char, float, double, boolean, long]
 
 
 

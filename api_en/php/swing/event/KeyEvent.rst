@@ -9,9 +9,11 @@ KeyEvent
 
 
  Events:
- - keyUp
- - keyDown
- - keyPress
+ 
+ * keyUp
+ * keyDown
+ * keyPress
+ 
  Class KeyEvent
 
 
@@ -47,12 +49,6 @@ KeyEvent
 
   **read-only**
 
-
-
-
-**Methods**
-
-----------
 
 
 

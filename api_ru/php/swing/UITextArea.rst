@@ -53,11 +53,5 @@ UITextArea
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_ru.desc/php/swing/UITextArea.footer.rst
 

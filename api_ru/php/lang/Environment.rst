@@ -9,6 +9,16 @@ Environment
 
 
 
+**Constants**
+
+----------
+
+ .. php:const:: CONCURRENT
+
+ .. php:const:: HOT_RELOAD
+
+
+
 **Methods**
 
 ----------
@@ -16,44 +26,44 @@ Environment
  .. php:method:: __construct($parent = NULL, $flags = 0)
 
   :param $parent: :doc:`php\\lang\\Environment </api_ru/php/lang/Environment>` 
-  :param $flags: :doc:`int </api_ru/.types/int>` Environment::HOT_RELOAD, Environment::CONCURRENT
+  :param $flags: :doc:`int </api_ru/.types/int>`  - Environment::HOT_RELOAD, Environment::CONCURRENT
 
  .. php:method:: execute($runnable)
 
   Выполняет $runnable в текущем своем окружении
 
-  :param $runnable: :doc:`callable </api_ru/.types/callable>` - in new environment
+  :param $runnable: :doc:`callable </api_ru/.types/callable>`  - - in new environment
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: importClass($className)
 
   Импортирует класс в свое окружение
 
-  :param $className: 
+  :param $className: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: exportClass($className)
 
   Экмпортирует класс из своего окружения
 
-  :param $className: 
+  :param $className: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: importFunction($functionName)
 
   Импортирует функцию в свое окружение
 
-  :param $functionName: 
+  :param $functionName: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: exportFunction($functionName)
 
   Экспортирует функцию из своего окружения
 
-  :param $functionName: 
+  :param $functionName: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: defineConstant($name, $value, $caseSensitive = true)
 
-  :param $name: 
-  :param $value: :doc:`mixed </api_ru/.types/mixed>` - scalar value
-  :param $caseSensitive: 
+  :param $name: :doc:`string </api_ru/.types/string>` 
+  :param $value: :doc:`mixed </api_ru/.types/mixed>`  - - scalar value
+  :param $caseSensitive: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: onMessage($callback)
 
@@ -65,7 +75,7 @@ Environment
 
   Послать сообщение окружению
 
-  :param $message: 
+  :param $message: :doc:`mixed </api_ru/.types/mixed>` 
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:staticmethod:: current()

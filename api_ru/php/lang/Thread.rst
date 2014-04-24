@@ -9,6 +9,18 @@ Thread
 
 
 
+**Constants**
+
+----------
+
+ .. php:const:: MAX_PRIORITY
+
+ .. php:const:: MIN_PRIORITY
+
+ .. php:const:: NORM_PRIORITY
+
+
+
 **Methods**
 
 ----------
@@ -29,7 +41,7 @@ Thread
 
  .. php:method:: setName($value)
 
-  :param $value: 
+  :param $value: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: getGroup()
 
@@ -41,7 +53,7 @@ Thread
 
  .. php:method:: setDaemon($value)
 
-  :param $value: 
+  :param $value: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isInterrupted()
 
@@ -65,8 +77,8 @@ Thread
   Waits at most $millis milliseconds plus
   $nanos nanoseconds for this thread to die.
 
-  :param $millis: 
-  :param $nanos: 
+  :param $millis: :doc:`int </api_ru/.types/int>` 
+  :param $nanos: :doc:`int </api_ru/.types/int>` 
 
  .. php:staticmethod:: yield()
 
@@ -76,8 +88,8 @@ Thread
   Causes the currently executing thread to sleep (temporarily cease
   execution)
 
-  :param $millis: 
-  :param $nanos: 
+  :param $millis: :doc:`int </api_ru/.types/int>` 
+  :param $nanos: :doc:`int </api_ru/.types/int>` 
 
  .. php:staticmethod:: getActiveCount()
 
@@ -91,7 +103,7 @@ Thread
 
  .. php:staticmethod:: sync($object, $runnable)
 
-  :param $object: 
+  :param $object: :doc:`object </api_ru/.types/object>` 
   :param $runnable: :doc:`callable </api_ru/.types/callable>` 
 
 

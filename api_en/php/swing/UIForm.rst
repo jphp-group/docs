@@ -16,7 +16,7 @@ UIForm
 
  .. php:method:: setDefaultCloseOperation($action)
 
-  :param $action: 
+  :param $action: :doc:`int </api_en/.types/int>` 
 
 
 

@@ -7,6 +7,12 @@ JavaException
 
  **extends**: :doc:`Exception </api_ru/Exception>`
 
+**Children**
+
+----------------------
+
+ * **class** :doc:`php\\io\\IOException </api_ru/php/io/IOException>`
+ * **class** :doc:`php\\net\\SocketException </api_ru/php/net/SocketException>`
 
  Class JavaException
 

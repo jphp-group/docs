@@ -22,7 +22,7 @@ SwingUtilities
 
  .. php:staticmethod:: setExceptionHandler($handler)
 
-  :param $handler: :doc:`callable </api_en/.types/callable>` (Exception|JavaObject $exception)
+  :param $handler: :doc:`callable </api_en/.types/callable>`  - (Exception|JavaObject $exception)
 
  .. php:staticmethod:: invokeLater($runner)
 

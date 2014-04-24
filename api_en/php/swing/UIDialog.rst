@@ -12,6 +12,40 @@ UIDialog
 
 
 
+**Constants**
+
+----------
+
+ .. php:const:: PLAIN_MESSAGE
+
+ .. php:const:: ERROR_MESSAGE
+
+ .. php:const:: INFORMATION_MESSAGE
+
+ .. php:const:: WARNING_MESSAGE
+
+ .. php:const:: QUESTION_MESSAGE
+
+ .. php:const:: DEFAULT_OPTION
+
+ .. php:const:: OK_CANCEL_OPTION
+
+ .. php:const:: YES_NO_CANCEL_OPTION
+
+ .. php:const:: YES_NO_OPTION
+
+ .. php:const:: YES_OPTION
+
+ .. php:const:: NO_OPTION
+
+ .. php:const:: CANCEL_OPTION
+
+ .. php:const:: OK_OPTION
+
+ .. php:const:: CLOSED_OPTION
+
+
+
 **Properties**
 
 ----------
@@ -38,16 +72,16 @@ UIDialog
 
   Show basic message
 
-  :param $text: 
-  :param $title: 
-  :param $type: 
+  :param $text: :doc:`string </api_en/.types/string>` 
+  :param $title: :doc:`string </api_en/.types/string>` 
+  :param $type: :doc:`int </api_en/.types/int>` 
 
  .. php:staticmethod:: confirm($text, $title, $optionType, $type = ::)
 
-  :param $text: 
-  :param $title: 
-  :param $optionType: 
-  :param $type: 
+  :param $text: :doc:`string </api_en/.types/string>` 
+  :param $title: :doc:`string </api_en/.types/string>` 
+  :param $optionType: :doc:`int </api_en/.types/int>` 
+  :param $type: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`int </api_en/.types/int>` 
 
 

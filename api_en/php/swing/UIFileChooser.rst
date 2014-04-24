@@ -12,6 +12,18 @@ UIFileChooser
 
 
 
+**Constants**
+
+----------
+
+ .. php:const:: FILES_ONLY
+
+ .. php:const:: DIRECTORIES_ONLY
+
+ .. php:const:: FILES_AND_DIRECTORIES
+
+
+
 **Properties**
 
 ----------
@@ -62,7 +74,7 @@ UIFileChooser
 
  .. php:method:: showDialog($approveButtonText, $parent = null)
 
-  :param $approveButtonText: 
+  :param $approveButtonText: :doc:`string </api_en/.types/string>` 
   :param $parent: :doc:`php\\swing\\UIWindow </api_en/php/swing/UIWindow>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
@@ -78,26 +90,26 @@ UIFileChooser
 
  .. php:method:: addChoosableFilter($filter, $description)
 
-  :param $filter: :doc:`callable </api_en/.types/callable>` (File $file) -> bool
-  :param $description: 
+  :param $filter: :doc:`callable </api_en/.types/callable>`  - (File $file) -> bool
+  :param $description: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: addChoosableExtensions($extensions, $description, $showDirectories = true)
 
-  :param $extensions: :doc:`array </api_en/.types/array>` ['jpg', 'gif', 'png', ... etc]
-  :param $description: 
-  :param $showDirectories: 
+  :param $extensions: :doc:`array </api_en/.types/array>`  - ['jpg', 'gif', 'png', ... etc]
+  :param $description: :doc:`string </api_en/.types/string>` 
+  :param $showDirectories: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: resetChoosableFilters()
 
 
  .. php:method:: isTraversable($file)
 
-  :param $file: 
+  :param $file: :doc:`string </api_en/.types/string>`, :doc:`php\\io\\File </api_en/php/io/File>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: ensureFileIsVisible($file)
 
-  :param $file: 
+  :param $file: :doc:`string </api_en/.types/string>`, :doc:`php\\io\\File </api_en/php/io/File>` 
 
  .. php:method:: approveSelection()
 

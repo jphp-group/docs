@@ -142,7 +142,7 @@ UITree
 
  .. php:method:: expandRow($row)
 
-  :param $row: 
+  :param $row: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: collapseNode($node)
 
@@ -150,7 +150,7 @@ UITree
 
  .. php:method:: collapseRow($row)
 
-  :param $row: 
+  :param $row: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: expandNodeAll($node)
 
@@ -162,7 +162,7 @@ UITree
 
  .. php:method:: isExpandedRow($row)
 
-  :param $row: 
+  :param $row: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isExpandedNode($node)

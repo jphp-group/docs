@@ -39,8 +39,8 @@ UIPopupMenu
 
  .. php:method:: setPopupSize($width, $height)
 
-  :param $width: 
-  :param $height: 
+  :param $width: :doc:`int </api_ru/.types/int>` 
+  :param $height: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: setSelected($component)
 

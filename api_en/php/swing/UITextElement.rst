@@ -9,6 +9,13 @@ UITextElement
 
  **extends**: :doc:`php\\swing\\UIContainer </api_en/php/swing/UIContainer>`
 
+**Children**
+
+----------------------
+
+ * **class** :doc:`php\\swing\\UIEdit </api_en/php/swing/UIEdit>`
+ * **class** :doc:`php\\swing\\UIEditorArea </api_en/php/swing/UIEditorArea>`
+ * **class** :doc:`php\\swing\\UITextArea </api_en/php/swing/UITextArea>`
 
 
 
@@ -82,15 +89,15 @@ UITextElement
 
  .. php:method:: select($selStart, $selEnd)
 
-  :param $selStart: 
-  :param $selEnd: 
+  :param $selStart: :doc:`int </api_en/.types/int>` 
+  :param $selEnd: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: selectAll()
 
 
  .. php:method:: replaceSelection($content)
 
-  :param $content: 
+  :param $content: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: printDialog()
 

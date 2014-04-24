@@ -24,7 +24,7 @@ UIManager
 
   Set look and feel globally
 
-  :param $name: - name of theme
+  :param $name:  - - name of theme
 
  .. php:staticmethod:: getSystemLookAndFeel()
 

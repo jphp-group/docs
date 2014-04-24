@@ -6,7 +6,9 @@ ItemEvent
 .. php:class:: php\\swing\\event\\ItemEvent
 
  Events:
- - changed
+ 
+ * changed
+ 
  Class CaretEvent
 
 

@@ -12,11 +12,5 @@ IOException
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_ru.desc/php/io/IOException.footer.rst
 

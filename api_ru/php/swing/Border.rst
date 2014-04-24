@@ -15,10 +15,10 @@ Border
 
  .. php:staticmethod:: createEmpty($top, $left, $bottom, $right)
 
-  :param $top: 
-  :param $left: 
-  :param $bottom: 
-  :param $right: 
+  :param $top: :doc:`int </api_ru/.types/int>` 
+  :param $left: :doc:`int </api_ru/.types/int>` 
+  :param $bottom: :doc:`int </api_ru/.types/int>` 
+  :param $right: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`php\\swing\\Border </api_ru/php/swing/Border>` 
 
 

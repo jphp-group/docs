@@ -12,11 +12,5 @@ UICheckboxMenuItem
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_ru.desc/php/swing/UICheckboxMenuItem.footer.rst
 

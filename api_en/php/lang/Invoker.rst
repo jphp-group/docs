@@ -77,7 +77,7 @@ Invoker
 
  .. php:staticmethod:: of($callback)
 
-  :param $callback: 
+  :param $callback: :doc:`mixed </api_en/.types/mixed>` 
   :returns: :doc:`php\\lang\\Invoker </api_en/php/lang/Invoker>`, :doc:`null </api_en/.types/null>` - returns ``null`` if passed is not callable
 
 

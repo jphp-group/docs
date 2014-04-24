@@ -70,11 +70,5 @@ UISlider
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_en.desc/php/swing/UISlider.footer.rst
 

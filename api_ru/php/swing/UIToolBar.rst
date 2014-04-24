@@ -40,8 +40,8 @@ UIToolBar
 
  .. php:method:: addSeparator($w = null, $h = null)
 
-  :param $w: 
-  :param $h: 
+  :param $w: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>` 
+  :param $h: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>` 
 
 
 

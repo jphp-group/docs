@@ -9,7 +9,9 @@ MouseWheelEvent
 
 
  Events:
- - mouseWheel
+ 
+ * mouseWheel
+ 
  Class MouseWheelEvent
 
 
@@ -45,12 +47,6 @@ MouseWheelEvent
 
   **read-only**
 
-
-
-
-**Methods**
-
-----------
 
 
 

@@ -40,7 +40,7 @@ ThreadGroup
 
  .. php:method:: setDaemon($value)
 
-  :param $value: 
+  :param $value: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: isDestroyed()
 
@@ -52,7 +52,7 @@ ThreadGroup
 
  .. php:method:: setMaxPriority($value)
 
-  :param $value: 
+  :param $value: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: destroy()
 

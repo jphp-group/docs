@@ -77,7 +77,7 @@ JavaMethod
 
  .. php:method:: isAnnotationPresent($annotationClassName)
 
-  :param $annotationClassName: 
+  :param $annotationClassName: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: getParameterTypes()

@@ -9,10 +9,12 @@ WindowEvent
 
 
  Events:
- - windowOpen
- - windowClose
- - windowClosing
- - windowActive
+ 
+ * windowOpen
+ * windowClose
+ * windowClosing
+ * windowActive
+ 
  Class WindowEvent
 
 
@@ -41,12 +43,6 @@ WindowEvent
 
   **read-only**
 
-
-
-
-**Methods**
-
-----------
 
 
 

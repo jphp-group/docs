@@ -42,11 +42,5 @@ UIProgress
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_en.desc/php/swing/UIProgress.footer.rst
 

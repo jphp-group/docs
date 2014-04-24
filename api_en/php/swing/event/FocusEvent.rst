@@ -9,8 +9,10 @@ FocusEvent
 
 
  Events:
- - focus
- - blur
+ 
+ * focus
+ * blur
+ 
  Class FocusEvent
 
 
@@ -32,12 +34,6 @@ FocusEvent
 
   **read-only**
 
-
-
-
-**Methods**
-
-----------
 
 
 

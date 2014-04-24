@@ -7,6 +7,18 @@ Font
 
 
 
+**Constants**
+
+----------
+
+ .. php:const:: PLAIN
+
+ .. php:const:: BOLD
+
+ .. php:const:: ITALIC
+
+
+
 **Properties**
 
 ----------
@@ -93,9 +105,9 @@ Font
 
  .. php:method:: __construct($name, $style, $size)
 
-  :param $name: 
-  :param $style: :doc:`int </api_ru/.types/int>` - PLAIN, BOLD, ITALIC
-  :param $size: 
+  :param $name: :doc:`string </api_ru/.types/string>` 
+  :param $style: :doc:`int </api_ru/.types/int>`  - - PLAIN, BOLD, ITALIC
+  :param $size: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: isBold()
 
@@ -115,19 +127,19 @@ Font
 
  .. php:method:: getBaselineFor($symbol)
 
-  :param $symbol: :doc:`string </api_ru/.types/string>` - one char
+  :param $symbol: :doc:`string </api_ru/.types/string>`  - - one char
   :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: canDisplay($symbol)
 
-  :param $symbol: :doc:`string </api_ru/.types/string>` - one char
+  :param $symbol: :doc:`string </api_ru/.types/string>`  - - one char
   :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: canDisplayUpTo($string)
 
   Indicates whether or not this Font can display a specified String.
 
-  :param $string: 
+  :param $string: :doc:`string </api_ru/.types/string>` 
   :returns: :doc:`int </api_ru/.types/int>` - an offset into $string that points to the first character in $string that this
   Font cannot display; or -1 if this Font can display all characters in $string.
 
@@ -135,22 +147,22 @@ Font
 
   Decode font by using a specified string
 
-  :param $str: 
+  :param $str: :doc:`string </api_ru/.types/string>` 
   :returns: :doc:`php\\swing\\Font </api_ru/php/swing/Font>` 
 
  .. php:staticmethod:: create($source, $trueType = true)
 
   Create new font by using Stream or File
 
-  :param $source: 
-  :param $trueType: 
+  :param $source: :doc:`string </api_ru/.types/string>`, :doc:`php\\io\\Stream </api_ru/php/io/Stream>` 
+  :param $trueType: :doc:`bool </api_ru/.types/bool>` 
   :returns: :doc:`php\\swing\\Font </api_ru/php/swing/Font>` 
 
  .. php:staticmethod:: get($name)
 
   Get font by name
 
-  :param $name: 
+  :param $name: :doc:`string </api_ru/.types/string>` 
   :returns: :doc:`php\\swing\\Font </api_ru/php/swing/Font>`, :doc:`null </api_ru/.types/null>` - return null if not exists
 
 

@@ -26,11 +26,5 @@ UIColorChooser
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_ru.desc/php/swing/UIColorChooser.footer.rst
 

@@ -26,11 +26,5 @@ UIEdit
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_ru.desc/php/swing/UIEdit.footer.rst
 

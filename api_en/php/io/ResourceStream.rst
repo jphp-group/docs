@@ -18,11 +18,11 @@ ResourceStream
 
  .. php:method:: __construct($path)
 
-  :param $path: 
+  :param $path: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: read($length)
 
-  :param $length: :doc:`int </api_en/.types/int>` - count of bytes
+  :param $length: :doc:`int </api_en/.types/int>`  - - count of bytes
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:method:: readFully()
@@ -31,8 +31,8 @@ ResourceStream
 
  .. php:method:: write($value, $length = null)
 
-  :param $value: 
-  :param $length: 
+  :param $value: :doc:`string </api_en/.types/string>` 
+  :param $length: :doc:`null </api_en/.types/null>`, :doc:`int </api_en/.types/int>` 
   :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: eof()
@@ -41,7 +41,7 @@ ResourceStream
 
  .. php:method:: seek($position)
 
-  :param $position: 
+  :param $position: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:method:: getPosition()

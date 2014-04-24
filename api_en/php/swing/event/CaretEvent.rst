@@ -6,7 +6,9 @@ CaretEvent
 .. php:class:: php\\swing\\event\\CaretEvent
 
  Events:
- - caretUpdate
+ 
+ * caretUpdate
+ 
  Class CaretEvent
 
 
@@ -35,12 +37,6 @@ CaretEvent
 
   **read-only**
 
-
-
-
-**Methods**
-
-----------
 
 
 

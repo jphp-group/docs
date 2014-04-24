@@ -18,7 +18,7 @@ Flow
 
  .. php:method:: __construct($collection)
 
-  :param $collection: 
+  :param $collection: :doc:`array </api_ru/.types/array>`, :doc:`Iterator </api_ru/Iterator>` 
 
  .. php:method:: withKeys()
 
@@ -28,7 +28,7 @@ Flow
 
  .. php:method:: append($collection)
 
-  :param $collection: 
+  :param $collection: :doc:`array </api_ru/.types/array>`, :doc:`Iterator </api_ru/Iterator>` 
   :returns: :doc:`php\\util\\Flow </api_ru/php/util/Flow>` 
 
  .. php:method:: find($filter = null)
@@ -48,24 +48,24 @@ Flow
 
  .. php:method:: each($callback)
 
-  :param $callback: :doc:`callable </api_ru/.types/callable>` ($el[, $key]): bool
+  :param $callback: :doc:`callable </api_ru/.types/callable>`  - ($el[, $key]): bool
   :returns: :doc:`int </api_ru/.types/int>` - iteration count
 
  .. php:method:: eachSlice($sliceSize, $callback, $withKeys = false)
 
   :param $sliceSize: 
-  :param $callback: :doc:`callable </api_ru/.types/callable>` (array $items): bool
-  :param $withKeys: 
+  :param $callback: :doc:`callable </api_ru/.types/callable>`  - (array $items): bool
+  :param $withKeys: :doc:`bool </api_ru/.types/bool>` 
   :returns: :doc:`int </api_ru/.types/int>` - slice iteration count
 
  .. php:method:: map($callback)
 
-  :param $callback: :doc:`callable </api_ru/.types/callable>` ($el[, $key])
+  :param $callback: :doc:`callable </api_ru/.types/callable>`  - ($el[, $key])
   :returns: :doc:`php\\util\\Flow </api_ru/php/util/Flow>` 
 
  .. php:method:: skip($n)
 
-  :param $n: :doc:`int </api_ru/.types/int>` - skip count
+  :param $n: :doc:`int </api_ru/.types/int>`  - - skip count
   :returns: :doc:`php\\util\\Flow </api_ru/php/util/Flow>` 
 
  .. php:method:: limit($count)
@@ -75,7 +75,7 @@ Flow
 
  .. php:method:: reduce($callback)
 
-  :param $callback: :doc:`callable </api_ru/.types/callable>` ($result, $el[, $key])
+  :param $callback: :doc:`callable </api_ru/.types/callable>`  - ($result, $el[, $key])
   :returns: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: toArray()
@@ -84,7 +84,7 @@ Flow
 
  .. php:method:: toString($separator)
 
-  :param $separator: 
+  :param $separator: :doc:`string </api_ru/.types/string>` 
   :returns: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: count()
@@ -113,20 +113,20 @@ Flow
 
  .. php:staticmethod:: of($collection)
 
-  :param $collection: 
+  :param $collection: :doc:`array </api_ru/.types/array>`, :doc:`Iterator </api_ru/Iterator>` 
   :returns: :doc:`php\\util\\Flow </api_ru/php/util/Flow>` 
 
  .. php:staticmethod:: ofRange($from, $to, $step = 1)
 
-  :param $from: 
-  :param $to: 
-  :param $step: 
+  :param $from: :doc:`int </api_ru/.types/int>` 
+  :param $to: :doc:`int </api_ru/.types/int>` 
+  :param $step: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`php\\util\\Flow </api_ru/php/util/Flow>` 
 
  .. php:staticmethod:: ofString($string, $chunkSize = 1)
 
   :param $string: 
-  :param $chunkSize: 
+  :param $chunkSize: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`php\\util\\Flow </api_ru/php/util/Flow>` 
 
 

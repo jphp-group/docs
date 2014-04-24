@@ -29,12 +29,12 @@ Future
 
  .. php:method:: cancel($mayInterruptIfRunning)
 
-  :param $mayInterruptIfRunning: 
+  :param $mayInterruptIfRunning: :doc:`bool </api_ru/.types/bool>` 
   :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: get($timeout = null)
 
-  :param $timeout: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>` - in milliseconds
+  :param $timeout: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>`  - - in milliseconds
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
 

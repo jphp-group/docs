@@ -24,7 +24,7 @@ System
 
   Exit from program with status globally
 
-  :param $status: 
+  :param $status: :doc:`int </api_ru/.types/int>` 
 
 
 

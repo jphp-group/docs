@@ -51,7 +51,7 @@ ExecutorService
  .. php:method:: schedule($runnable, $delay, $env = null)
 
   :param $runnable: :doc:`callable </api_en/.types/callable>` 
-  :param $delay: :doc:`int </api_en/.types/int>` - milliseconds
+  :param $delay: :doc:`int </api_en/.types/int>` 
   :param $env: :doc:`php\\lang\\Environment </api_en/php/lang/Environment>` 
   :returns: :doc:`php\\concurrent\\Future </api_en/php/concurrent/Future>` 
 
@@ -67,12 +67,12 @@ ExecutorService
   request, or the timeout occurs, or the current thread is
   interrupted, whichever happens first.
 
-  :param $timeout: :doc:`int </api_en/.types/int>` - in milliseconds
+  :param $timeout: :doc:`int </api_en/.types/int>`  - - in milliseconds
   :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: newFixedThreadPool($max)
 
-  :param $max: 
+  :param $max: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`php\\concurrent\\ExecutorService </api_en/php/concurrent/ExecutorService>` 
 
  .. php:staticmethod:: newCachedThreadPool()
@@ -91,7 +91,7 @@ ExecutorService
   Creates a thread pool that can schedule commands to run after a
   given delay, or to execute periodically.
 
-  :param $corePoolSize: 
+  :param $corePoolSize: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`php\\concurrent\\ExecutorService </api_en/php/concurrent/ExecutorService>` 
 
 

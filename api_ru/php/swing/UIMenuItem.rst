@@ -7,14 +7,14 @@ UIMenuItem
 
  **extends**: :doc:`php\\swing\\UIAbstractIButton </api_ru/php/swing/UIAbstractIButton>`
 
+**Children**
+
+----------------------
+
+ * **class** :doc:`php\\swing\\UICheckboxMenuItem </api_ru/php/swing/UICheckboxMenuItem>`
+ * **class** :doc:`php\\swing\\UIMenu </api_ru/php/swing/UIMenu>`
 
  Class UIMenuItem
-
-
-
-**Methods**
-
-----------
 
 
 

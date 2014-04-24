@@ -41,7 +41,7 @@ Timer
 
  .. php:method:: __construct($delay, $callback)
 
-  :param $delay: 
+  :param $delay: :doc:`int </api_en/.types/int>` 
   :param $callback: :doc:`callable </api_en/.types/callable>` 
 
  .. php:method:: start()

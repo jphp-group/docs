@@ -26,11 +26,5 @@ UIScrollPanel
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_en.desc/php/swing/UIScrollPanel.footer.rst
 

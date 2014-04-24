@@ -7,15 +7,22 @@ MouseEvent
 
  **extends**: :doc:`php\\swing\\event\\ComponentEvent </api_ru/php/swing/event/ComponentEvent>`
 
+**Children**
+
+----------------------
+
+ * **class** :doc:`php\\swing\\event\\MouseWheelEvent </api_ru/php/swing/event/MouseWheelEvent>`
 
  Events:
- - click
- - mousePress
- - mouseRelease
- - mouseEnter
- - mouseExit
- - mouseDrag
- - mouseMove
+ 
+ * click
+ * mousePress
+ * mouseRelease
+ * mouseEnter
+ * mouseExit
+ * mouseDrag
+ * mouseMove
+ 
  Class MouseEvent
 
 
@@ -72,12 +79,6 @@ MouseEvent
 
   **read-only**
 
-
-
-
-**Methods**
-
-----------
 
 
 

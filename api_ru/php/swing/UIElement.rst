@@ -7,6 +7,11 @@ UIElement
 
  **abstract** class
 
+**Children**
+
+----------------------
+
+ * **abstract** **class** :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
 
 
 
@@ -167,25 +172,28 @@ UIElement
   mouseExit
   mouseMove
   mouseDrag
+  
   Keyboard:
   keyDown
   keyUp
   keyPress
+  
   Focus:
   focus
   blur
+  
   Add callback for event
 
-  :param $name: - name of event
+  :param $name:  - - name of event
   :param $callback: :doc:`callable </api_ru/.types/callable>` 
-  :param $group: 
+  :param $group: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: off($name, $group = NULL)
 
   Remove all event callbacks (if group == null), or only group
 
   :param $name: 
-  :param $group: 
+  :param $group: :doc:`null </api_ru/.types/null>`, :doc:`string </api_ru/.types/string>` 
   :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: trigger($name)
@@ -203,7 +211,7 @@ UIElement
   Add child component
 
   :param $component: :doc:`php\\swing\\UIElement </api_ru/php/swing/UIElement>` 
-  :param $index: 
+  :param $index: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: getComponentAt($x, $y)
 
@@ -254,10 +262,10 @@ UIElement
 
  .. php:method:: repaintRegion($x, $y, $w, $h)
 
-  :param $x: 
-  :param $y: 
-  :param $w: 
-  :param $h: 
+  :param $x: :doc:`int </api_ru/.types/int>` 
+  :param $y: :doc:`int </api_ru/.types/int>` 
+  :param $w: :doc:`int </api_ru/.types/int>` 
+  :param $h: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: grabFocus()
 
@@ -266,7 +274,7 @@ UIElement
 
   Get component by unique id
 
-  :param $uid: 
+  :param $uid: :doc:`string </api_ru/.types/string>` 
   :returns: :doc:`php\\swing\\UIElement </api_ru/php/swing/UIElement>` 
 
 

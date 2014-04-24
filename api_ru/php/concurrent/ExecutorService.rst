@@ -51,7 +51,7 @@ ExecutorService
  .. php:method:: schedule($runnable, $delay, $env = null)
 
   :param $runnable: :doc:`callable </api_ru/.types/callable>` 
-  :param $delay: :doc:`int </api_ru/.types/int>` - milliseconds
+  :param $delay: :doc:`int </api_ru/.types/int>` 
   :param $env: :doc:`php\\lang\\Environment </api_ru/php/lang/Environment>` 
   :returns: :doc:`php\\concurrent\\Future </api_ru/php/concurrent/Future>` 
 
@@ -66,12 +66,12 @@ ExecutorService
   Блокирует до тех пор пока все задания не будут выполнены после запроса shutdown
   или пока не случится timeout, или текущий поток не будет оборван.
 
-  :param $timeout: :doc:`int </api_ru/.types/int>` - in milliseconds
+  :param $timeout: :doc:`int </api_ru/.types/int>`  - - in milliseconds
   :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:staticmethod:: newFixedThreadPool($max)
 
-  :param $max: 
+  :param $max: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`php\\concurrent\\ExecutorService </api_ru/php/concurrent/ExecutorService>` 
 
  .. php:staticmethod:: newCachedThreadPool()
@@ -89,7 +89,7 @@ ExecutorService
   Создает пулл потоков, который сможет планировать задания к запуску
   после определенной задержки или для переодического их запуска.
 
-  :param $corePoolSize: 
+  :param $corePoolSize: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`php\\concurrent\\ExecutorService </api_ru/php/concurrent/ExecutorService>` 
 
 

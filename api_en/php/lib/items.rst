@@ -22,17 +22,18 @@ items
  .. php:staticmethod:: count($collection)
 
   Returns element count of the collection
+  
   .. warning:: for iterators it will iterate all elements to return the result
 
-  :param $collection: 
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Countable </api_en/Countable>`, :doc:`Iterator </api_en/Iterator>` 
   :returns: :doc:`int </api_en/.types/int>` element count
 
  .. php:staticmethod:: each($collection, $callback)
 
   Iterates all elements of $collection and applies the $callback to each element
 
-  :param $collection: 
-  :param $callback: :doc:`callable </api_en/.types/callable>` -> ($value, $key): bool
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $callback: :doc:`callable </api_en/.types/callable>`  - -> ($value, $key): bool
   to break iteration, return *FALSE* (strongly) from $callback
   :returns: :doc:`int </api_en/.types/int>` - iteration count
 
@@ -40,9 +41,9 @@ items
 
   Iterates all elements of $collection with slice $size
 
-  :param $collection: 
-  :param $size: :doc:`int </api_en/.types/int>` slice size
-  :param $callback: :doc:`callable </api_en/.types/callable>` -> (array $slice): bool,
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $size: :doc:`int </api_en/.types/int>`  - slice size
+  :param $callback: :doc:`callable </api_en/.types/callable>`  - -> (array $slice): bool,
   to break iteration, return ``FALSE`` (strongly) from $callback
   :returns: :doc:`int </api_en/.types/int>` iteration slice count
 
@@ -50,15 +51,15 @@ items
 
   Finds the first value matching the $callback condition
 
-  :param $collection: 
-  :param $callback: :doc:`callable </api_en/.types/callable>`, :doc:`null </api_en/.types/null>` -> ($value, $key): bool
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $callback: :doc:`callable </api_en/.types/callable>`  - -> ($value, $key): bool
   :returns: :doc:`mixed </api_en/.types/mixed>`, :doc:`null </api_en/.types/null>` - null if not found
 
  .. php:staticmethod:: findAll($collection, $callback = null)
 
   Finds the all values matching the $callback condition.
 
-  :param $collection: 
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
   :param $callback: :doc:`callable </api_en/.types/callable>` 
   :returns: :doc:`array </api_en/.types/array>` 
 
@@ -66,21 +67,21 @@ items
 
   Returns the first element(s) of $collection
 
-  :param $collection: 
-  :param $count: 
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $count: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`array </api_en/.types/array>`, :doc:`mixed </api_en/.types/mixed>` returns non-array (one element) if passed $count <= 1
 
  .. php:staticmethod:: map($collection, $callback)
 
-  :param $collection: 
-  :param $callback: :doc:`callable </api_en/.types/callable>` -> ($value, $key): mixed
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $callback: :doc:`callable </api_en/.types/callable>`  - -> ($value, $key): mixed
   :returns: :doc:`array </api_en/.types/array>` 
 
  .. php:staticmethod:: reduce($collection, $callback)
 
   Combines all elements of $collection by applying a binary operation, specified by a callback
 
-  :param $collection: 
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
   :param $callback: :doc:`callable </api_en/.types/callable>` 
   :returns: :doc:`mixed </api_en/.types/mixed>`, :doc:`null </api_en/.types/null>` 
 
@@ -88,15 +89,15 @@ items
 
   Converts $collection to array
 
-  :param $collection: 
-  :param $withKeys: 
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $withKeys: :doc:`bool </api_en/.types/bool>` 
   :returns: :doc:`array </api_en/.types/array>` 
 
  .. php:staticmethod:: keys($collection)
 
   Returns all keys of collection
 
-  :param $collection: 
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
   :returns: :doc:`array </api_en/.types/array>` 
 
  .. php:staticmethod:: flatten($collection, $maxLevel = -1)
@@ -105,8 +106,8 @@ items
   That is, for every element that is an collection, extract its elements into the new array.
   If the optional $maxLevel argument > -1 the level of recursion to flatten.
 
-  :param $collection: 
-  :param $maxLevel: 
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $maxLevel: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`array </api_en/.types/array>` 
 
 

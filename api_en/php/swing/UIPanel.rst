@@ -12,11 +12,5 @@ UIPanel
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_en.desc/php/swing/UIPanel.footer.rst
 

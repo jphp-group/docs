@@ -7,12 +7,12 @@ JavaReflection
 
  **abstract** class
 
+**Children**
 
+----------------------
 
-
-**Methods**
-
-----------
+ * **final** **class** :doc:`php\\lang\\JavaField </api_en/php/lang/JavaField>`
+ * **final** **class** :doc:`php\\lang\\JavaMethod </api_en/php/lang/JavaMethod>`
 
 
 

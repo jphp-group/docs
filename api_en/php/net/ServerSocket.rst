@@ -15,8 +15,8 @@ ServerSocket
 
  .. php:method:: __construct($port = null, $backLog = 50)
 
-  :param $port: 
-  :param $backLog: 
+  :param $port: :doc:`int </api_en/.types/int>` 
+  :param $backLog: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: accept()
 
@@ -24,9 +24,9 @@ ServerSocket
 
  .. php:method:: bind($hostname, $port, $backLog = 50)
 
-  :param $hostname: 
-  :param $port: 
-  :param $backLog: 
+  :param $hostname: :doc:`string </api_en/.types/string>` 
+  :param $port: :doc:`int </api_en/.types/int>` 
+  :param $backLog: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: close()
 
@@ -46,26 +46,27 @@ ServerSocket
   Enable/disable SO_TIMEOUT with the specified timeout, in
   milliseconds.
 
-  :param $timeout: 
+  :param $timeout: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: setReuseAddress($on)
 
   Enable/disable the SO_REUSEADDR socket option.
 
-  :param $on: 
+  :param $on: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setReceiveBufferSize($size)
 
-  :param $size: 
+  :param $size: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: setPerformancePreferences($connectTime, $latency, $bandWidth)
 
   Sets performance preferences for this ServerSocket.
+  
   ! Not implemented yet for TCP/IP
 
-  :param $connectTime: 
-  :param $latency: 
-  :param $bandWidth: 
+  :param $connectTime: :doc:`int </api_en/.types/int>` 
+  :param $latency: :doc:`int </api_en/.types/int>` 
+  :param $bandWidth: :doc:`int </api_en/.types/int>` 
 
 
 

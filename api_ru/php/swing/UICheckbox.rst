@@ -12,11 +12,5 @@ UICheckbox
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_ru.desc/php/swing/UICheckbox.footer.rst
 

@@ -68,21 +68,21 @@ UIListbox
 
  .. php:method:: getItem($index)
 
-  :param $index: 
+  :param $index: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`string </api_ru/.types/string>`, :doc:`null </api_ru/.types/null>` 
 
  .. php:method:: addItem($item)
 
-  :param $item: 
+  :param $item: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: insertItem($index, $item)
 
-  :param $index: 
-  :param $item: 
+  :param $index: :doc:`int </api_ru/.types/int>` 
+  :param $item: :doc:`string </api_ru/.types/string>` 
 
  .. php:method:: removeItem($index)
 
-  :param $index: 
+  :param $index: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: removeAllItems()
 

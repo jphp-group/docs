@@ -12,11 +12,5 @@ UIUnknown
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_en.desc/php/swing/UIUnknown.footer.rst
 

@@ -24,11 +24,5 @@ UIEditorArea
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_en.desc/php/swing/UIEditorArea.footer.rst
 

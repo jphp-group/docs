@@ -22,11 +22,5 @@ UIMenuBar
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_en.desc/php/swing/UIMenuBar.footer.rst
 

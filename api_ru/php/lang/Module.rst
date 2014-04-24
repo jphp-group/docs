@@ -17,9 +17,9 @@ Module
 
   Register all functions and classes of module in current environment
 
-  :param $source: 
-  :param $compiled: 
-  :param $debugInformation: 
+  :param $source: :doc:`php\\io\\File </api_ru/php/io/File>`, :doc:`php\\io\\Stream </api_ru/php/io/Stream>`, :doc:`string </api_ru/.types/string>` 
+  :param $compiled: :doc:`bool </api_ru/.types/bool>` 
+  :param $debugInformation: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: call($variables = null)
 
@@ -30,8 +30,8 @@ Module
 
  .. php:method:: dump($target, $saveDebugInfo = true)
 
-  :param $target: 
-  :param $saveDebugInfo: 
+  :param $target: :doc:`php\\io\\File </api_ru/php/io/File>`, :doc:`php\\io\\Stream </api_ru/php/io/Stream>`, :doc:`string </api_ru/.types/string>` 
+  :param $saveDebugInfo: :doc:`bool </api_ru/.types/bool>` 
 
 
 

@@ -39,11 +39,5 @@ HyperlinkEvent
 
 
 
-**Methods**
-
-----------
-
-
-
 .. include:: /api_ru.desc/php/swing/event/HyperlinkEvent.footer.rst
 
