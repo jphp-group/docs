@@ -8,6 +8,7 @@ util
    :maxdepth: 3
 
    Flow.rst
+   Regex.rst
 
 .. include:: /api_en.desc/php/util/index.footer.rst
 

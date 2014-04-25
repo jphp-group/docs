@@ -1,16 +1,16 @@
-Pattern
----------------------
+Regex
+--------------
 
-.. include:: /api_en.desc/php/lib/regex/Pattern.header.rst
+.. include:: /api_en.desc/php/util/Regex.header.rst
 
-.. php:class:: php\\lib\\regex\\Pattern
+.. php:class:: php\\util\\Regex
 
  **implements**: :doc:`Iterator </api_en/Iterator>`
 
 
  http://www.regular-expressions.info/java.html
  
- Class Pattern
+ Class Regex
 
 
 
@@ -47,6 +47,15 @@ Pattern
   **private**
 
 
+
+ .. php:staticmethod:: of($pattern, $string = '', $flag = 0)
+
+  Creates a new Regex of regex with $string and $flag
+
+  :param $pattern: :doc:`string </api_en/.types/string>`  - regular expression
+  :param $string: :doc:`string </api_en/.types/string>` 
+  :param $flag: :doc:`int </api_en/.types/int>`  - Regex::CASE_INSENSITIVE and other constants
+  :returns: :doc:`php\\util\\Regex </api_en/php/util/Regex>` 
 
  .. php:method:: matches()
 
@@ -86,7 +95,7 @@ Pattern
 
  .. php:method:: replaceWithCallback($callback)
 
-  :param $callback: :doc:`callable </api_en/.types/callable>`  - (Pattern $pattern) -> string
+  :param $callback: :doc:`callable </api_en/.types/callable>`  - (Regex $pattern) -> string
   :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: with($string)
@@ -94,7 +103,7 @@ Pattern
   Duplicates this pattern with a new $string
 
   :param $string: :doc:`string </api_en/.types/string>` 
-  :returns: :doc:`php\\lib\\regex\\Pattern </api_en/php/lib/regex/Pattern>` 
+  :returns: :doc:`php\\util\\Regex </api_en/php/util/Regex>` 
 
  .. php:method:: group($group = null)
 
@@ -161,7 +170,7 @@ Pattern
 
   :param $start: :doc:`int </api_en/.types/int>` 
   :param $end: :doc:`int </api_en/.types/int>` 
-  :returns: :doc:`php\\lib\\regex\\Pattern </api_en/php/lib/regex/Pattern>` 
+  :returns: :doc:`php\\util\\Regex </api_en/php/util/Regex>` 
 
  .. php:method:: regionStart()
 
@@ -191,16 +200,7 @@ Pattern
   and transparency of this matcher's region boundaries are unaffected.
 
   :param $string: :doc:`null </api_en/.types/null>`, :doc:`string </api_en/.types/string>`  - The new input character sequence
-  :returns: :doc:`php\\lib\\regex\\$this </api_en/php/lib/regex/$this>` 
-
- .. php:staticmethod:: of($pattern, $string = '', $flag = 0)
-
-  Creates a new Pattern of regex with $string and $flag
-
-  :param $pattern: :doc:`string </api_en/.types/string>`  - regular expression
-  :param $string: :doc:`string </api_en/.types/string>` 
-  :param $flag: :doc:`int </api_en/.types/int>`  - Pattern::CASE_INSENSITIVE and other constants
-  :returns: :doc:`php\\lib\\regex\\Pattern </api_en/php/lib/regex/Pattern>` 
+  :returns: :doc:`php\\util\\$this </api_en/php/util/$this>` 
 
  .. php:method:: current()
 
@@ -222,7 +222,56 @@ Pattern
 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
+ .. php:staticmethod:: match($pattern, $string)
+
+  Tells whether or not this string matches the given regular expression.
+  See also java.lang.String.matches()
+
+  :param $pattern: :doc:`string </api_en/.types/string>`  - regular expression
+  :param $string: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
+
+ .. php:staticmethod:: split($pattern, $string, $limit = 0)
+
+  Splits this string around matches of the given regular expression.
+  See also java.lang.String.split()
+
+  :param $pattern: :doc:`string </api_en/.types/string>`  - the delimiting regular expression
+  :param $string: :doc:`string </api_en/.types/string>` 
+  :param $limit: :doc:`int </api_en/.types/int>`  - the result threshold
+  :returns: :doc:`array </api_en/.types/array>` the array of strings computed by splitting this string around matches of the given regular expression
+
+ .. php:staticmethod:: quote($string)
+
+  Returns a literal pattern ``String`` for the specified
+  ``String``.
+  
+  
+  This method produces a ``String`` that can be used to
+  create a ``Regex`` that would match the string
+  ``$string`` as if it were a literal pattern. Metacharacters
+  or escape sequences in the input sequence will be given no special
+  meaning.
+
+  :param $string: :doc:`string </api_en/.types/string>`  - The string to be literalized
+  :returns: :doc:`string </api_en/.types/string>` A literal string replacement
+
+ .. php:staticmethod:: quoteReplacement($string)
+
+  Returns a literal replacement ``String`` for the specified
+  ``String``.
+  
+  This method produces a ``String`` that will work
+  as a literal replacement $string in the
+  replaceWithCallback() method of the ``php\util\Regex`` class.
+  The ``String`` produced will match the sequence of characters
+  in $string treated as a literal sequence. Slashes ('\') and
+  dollar signs ('$') will be given no special meaning.
+
+  :param $string: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
 
 
-.. include:: /api_en.desc/php/lib/regex/Pattern.footer.rst
+
+.. include:: /api_en.desc/php/util/Regex.footer.rst
 
