@@ -24,8 +24,6 @@ Regex
 
  .. php:const:: UNICODE_CASE
 
- .. php:const:: UNICODE_CHARACTER_CLASS
-
  .. php:const:: COMMENTS
 
  .. php:const:: DOTALL
@@ -109,7 +107,7 @@ Regex
   Returns the input subsequence captured by the given group during the
   previous match operation.
 
-  :param $group: :doc:`null </api_en/.types/null>`, :doc:`int </api_en/.types/int>`, :doc:`float </api_en/.types/float>`, :doc:`string </api_en/.types/string>` 
+  :param $group: :doc:`null </api_en/.types/null>`, :doc:`int </api_en/.types/int>` 
   :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: getGroupCount()
