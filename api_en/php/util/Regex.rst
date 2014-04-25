@@ -48,12 +48,11 @@ Regex
 
 
 
- .. php:staticmethod:: of($pattern, $string = '', $flag = 0)
+ .. php:staticmethod:: of($pattern, $flag = 0)
 
   Creates a new Regex of regex with $string and $flag
 
   :param $pattern: :doc:`string </api_en/.types/string>`  - regular expression
-  :param $string: :doc:`string </api_en/.types/string>` 
   :param $flag: :doc:`int </api_en/.types/int>`  - Regex::CASE_INSENSITIVE and other constants
   :returns: :doc:`php\\util\\Regex </api_en/php/util/Regex>` 
 
