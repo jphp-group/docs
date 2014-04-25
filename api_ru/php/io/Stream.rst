@@ -7,8 +7,6 @@ Stream
 
  **abstract** class
 
- **implements**: :doc:`Iterator </api_ru/Iterator>`
-
 **Children**
 
 ----------------------
@@ -110,26 +108,6 @@ Stream
  .. php:method:: getContext()
 
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
-
- .. php:method:: current()
-
-  :returns: :doc:`mixed </api_ru/.types/mixed>` 
-
- .. php:method:: next()
-
-  :returns: :doc:`void </api_ru/.types/void>` 
-
- .. php:method:: key()
-
-  :returns: :doc:`mixed </api_ru/.types/mixed>` 
-
- .. php:method:: valid()
-
-  :returns: :doc:`bool </api_ru/.types/bool>` 
-
- .. php:method:: rewind()
-
-  :returns: :doc:`void </api_ru/.types/void>` 
 
  .. php:staticmethod:: of($path, $mode = 'r')
 
