@@ -5,8 +5,8 @@ Welcome to JPHP's documentation!
   :maxdepth: 2
 
   en/index
-  ru/index
   api_en/index
+  ru/index
   api_ru/index
 
 -------------
