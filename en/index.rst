@@ -1,5 +1,5 @@
-English Version
-===============
+Cookbook (English)
+==================
 
 .. toctree::
    :maxdepth: 6
