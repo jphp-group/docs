@@ -66,6 +66,8 @@ ExecutorService
   Блокирует до тех пор пока все задания не будут выполнены после запроса shutdown
   или пока не случится timeout, или текущий поток не будет оборван.
 
+  **throws** :doc:`php\\concurrent\\\\Exception </api_ru/php/concurrent//Exception>`
+
   :param $timeout: :doc:`int </api_ru/.types/int>`  - - in milliseconds
   :returns: :doc:`bool </api_ru/.types/bool>` 
 

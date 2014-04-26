@@ -67,6 +67,8 @@ ExecutorService
   request, or the timeout occurs, or the current thread is
   interrupted, whichever happens first.
 
+  **throws** :doc:`php\\concurrent\\\\Exception </api_en/php/concurrent//Exception>`
+
   :param $timeout: :doc:`int </api_en/.types/int>`  - - in milliseconds
   :returns: :doc:`bool </api_en/.types/bool>` 
 

@@ -53,6 +53,8 @@ UIContainer
 
  .. php:method:: removeByIndex($index)
 
+  **throws** :doc:`>`
+
   :param $index: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: removeAll()
@@ -63,6 +65,8 @@ UIContainer
   :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: getComponent($index)
+
+  **throws** :doc:`>`
 
   :param $index: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`php\\swing\\UIElement </api_en/php/swing/UIElement>` 

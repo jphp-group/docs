@@ -13,6 +13,7 @@ JavaException
 
  * **class** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
  * **class** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
+ * **class** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
 
  Class JavaException
 

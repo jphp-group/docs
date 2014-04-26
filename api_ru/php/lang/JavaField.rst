@@ -18,10 +18,14 @@ JavaField
 
  .. php:method:: get($object = null)
 
+  **throws** :doc:`php\\lang\\JavaException </api_ru/php/lang/JavaException>`
+
   :param $object: :doc:`php\\lang\\JavaObject </api_ru/php/lang/JavaObject>` 
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: set($object = null, $value)
+
+  **throws** :doc:`php\\lang\\JavaException </api_ru/php/lang/JavaException>`
 
   :param $object: :doc:`php\\lang\\JavaObject </api_ru/php/lang/JavaObject>` 
   :param $value: 

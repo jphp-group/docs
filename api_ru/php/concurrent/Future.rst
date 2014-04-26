@@ -34,6 +34,8 @@ Future
 
  .. php:method:: get($timeout = null)
 
+  **throws** :doc:`php\\concurrent\\\\Exception </api_ru/php/concurrent//Exception>`
+
   :param $timeout: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>`  - - in milliseconds
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 

@@ -200,9 +200,13 @@ UITree
 
  .. php:method:: fireTreeWillExpand($node)
 
+  **throws** :doc:`>`
+
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
 
  .. php:method:: fireTreeWillCollapse($node)
+
+  **throws** :doc:`>`
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
 

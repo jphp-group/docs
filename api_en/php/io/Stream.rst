@@ -46,6 +46,8 @@ Stream
   **abstract**
 
 
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
   :param $length: :doc:`int </api_en/.types/int>`  - - count of bytes
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
@@ -54,12 +56,16 @@ Stream
   **abstract**
 
 
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:method:: write($value, $length = null)
 
   **abstract**
 
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
 
   :param $value: :doc:`string </api_en/.types/string>` 
   :param $length: :doc:`null </api_en/.types/null>`, :doc:`int </api_en/.types/int>` 
@@ -77,6 +83,8 @@ Stream
   **abstract**
 
 
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
   :param $position: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
@@ -84,6 +92,8 @@ Stream
 
   **abstract**
 
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
 
   :returns: :doc:`int </api_en/.types/int>` 
 
@@ -110,6 +120,8 @@ Stream
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:staticmethod:: of($path, $mode = 'r')
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
 
   :param $path: :doc:`string </api_en/.types/string>` 
   :param $mode: :doc:`string </api_en/.types/string>` 

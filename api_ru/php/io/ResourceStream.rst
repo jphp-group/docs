@@ -22,14 +22,20 @@ ResourceStream
 
  .. php:method:: read($length)
 
+  **throws** :doc:`php\\io\\IOException </api_ru/php/io/IOException>`
+
   :param $length: :doc:`int </api_ru/.types/int>`  - - count of bytes
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: readFully()
 
+  **throws** :doc:`php\\io\\IOException </api_ru/php/io/IOException>`
+
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: write($value, $length = null)
+
+  **throws** :doc:`php\\io\\IOException </api_ru/php/io/IOException>`
 
   :param $value: :doc:`string </api_ru/.types/string>` 
   :param $length: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>` 
@@ -41,10 +47,14 @@ ResourceStream
 
  .. php:method:: seek($position)
 
+  **throws** :doc:`php\\io\\IOException </api_ru/php/io/IOException>`
+
   :param $position: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: getPosition()
+
+  **throws** :doc:`php\\io\\IOException </api_ru/php/io/IOException>`
 
   :returns: :doc:`int </api_ru/.types/int>` 
 

@@ -16,6 +16,8 @@ JavaClass
 
  .. php:method:: __construct($className)
 
+  **throws** :doc:`php\\lang\\JavaException </api_en/php/lang/JavaException>` if not found class
+
   :param $className: :doc:`string </api_en/.types/string>`  - - full name of java class
 
  .. php:method:: isStatic()
@@ -80,6 +82,8 @@ JavaClass
 
  .. php:method:: isAnnotationPresent($annotationClassName)
 
+  **throws** :doc:`php\\lang\\JavaException </api_en/php/lang/JavaException>` if class not found
+
   :param $annotationClassName: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
@@ -88,6 +92,8 @@ JavaClass
   :returns: :doc:`php\\lang\\JavaClass[] </api_en/php/lang/JavaClass>` 
 
  .. php:method:: getDeclaredMethod($name, $types)
+
+  **throws** :doc:`php\\lang\\JavaException </api_en/php/lang/JavaException>`
 
   :param $name: :doc:`string </api_en/.types/string>` 
   :param $types: :doc:`array </api_en/.types/array>` 
@@ -99,6 +105,8 @@ JavaClass
 
  .. php:method:: getDeclaredField($name)
 
+  **throws** :doc:`php\\lang\\JavaException </api_en/php/lang/JavaException>`
+
   :param $name: 
   :returns: :doc:`php\\lang\\JavaField </api_en/php/lang/JavaField>` 
 
@@ -108,9 +116,13 @@ JavaClass
 
  .. php:method:: newInstance()
 
+  **throws** :doc:`php\\lang\\JavaException </api_en/php/lang/JavaException>`
+
   :returns: :doc:`php\\lang\\JavaObject </api_en/php/lang/JavaObject>` 
 
  .. php:method:: newInstanceArgs($types, $arguments)
+
+  **throws** :doc:`php\\lang\\JavaException </api_en/php/lang/JavaException>`
 
   :param $types: :doc:`array </api_en/.types/array>` 
   :param $arguments: :doc:`array </api_en/.types/array>` 
@@ -122,6 +134,8 @@ JavaClass
   :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: isSubClass($className)
+
+  **throws** :doc:`php\\lang\\JavaException </api_en/php/lang/JavaException>`
 
   :param $className: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`bool </api_en/.types/bool>` 

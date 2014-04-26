@@ -50,6 +50,8 @@ Regex
 
   Creates a new Regex of regex with $string and $flag
 
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
+
   :param $pattern: :doc:`string </api_en/.types/string>`  - regular expression
   :param $flag: :doc:`int </api_en/.types/int>`  - Regex::CASE_INSENSITIVE and other constants
   :returns: :doc:`php\\util\\Regex </api_en/php/util/Regex>` 
@@ -66,6 +68,8 @@ Regex
   the input sequence that matches the pattern, starting at the specified
   index.
 
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
+
   :param $start: :doc:`int </api_en/.types/int>`, :doc:`null </api_en/.types/null>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
@@ -79,6 +83,8 @@ Regex
   part of any match are appended directly to the result string; each match
   is replaced in the result by the replacement string.
 
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
+
   :param $replacement: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`string </api_en/.types/string>` 
 
@@ -87,10 +93,14 @@ Regex
   Replaces the first subsequence of the input sequence that matches the
   pattern with the given replacement string.
 
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
+
   :param $replacement: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: replaceWithCallback($callback)
+
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
 
   :param $callback: :doc:`callable </api_en/.types/callable>`  - (Regex $pattern) -> string
   :returns: :doc:`string </api_en/.types/string>` 
@@ -107,6 +117,8 @@ Regex
   Returns the input subsequence captured by the given group during the
   previous match operation.
 
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
+
   :param $group: :doc:`null </api_en/.types/null>`, :doc:`int </api_en/.types/int>` 
   :returns: :doc:`string </api_en/.types/string>` 
 
@@ -120,12 +132,16 @@ Regex
 
   Returns the start index of the previous match.
 
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
+
   :param $group: :doc:`null </api_en/.types/null>`, :doc:`int </api_en/.types/int>` 
   :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: end($group = null)
 
   Returns the offset after the last character matched.
+
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
 
   :param $group: :doc:`null </api_en/.types/null>`, :doc:`int </api_en/.types/int>` 
   :returns: :doc:`int </api_en/.types/int>` 
@@ -164,6 +180,8 @@ Regex
   method resets the matcher, and then sets the region to start at the
   index specified by the $start parameter and end at the
   index specified by the $end parameter.
+
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
 
   :param $start: :doc:`int </api_en/.types/int>` 
   :param $end: :doc:`int </api_en/.types/int>` 
@@ -224,6 +242,8 @@ Regex
   Tells whether or not this string matches the given regular expression.
   See also java.lang.String.matches()
 
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
+
   :param $pattern: :doc:`string </api_en/.types/string>`  - regular expression
   :param $string: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
@@ -232,6 +252,8 @@ Regex
 
   Splits this string around matches of the given regular expression.
   See also java.lang.String.split()
+
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
 
   :param $pattern: :doc:`string </api_en/.types/string>`  - the delimiting regular expression
   :param $string: :doc:`string </api_en/.types/string>` 

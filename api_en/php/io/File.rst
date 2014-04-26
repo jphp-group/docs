@@ -56,6 +56,8 @@ File
 
  .. php:method:: getCanonicalPath()
 
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
   :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: getParent()
@@ -71,6 +73,8 @@ File
   :returns: :doc:`php\\io\\File </api_en/php/io/File>` 
 
  .. php:method:: getCanonicalFile()
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
 
   :returns: :doc:`php\\io\\File </api_en/php/io/File>` 
 
@@ -111,6 +115,8 @@ File
   :returns: :doc:`void </api_en/.types/void>` 
 
  .. php:method:: createNewFile()
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
@@ -161,10 +167,14 @@ File
 
  .. php:method:: find($filter = null)
 
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
   :param $filter: :doc:`callable </api_en/.types/callable>` 
   :returns: :doc:`string[] </api_en/.types/string>` 
 
  .. php:method:: findFiles($filter = null)
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
 
   :param $filter: :doc:`callable </api_en/.types/callable>` 
   :returns: :doc:`php\\io\\File[] </api_en/php/io/File>` 

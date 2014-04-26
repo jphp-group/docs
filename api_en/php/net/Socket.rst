@@ -20,9 +20,13 @@ Socket
 
  .. php:method:: getOutput()
 
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
   :returns: :doc:`php\\io\\MiscStream </api_en/php/io/MiscStream>` 
 
  .. php:method:: getInput()
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
 
   :returns: :doc:`php\\io\\MiscStream </api_en/php/io/MiscStream>` 
 
@@ -44,11 +48,17 @@ Socket
 
  .. php:method:: close()
 
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
 
  .. php:method:: shutdownInput()
 
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
 
  .. php:method:: shutdownOutput()
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
 
 
  .. php:method:: isConnected()
@@ -83,6 +93,8 @@ Socket
 
   Binds the socket to a local address.
 
+  **throws** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
+
   :param $hostname: :doc:`string </api_en/.types/string>` 
   :param $port: :doc:`int </api_en/.types/int>` 
 
@@ -94,9 +106,13 @@ Socket
   Enable/disable SO_TIMEOUT with the specified timeout, in
   milliseconds.
 
+  **throws** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
+
   :param $timeout: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: setSoLinger($on, $linger)
+
+  **throws** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
 
   :param $on: :doc:`bool </api_en/.types/bool>` 
   :param $linger: :doc:`int </api_en/.types/int>` 
@@ -105,25 +121,37 @@ Socket
 
   Enable/disable the SO_REUSEADDR socket option.
 
+  **throws** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
+
   :param $on: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setReceiveBufferSize($size)
+
+  **throws** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
 
   :param $size: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: setTcpNoDelay($on)
 
+  **throws** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
+
   :param $on: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setKeepAlive($on)
+
+  **throws** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
 
   :param $on: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setOOBInline($on)
 
+  **throws** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
+
   :param $on: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: setSendBufferSize($size)
+
+  **throws** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
 
   :param $size: :doc:`int </api_en/.types/int>` 
 
@@ -148,6 +176,8 @@ Socket
 
   Send one byte of urgent data on the socket. The byte to be sent is the lowest eight
   bits of the data parameter.
+
+  **throws** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
 
   :param $data: :doc:`int </api_en/.types/int>` 
 

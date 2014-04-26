@@ -9,6 +9,7 @@ util
 
    Flow.rst
    Regex.rst
+   RegexException.rst
 
 .. include:: /api_en.desc/php/util/index.footer.rst
 

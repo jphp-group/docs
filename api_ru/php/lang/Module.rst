@@ -30,6 +30,8 @@ Module
 
  .. php:method:: dump($target, $saveDebugInfo = true)
 
+  **throws** :doc:`>`
+
   :param $target: :doc:`php\\io\\File </api_ru/php/io/File>`, :doc:`php\\io\\Stream </api_ru/php/io/Stream>`, :doc:`string </api_ru/.types/string>` 
   :param $saveDebugInfo: :doc:`bool </api_ru/.types/bool>` 
 

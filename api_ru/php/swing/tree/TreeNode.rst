@@ -145,10 +145,14 @@ TreeNode
 
  .. php:method:: insertAfter($child, $node)
 
+  **throws** :doc:`>`
+
   :param $child: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
 
  .. php:method:: insertBefore($child, $node)
+
+  **throws** :doc:`>`
 
   :param $child: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 

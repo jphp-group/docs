@@ -62,6 +62,8 @@ ThreadGroup
   Determines if the currently running thread has permission to
   modify this thread group.
 
+  **throws** :doc:`php\\lang\\JavaException </api_en/php/lang/JavaException>`
+
 
  .. php:method:: interrupt()
 

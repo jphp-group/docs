@@ -154,6 +154,10 @@ Font
 
   Create new font by using Stream or File
 
+  **throws** :doc:`php\\io\\IOException </api_ru/php/io/IOException>`
+
+  **throws** :doc:`php\\swing\\\\Exception </api_ru/php/swing//Exception>`
+
   :param $source: :doc:`string </api_ru/.types/string>`, :doc:`php\\io\\Stream </api_ru/php/io/Stream>` 
   :param $trueType: :doc:`bool </api_ru/.types/bool>` 
   :returns: :doc:`php\\swing\\Font </api_ru/php/swing/Font>` 

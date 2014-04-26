@@ -39,11 +39,15 @@ Environment
 
   Imports the $className to the environment
 
+  **throws** :doc:`php\\lang\\\\Exception </api_en/php/lang//Exception>` - if class not found or already registered
+
   :param $className: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: exportClass($className)
 
   Exports the $className from th environment
+
+  **throws** :doc:`php\\lang\\\\Exception </api_en/php/lang//Exception>` - if class not found or already registered
 
   :param $className: :doc:`string </api_en/.types/string>` 
 
@@ -51,15 +55,21 @@ Environment
 
   Imports the $functionName to the environment
 
+  **throws** :doc:`php\\lang\\\\Exception </api_en/php/lang//Exception>` - if function not found or already registered
+
   :param $functionName: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: exportFunction($functionName)
 
   Exports the $functionName from the environment
 
+  **throws** :doc:`php\\lang\\\\Exception </api_en/php/lang//Exception>` - if function not found or already registered
+
   :param $functionName: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: defineConstant($name, $value, $caseSensitive = true)
+
+  **throws** :doc:`php\\lang\\\\Exception </api_en/php/lang//Exception>` - if constant already registered or value is not scalar type
 
   :param $name: :doc:`string </api_en/.types/string>` 
   :param $value: :doc:`mixed </api_en/.types/mixed>`  - - scalar value

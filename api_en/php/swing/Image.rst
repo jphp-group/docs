@@ -107,10 +107,14 @@ Image
 
  .. php:staticmethod:: read($stream)
 
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
   :param $stream: :doc:`php\\io\\Stream </api_en/php/io/Stream>`, :doc:`php\\io\\File </api_en/php/io/File>`, :doc:`string </api_en/.types/string>`  - - file path or stream
   :returns: :doc:`php\\swing\\Image </api_en/php/swing/Image>` 
 
  .. php:staticmethod:: write($image, $format, $stream)
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
 
   :param $image: :doc:`php\\swing\\Image </api_en/php/swing/Image>` 
   :param $format: 
