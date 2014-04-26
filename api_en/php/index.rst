@@ -13,6 +13,7 @@ php
    lib/index
    net/index
    swing/index
+   time/index
    util/index
 
 .. include:: /api_en.desc/php/index.footer.rst

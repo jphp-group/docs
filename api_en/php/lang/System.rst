@@ -26,6 +26,9 @@ System
 
   :param $status: :doc:`int </api_en/.types/int>` 
 
+ .. php:staticmethod:: gc()
+
+
 
 
 .. include:: /api_en.desc/php/lang/System.footer.rst

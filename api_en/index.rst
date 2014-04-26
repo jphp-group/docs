@@ -13,6 +13,7 @@ API (English)
    php/lib/index
    php/net/index
    php/swing/index
+   php/time/index
    php/util/index
 
 .. include:: /api_en.desc/index.footer.rst
