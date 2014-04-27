@@ -42,16 +42,18 @@ TimeZone
   :param $ID: :doc:`string </api_en/.types/string>`  - code of timezone, e.g.: 'UTC'
   :returns: :doc:`php\\time\\TimeZone </api_en/php/time/TimeZone>` 
 
- .. php:staticmethod:: setDefault($zone)
+ .. php:staticmethod:: setDefault($zone, $globally = false)
 
   Set default time zone for Time objects, by default - the default timezone is UTC
 
   :param $zone: :doc:`php\\time\\TimeZone </api_en/php/time/TimeZone>` 
+  :param $globally: :doc:`bool </api_en/.types/bool>` 
 
- .. php:staticmethod:: getDefault()
+ .. php:staticmethod:: getDefault($globally = false)
 
   Get default timezone
 
+  :param $globally: :doc:`bool </api_en/.types/bool>`  - if ``false`` - only for the current environment
   :returns: :doc:`php\\time\\TimeZone </api_en/php/time/TimeZone>` 
 
  .. php:staticmethod:: getSystem()

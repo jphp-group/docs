@@ -8,6 +8,7 @@ util
    :maxdepth: 3
 
    Flow.rst
+   Locale.rst
    Regex.rst
    RegexException.rst
 

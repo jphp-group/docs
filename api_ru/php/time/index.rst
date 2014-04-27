@@ -8,6 +8,7 @@ time
    :maxdepth: 3
 
    Time.rst
+   TimeFormat.rst
    TimeZone.rst
 
 .. include:: /api_ru.desc/php/time/index.footer.rst
