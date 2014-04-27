@@ -15,7 +15,7 @@ Time
 
  .. php:method:: __construct($date, $timezone = null)
 
-  :param $date: :doc:`int </api_en/.types/int>`  - timestamp
+  :param $date: :doc:`int </api_en/.types/int>`  - unix long timestamp (in millis)
   :param $timezone: :doc:`php\\time\\TimeZone </api_en/php/time/TimeZone>`  - - if null then gets default timezone
 
  .. php:method:: getTime()
@@ -33,9 +33,13 @@ Time
 
  .. php:method:: year()
 
+  Get the current year
+
   :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: month()
+
+  Get the current month of the year, 1 - Jan, 12 - Dec
 
   :returns: :doc:`int </api_en/.types/int>` 
 
@@ -73,9 +77,44 @@ Time
 
   :returns: :doc:`int </api_en/.types/int>` 
 
+ .. php:method:: hour()
+
+  Get hour, indicating the hour of the morning or afternoon.
+  hour() is used for the 12-hour clock (0 - 11). Noon and midnight are represented by 0, not by 12.
+
+  :returns: :doc:`int </api_en/.types/int>` 
+
+ .. php:method:: hourOfDay()
+
+  Get hour of the day
+
+  :returns: :doc:`int </api_en/.types/int>` 
+
+ .. php:method:: minute()
+
+  Get minute of the hour
+
+  :returns: :doc:`int </api_en/.types/int>` 
+
+ .. php:method:: second()
+
+  Get second of the minute
+
+  :returns: :doc:`int </api_en/.types/int>` 
+
+ .. php:method:: millisecond()
+
+  Get millisecond of the second
+
+  :returns: :doc:`int </api_en/.types/int>` 
+
  .. php:method:: plusDays($count)
 
   Get a new time + day count
+  
+  .. note::
+  
+  use negative values to minus days
 
   :param $count: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`php\\time\\Time </api_en/php/time/Time>` 
@@ -94,9 +133,56 @@ Time
   :param $count: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`php\\time\\Time </api_en/php/time/Time>` 
 
+ .. php:method:: replace($args)
+
+  Clones the current datetime and replaces some fields to new values $args
+
+  :param $args: :doc:`array </api_en/.types/array>`  - [millis, sec, min, hour, day, month, year]
+  :returns: :doc:`php\\time\\Time </api_en/php/time/Time>` 
+
+ .. php:method:: toString($format)
+
+  Format the current datetime to string with $format
+  
+  G 	Era designator 	Text 	AD
+  y 	Year 	Year 	1996; 96
+  M 	Month in year 	Month 	July; Jul; 07
+  w 	Week in year 	Number 	27
+  W 	Week in month 	Number 	2
+  D 	Day in year 	Number 	189
+  d 	Day in month 	Number 	10
+  F 	Day of week in month 	Number 	2
+  E 	Day in week 	Text 	Tuesday; Tue
+  a 	Am/pm marker 	Text 	PM
+  H 	Hour in day (0-23) 	Number 	0
+  k 	Hour in day (1-24) 	Number 	24
+  K 	Hour in am/pm (0-11) 	Number 	0
+  h 	Hour in am/pm (1-12) 	Number 	12
+  m 	Minute in hour 	Number 	30
+  s 	Second in minute 	Number 	55
+  S 	Millisecond 	Number 	978
+  z 	Time zone 	General time zone 	Pacific Standard Time; PST; GMT-08:00
+  Z 	Time zone 	RFC 822 time zone 	-0800
+
+  :param $format: :doc:`string </api_en/.types/string>`  - date time format
+  :returns: :doc:`string </api_en/.types/string>` 
+
+ .. php:method:: __toString()
+
+  Format the time to yyyy-MM-dd'T'HH:mm:ss
+
+  :returns: :doc:`string </api_en/.types/string>` 
+
  .. php:staticmethod:: now($timeZone = null)
 
-  Returns now time object
+  Returns now time object (date + time)
+
+  :param $timeZone: :doc:`php\\time\\TimeZone </api_en/php/time/TimeZone>` 
+  :returns: :doc:`php\\time\\Time </api_en/php/time/Time>` 
+
+ .. php:staticmethod:: today($timeZone = null)
+
+  Returns today date (without time)
 
   :param $timeZone: :doc:`php\\time\\TimeZone </api_en/php/time/TimeZone>` 
   :returns: :doc:`php\\time\\Time </api_en/php/time/Time>` 
@@ -107,9 +193,15 @@ Time
   
   $time = Time::of(['year' => 2013, 'month' => 1, 'day' => 1]) // 01 Jan 2013
 
-  :param $args: :doc:`array </api_en/.types/array>`  - [sec, min, hour, day, month, year]
+  :param $args: :doc:`array </api_en/.types/array>`  - [millis, sec, min, hour, day, month, year]
   :param $timeZone: :doc:`php\\time\\TimeZone </api_en/php/time/TimeZone>`  - if null then it uses the default timezone
   :returns: :doc:`php\\time\\Time </api_en/php/time/Time>` 
+
+ .. php:staticmethod:: seconds()
+
+  Returns the current time in seconds (like the ``millis()`` method only in seconds)
+
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:staticmethod:: millis()
 
