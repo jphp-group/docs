@@ -89,6 +89,12 @@ Flow
   :param $callback: :doc:`callable </api_ru/.types/callable>`  - ($el[, $key])
   :returns: :doc:`php\\util\\Flow </api_ru/php/util/Flow>` 
 
+ .. php:method:: keys()
+
+  Create a new flow by using the keys of the current flow
+
+  :returns: :doc:`php\\util\\Flow </api_ru/php/util/Flow>` 
+
  .. php:method:: skip($n)
 
   Skips $n elements in the current collection
