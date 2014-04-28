@@ -11,7 +11,7 @@ Flow
  A special class to work with arrays and iterators under flows.
  Flows are used for the lazy array/iterator operations, to save the RAM memory.
  
- Class Flow
+ Class Flow, Immutable
 
 
 
@@ -114,9 +114,29 @@ Flow
   :param $callback: :doc:`callable </api_en/.types/callable>`  - ($result, $el[, $key])
   :returns: :doc:`int </api_en/.types/int>` 
 
+ .. php:method:: sort($comparator = null)
+
+  Sort the last result of the flow, also see: ``php\\lib\\items::sort()``
+  
+  .. note:: use the ``withKeys()`` method to save keys
+
+  :param $comparator: :doc:`callable </api_en/.types/callable>`  - ($o1, $o2) -> int, where -1 smaller, 0 equal, 1 greater
+  :returns: :doc:`array </api_en/.types/array>` 
+
+ .. php:method:: sortByKeys($comparator = null)
+
+  The same method as ``sort()`` only based on keys insteadof values
+  
+  .. note:: use the ``withKeys()`` method to save keys
+
+  :param $comparator: :doc:`callable </api_en/.types/callable>`  - ($key1, $key2) -> int
+  :returns: :doc:`array </api_en/.types/array>` 
+
  .. php:method:: toArray()
 
   Convert elements to an array
+  
+  .. note:: use the ``withKeys()`` method to save keys
 
   :returns: :doc:`array </api_en/.types/array>` 
 
@@ -150,6 +170,12 @@ Flow
  .. php:method:: rewind()
 
   :returns: :doc:`void </api_en/.types/void>` 
+
+ .. php:method:: __clone()
+
+  **private**
+
+
 
  .. php:staticmethod:: of($collection)
 

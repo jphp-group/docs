@@ -53,6 +53,24 @@ items
   :param $maxLevel: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`array </api_en/.types/array>` 
 
+ .. php:staticmethod:: sort($collection, $comparator = null, $saveKeys = false)
+
+  Sorts the specified list into ascending order
+
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $comparator: :doc:`callable </api_en/.types/callable>`  - ($o1, $o2) -> int where -1 smaller, 0 equal, 1 greater
+  :param $saveKeys: :doc:`bool </api_en/.types/bool>` 
+  :returns: :doc:`array </api_en/.types/array>` 
+
+ .. php:staticmethod:: sortByKeys($collection, $comparator = null, $saveKeys = false)
+
+  Sorts the specified list into ascending order by keys
+
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $comparator: :doc:`callable </api_en/.types/callable>`  - ($key1, $key2)
+  :param $saveKeys: :doc:`bool </api_en/.types/bool>` 
+  :returns: :doc:`array </api_en/.types/array>` 
+
 
 
 .. include:: /api_en.desc/php/lib/items.footer.rst

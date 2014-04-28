@@ -12,6 +12,9 @@ JavaException
 ----------------------
 
  * **class** :doc:`php\\io\\IOException </api_ru/php/io/IOException>`
+ * **class** :doc:`php\\lang\\IllegalArgumentException </api_ru/php/lang/IllegalArgumentException>`
+ * **class** :doc:`php\\lang\\IllegalStateException </api_ru/php/lang/IllegalStateException>`
+ * **class** :doc:`php\\lang\\NumberFormatException </api_ru/php/lang/NumberFormatException>`
  * **class** :doc:`php\\net\\SocketException </api_ru/php/net/SocketException>`
  * **class** :doc:`php\\util\\RegexException </api_ru/php/util/RegexException>`
 

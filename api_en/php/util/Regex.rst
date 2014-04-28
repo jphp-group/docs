@@ -10,7 +10,7 @@ Regex
 
  http://www.regular-expressions.info/java.html
  
- Class Regex
+ Class Regex, Immutable
 
 
 
@@ -45,6 +45,18 @@ Regex
   **private**
 
 
+
+ .. php:method:: getPattern()
+
+  Get the current pattern
+
+  :returns: :doc:`string </api_en/.types/string>` 
+
+ .. php:method:: getFlags()
+
+  Get the current flags
+
+  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:staticmethod:: of($pattern, $flag = 0)
 
@@ -110,6 +122,13 @@ Regex
   Duplicates this pattern with a new $string
 
   :param $string: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\util\\Regex </api_en/php/util/Regex>` 
+
+ .. php:method:: withFlags($flags)
+
+  Clone this object with the new $flags
+
+  :param $flags: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`php\\util\\Regex </api_en/php/util/Regex>` 
 
  .. php:method:: group($group = null)
@@ -236,6 +255,12 @@ Regex
  .. php:method:: rewind()
 
   :returns: :doc:`bool </api_en/.types/bool>` 
+
+ .. php:method:: __clone()
+
+  **private**
+
+
 
  .. php:staticmethod:: match($pattern, $string)
 

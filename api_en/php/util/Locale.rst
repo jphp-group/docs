@@ -5,7 +5,7 @@ Locale
 
 .. php:class:: php\\util\\Locale
 
- Class Locale
+ Class Locale, Immutable
 
 
 
@@ -46,15 +46,6 @@ Locale
   :param $locale: :doc:`php\\util\\Locale </api_en/php/util/Locale>` 
   :returns: :doc:`string </api_en/.types/string>` 
 
- .. php:method:: getScript()
-
-  :returns: :doc:`string </api_en/.types/string>` 
-
- .. php:method:: getDisplayScript($locale = null)
-
-  :param $locale: :doc:`php\\util\\Locale </api_en/php/util/Locale>` 
-  :returns: :doc:`string </api_en/.types/string>` 
-
  .. php:method:: getISO3Country()
 
   :returns: :doc:`string </api_en/.types/string>` 
@@ -72,6 +63,12 @@ Locale
   language + "_" + country + "_" + (variant + "_#" | "#") + script + "-" + extensions
 
   :returns: :doc:`string </api_en/.types/string>` 
+
+ .. php:method:: __clone()
+
+  **private**
+
+
 
  .. php:staticmethod:: ENGLISH()
 

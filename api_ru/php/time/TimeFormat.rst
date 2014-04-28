@@ -5,7 +5,7 @@ TimeFormat
 
 .. php:class:: php\\time\\TimeFormat
 
- Class TimeFormat
+ Class TimeFormat, Immutable
 
 
 
@@ -29,6 +29,12 @@ TimeFormat
   :param $string: :doc:`string </api_ru/.types/string>` 
   :param $timeZone: :doc:`php\\time\\TimeZone </api_ru/php/time/TimeZone>` 
   :returns: :doc:`php\\time\\Time </api_ru/php/time/Time>`, :doc:`null </api_ru/.types/null>` if parse error then returns ``null``
+
+ .. php:method:: __clone()
+
+  **private**
+
+
 
 
 

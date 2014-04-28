@@ -5,7 +5,7 @@ TimeZone
 
 .. php:class:: php\\time\\TimeZone
 
- Class TimeZone
+ Class TimeZone, Immutable
 
 
 
@@ -18,6 +18,7 @@ TimeZone
   :param $rawOffset: :doc:`int </api_en/.types/int>` 
   :param $ID: :doc:`string </api_en/.types/string>` 
   :param $options: :doc:`array </api_en/.types/array>` 
+  :returns: :doc:`php\\time\\TimeZone </api_en/php/time/TimeZone>` 
 
  .. php:method:: getId()
 
@@ -30,6 +31,12 @@ TimeZone
   Get raw offset of the timezone
 
   :returns: :doc:`string </api_en/.types/string>` 
+
+ .. php:method:: __clone()
+
+  **private**
+
+
 
  .. php:staticmethod:: UTC()
 
@@ -54,14 +61,6 @@ TimeZone
   Get default timezone
 
   :param $globally: :doc:`bool </api_en/.types/bool>`  - if ``false`` - only for the current environment
-  :returns: :doc:`php\\time\\TimeZone </api_en/php/time/TimeZone>` 
-
- .. php:staticmethod:: getSystem()
-
-  Get timezone of OS::
-  
-  TimeZone::setDefault(TimeZone::getSystem()); // set the default timezone as the system timezone
-
   :returns: :doc:`php\\time\\TimeZone </api_en/php/time/TimeZone>` 
 
  .. php:staticmethod:: getAvailableIDs($rawOffset = null)

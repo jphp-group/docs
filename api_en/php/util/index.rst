@@ -11,6 +11,7 @@ util
    Locale.rst
    Regex.rst
    RegexException.rst
+   Scanner.rst
 
 .. include:: /api_en.desc/php/util/index.footer.rst
 

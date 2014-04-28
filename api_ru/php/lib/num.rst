@@ -21,6 +21,16 @@ num
 
 
 
+ .. php:staticmethod:: compare($num1, $num2)
+
+  Compare two numbers
+  
+  .. note:: it can be used as comparator for number sorting
+
+  :param $num1: :doc:`int </api_ru/.types/int>`, :doc:`double </api_ru/.types/double>` 
+  :param $num2: :doc:`int </api_ru/.types/int>`, :doc:`double </api_ru/.types/double>` 
+  :returns: :doc:`int </api_ru/.types/int>` 0 if are equal, 1 if $num1 > $num2, -1 if $num1 < $num2
+
  .. php:staticmethod:: toBin($number)
 
   Returns a string representation of the $number

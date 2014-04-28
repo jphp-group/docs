@@ -108,6 +108,25 @@ Time
 
   :returns: :doc:`int </api_ru/.types/int>` 
 
+ .. php:method:: compare($time)
+
+  Compares the time values
+  
+  Returns the value ``0`` if the time represented by the argument
+  is equal to the time represented by this ``Time``; a value
+  less than ``0`` if the time of this ``Time`` is
+  before the time represented by the argument; and a value greater than
+  ``0`` if the time of this ``Time`` is after the
+  time represented by the argument.
+
+  :param $time: :doc:`php\\time\\Time </api_ru/php/time/Time>` 
+  :returns: :doc:`int </api_ru/.types/int>` 
+
+ .. php:method:: withTimeZone($timeZone)
+
+  :param $timeZone: :doc:`php\\time\\TimeZone </api_ru/php/time/TimeZone>` 
+  :returns: :doc:`php\\time\\Time </api_ru/php/time/Time>` 
+
  .. php:method:: add($args)
 
   Get a new time + $args
@@ -158,6 +177,12 @@ Time
   Format the time to yyyy-MM-dd'T'HH:mm:ss
 
   :returns: :doc:`string </api_ru/.types/string>` 
+
+ .. php:method:: __clone()
+
+  **private**
+
+
 
  .. php:staticmethod:: now($timeZone = null)
 

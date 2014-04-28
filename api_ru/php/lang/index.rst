@@ -8,6 +8,8 @@ lang
    :maxdepth: 3
 
    Environment.rst
+   IllegalArgumentException.rst
+   IllegalStateException.rst
    Invoker.rst
    JavaClass.rst
    JavaException.rst
@@ -16,6 +18,7 @@ lang
    JavaObject.rst
    JavaReflection.rst
    Module.rst
+   NumberFormatException.rst
    System.rst
    Thread.rst
    ThreadGroup.rst
