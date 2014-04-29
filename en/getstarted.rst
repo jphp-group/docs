@@ -12,11 +12,11 @@ To build JPHP you need to:
 
 
 #. Install JDK (OpenJDK or Oracle) for your OS.
-	
+
 	.. note::
 		* For Window's users: `<http://www.oracle.com/technetwork/java/javase/downloads/index.html>`_
 		* For Linux's users: `<http://openjdk.java.net/install/index.html>`_
- 
+
 #. Install the Gradle system for building sources `<http://gradle.org/>`_
 
 	.. note::
@@ -29,19 +29,26 @@ To build JPHP you need to:
 
 #. Build jar files via Gradle::
 
-	gradle jar
+	gradle dist
 
-Now you can find an executable jar file in the ``jphp-cli/build/libs`` directory. To check that all is success, use the
+Now you can find an executable jar file in the ``build/dist-*`` directory. To check that all is success, use the
 following command::
 
-	cd jphp-cli/build/libs
+	cd build/dist-{VERSION}
 	chmod +x jphp # for linux
 	./jphp -v # show version
+
+
+.. note::
+
+    You can also get the zip version of the dist directory, try ``gradle dist distZip`` and
+    the result will appear in the ``build/`` directory as a zip file.
+
 
 Using with Maven
 >>>>>>>>>>>>>>>>
 .. code-block:: xml
-	
+
 	<dependency>
 	    <groupId>org.develnext</groupId>
 	    <artifactId>jphp-core</artifactId>
@@ -57,7 +64,7 @@ And add our maven repository:
 	    <url>http://maven.develnext.org/repository/snapshots/</url>
 	</repository>
 
-You can also try our extensions for jphp (only change ``artifactId`` to the next values): 
+You can also try our extensions for jphp (only change ``artifactId`` to the next values):
 
 #. ``jphp-zend-ext`` - Extension for backward capability with Zend PHP
 #. ``jphp-json-ext`` - JSON extension
