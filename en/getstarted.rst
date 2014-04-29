@@ -17,19 +17,19 @@ To build JPHP you need to:
 		* For Window's users: `<http://www.oracle.com/technetwork/java/javase/downloads/index.html>`_
 		* For Linux's users: `<http://openjdk.java.net/install/index.html>`_
 
-#. Install the Gradle system for building sources `<http://gradle.org/>`_
-
-	.. note::
-		Do not forget to add the gradle bin path to your PATH variable
-
 #. Get the all sources from our `reposiroty <https://github.com/jphp-compiler/jphp.git>`_ ::
 
 	git clone https://github.com/jphp-compiler/jphp.git
 	cd jphp
 
-#. Build jar files via Gradle::
+#. Build the portable version of JPHP via the Gradle wrapper::
 
-	gradle dist
+	./gradlew dist
+
+	// or on Windows
+	gradlew dist
+
+.. warning:: Don't forget to add the executable flag if you use Unix ``chmod +x gradlew``.
 
 Now you can find an executable jar file in the ``build/dist-*`` directory. To check that all is success, use the
 following command::
@@ -41,7 +41,7 @@ following command::
 
 .. note::
 
-    You can also get the zip version of the dist directory, try ``gradle dist distZip`` and
+    You can also get the zip version of the dist directory, try ``gradlew dist distZip`` and
     the result will appear in the ``build/`` directory as a zip file.
 
 
