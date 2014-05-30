@@ -80,7 +80,7 @@ Thread
   :param $millis: :doc:`int </api_ru/.types/int>` 
   :param $nanos: :doc:`int </api_ru/.types/int>` 
 
- .. php:staticmethod:: yield()
+ .. php:staticmethod:: doYield()
 
 
  .. php:staticmethod:: sleep($millis, $nanos = 0)

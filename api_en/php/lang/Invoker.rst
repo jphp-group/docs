@@ -28,7 +28,7 @@ Invoker
 
   Call the current callback
 
-  :returns: :doc:`int </api_en/.types/int>` 
+  :returns: :doc:`int </api_en/.types/int>`, :doc:`mixed </api_en/.types/mixed>` 
 
  .. php:method:: __invoke()
 
