@@ -29,6 +29,14 @@ System
  .. php:staticmethod:: gc()
 
 
+ .. php:staticmethod:: getProperty($name, $def = '')
+
+  Gets a system property by name
+
+  :param $name: 
+  :param $def: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
+
 
 
 .. include:: /api_en.desc/php/lang/System.footer.rst

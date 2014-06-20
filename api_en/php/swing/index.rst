@@ -7,6 +7,7 @@ swing
 .. toctree::
    :maxdepth: 3
 
+   .header.rst
    Border.rst
    Color.rst
    event/index

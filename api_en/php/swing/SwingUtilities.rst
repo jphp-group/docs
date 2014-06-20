@@ -20,6 +20,12 @@ SwingUtilities
 
 
 
+ .. php:staticmethod:: getScreenSize()
+
+  Returns screen size as an array [width, height]
+
+  :returns: :doc:`array </api_en/.types/array>` 
+
  .. php:staticmethod:: setExceptionHandler($handler)
 
   :param $handler: :doc:`callable </api_en/.types/callable>`  - (Exception|JavaObject $exception)

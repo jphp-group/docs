@@ -9,6 +9,7 @@ UIMenu
 
 
  Class UIMenu
+ events: `select`, `deselect`, `cancel`
 
 
 

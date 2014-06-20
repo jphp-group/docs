@@ -8,6 +8,7 @@ php
    :maxdepth: 3
 
    concurrent/index
+   format/index
    io/index
    lang/index
    lib/index

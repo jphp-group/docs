@@ -8,6 +8,7 @@ API (Русский)
    :maxdepth: 3
 
    php/concurrent/index
+   php/format/index
    php/io/index
    php/lang/index
    php/lib/index

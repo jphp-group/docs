@@ -10,6 +10,16 @@ UIForm
 
 
 
+**Properties**
+
+----------
+
+ .. php:attr:: maximized
+
+  :doc:`bool </api_ru/.types/bool>`
+
+
+
 **Methods**
 
 ----------
