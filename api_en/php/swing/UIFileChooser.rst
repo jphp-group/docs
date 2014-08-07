@@ -66,6 +66,10 @@ UIFileChooser
 
   :doc:`bool </api_en/.types/bool>`
 
+ .. php:attr:: acceptAllFileFilterUsed
+
+  :doc:`bool </api_en/.types/bool>`
+
 
 
 **Methods**
@@ -119,6 +123,11 @@ UIFileChooser
 
  .. php:method:: changeToParentDirectory()
 
+
+ .. php:method:: onFileView($field, $callback = null)
+
+  :param $field: :doc:`string </api_en/.types/string>`  - - name (string), description (string), icon (Image), traversable (bool)
+  :param $callback: :doc:`callable </api_en/.types/callable>`  - (File $file)
 
 
 

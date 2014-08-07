@@ -17,8 +17,10 @@ UIContainer
  * **class** :doc:`php\\swing\\UIAbstractIButton </api_ru/php/swing/UIAbstractIButton>`
  * **class** :doc:`php\\swing\\UIColorChooser </api_ru/php/swing/UIColorChooser>`
  * **class** :doc:`php\\swing\\UICombobox </api_ru/php/swing/UICombobox>`
+ * **class** :doc:`php\\swing\\UIDesktopPanel </api_ru/php/swing/UIDesktopPanel>`
  * **class** :doc:`php\\swing\\UIFileChooser </api_ru/php/swing/UIFileChooser>`
  * **class** :doc:`php\\swing\\UIImage </api_ru/php/swing/UIImage>`
+ * **class** :doc:`php\\swing\\UIInternalForm </api_ru/php/swing/UIInternalForm>`
  * **class** :doc:`php\\swing\\UILabel </api_ru/php/swing/UILabel>`
  * **class** :doc:`php\\swing\\UIListbox </api_ru/php/swing/UIListbox>`
  * **class** :doc:`php\\swing\\UIMenuBar </api_ru/php/swing/UIMenuBar>`
@@ -40,12 +42,17 @@ UIContainer
 
 ----------
 
- .. php:method:: add($component, $index = null)
+ .. php:method:: add($component, $index = null, $constraints = null)
 
   Add child component
 
   :param $component: :doc:`php\\swing\\UIElement </api_ru/php/swing/UIElement>` 
   :param $index: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>` 
+  :param $constraints: :doc:`null </api_ru/.types/null>`, :doc:`int </api_ru/.types/int>` 
+
+ .. php:method:: setLayout($type)
+
+  :param $type: :doc:`string </api_ru/.types/string>`  - - absolute, grid, flow, grid-bag, border, card
 
  .. php:method:: remove($component)
 
@@ -70,6 +77,10 @@ UIContainer
 
   :param $index: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`php\\swing\\UIElement </api_ru/php/swing/UIElement>` 
+
+ .. php:method:: getComponents()
+
+  :returns: :doc:`php\\swing\\UIElement[] </api_ru/php/swing/UIElement>` 
 
  .. php:method:: getComponentByGroup($group)
 

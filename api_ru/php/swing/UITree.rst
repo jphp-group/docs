@@ -214,6 +214,10 @@ UITree
 
   :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
 
+ .. php:method:: scrollToNode($node)
+
+  :param $node: :doc:`php\\swing\\tree\\TreeNode </api_ru/php/swing/tree/TreeNode>` 
+
  .. php:method:: cancelEditing()
 
 

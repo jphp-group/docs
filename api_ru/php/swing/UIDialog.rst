@@ -76,13 +76,19 @@ UIDialog
   :param $title: :doc:`string </api_ru/.types/string>` 
   :param $type: :doc:`int </api_ru/.types/int>` 
 
- .. php:staticmethod:: confirm($text, $title, $optionType, $type = ::)
+ .. php:staticmethod:: confirm($text, $title, $optionType = ::, $type = ::)
 
   :param $text: :doc:`string </api_ru/.types/string>` 
   :param $title: :doc:`string </api_ru/.types/string>` 
   :param $optionType: :doc:`int </api_ru/.types/int>` 
   :param $type: :doc:`int </api_ru/.types/int>` 
   :returns: :doc:`int </api_ru/.types/int>` 
+
+ .. php:staticmethod:: input($message, $initialValue = '')
+
+  :param $message: :doc:`string </api_ru/.types/string>` 
+  :param $initialValue: :doc:`string </api_ru/.types/string>` 
+  :returns: :doc:`string </api_ru/.types/string>` 
 
 
 

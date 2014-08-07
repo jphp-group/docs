@@ -36,6 +36,13 @@ items
   :param $withKeys: :doc:`bool </api_en/.types/bool>` 
   :returns: :doc:`array </api_en/.types/array>` 
 
+ .. php:staticmethod:: toList($collection)
+
+  Example: items::toList(['x' => 10, 20], 30, ['x' => 50, 60]) -> [10, 20, 30, 50, 60]
+
+  :param $collection: 
+  :returns: :doc:`array </api_en/.types/array>` 
+
  .. php:staticmethod:: keys($collection)
 
   Returns all keys of collection

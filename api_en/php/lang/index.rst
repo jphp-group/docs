@@ -10,6 +10,7 @@ lang
    Environment.rst
    IllegalArgumentException.rst
    IllegalStateException.rst
+   InterruptedException.rst
    Invoker.rst
    JavaClass.rst
    JavaException.rst
@@ -19,6 +20,8 @@ lang
    JavaReflection.rst
    Module.rst
    NumberFormatException.rst
+   Process.rst
+   SettersGetters.rst
    System.rst
    Thread.rst
    ThreadGroup.rst

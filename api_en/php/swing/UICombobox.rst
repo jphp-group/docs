@@ -72,6 +72,10 @@ UICombobox
  .. php:method:: removeAllItems()
 
 
+ .. php:method:: onCellRender($callback = null)
+
+  :param $callback: :doc:`callable </api_en/.types/callable>`  - (UICombobox $self, UILabel $template, $value, int $index, bool isSelected, bool cellHasFocus)
+
 
 
 .. include:: /api_en.desc/php/swing/UICombobox.footer.rst

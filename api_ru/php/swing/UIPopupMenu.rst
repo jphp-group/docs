@@ -9,6 +9,8 @@ UIPopupMenu
 
 
  Class UIPopupMenu
+ 
+ Events: open, close, cancel
 
 
 
@@ -45,6 +47,12 @@ UIPopupMenu
  .. php:method:: setSelected($component)
 
   :param $component: :doc:`php\\swing\\UIElement </api_ru/php/swing/UIElement>` 
+
+ .. php:method:: show($invoker, $x, $y)
+
+  :param $invoker: :doc:`php\\swing\\UIElement </api_ru/php/swing/UIElement>` 
+  :param $x: :doc:`int </api_ru/.types/int>` 
+  :param $y: :doc:`int </api_ru/.types/int>` 
 
 
 

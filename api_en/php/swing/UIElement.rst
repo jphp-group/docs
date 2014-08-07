@@ -149,11 +149,22 @@ UIElement
 
   :doc:`php\\swing\\UIPopupMenu </api_en/php/swing/UIPopupMenu>`
 
+ .. php:attr:: cursor
+
+  :doc:`string </api_en/.types/string>`
+
+ .. php:attr:: padding
+
+  :doc:`php\\swing\\array [int, int, int, int] </api_en/php/swing/array [int, int, int, int]>`
+
 
 
 **Methods**
 
 ----------
+
+ .. php:method:: __construct()
+
 
  .. php:method:: getGraphics()
 
@@ -201,6 +212,23 @@ UIElement
   Trigger callback by event name
 
   :param $name: 
+
+ .. php:method:: addAllowedEventType($name)
+
+  **protected**
+
+
+  :param $name: :doc:`string </api_en/.types/string>` 
+
+ .. php:method:: setAction($name, $callback = null)
+
+  :param $name: :doc:`string </api_en/.types/string>` 
+  :param $callback: :doc:`callable </api_en/.types/callable>` 
+
+ .. php:method:: setInputKey($keyString, $actionName)
+
+  :param $keyString: :doc:`string </api_en/.types/string>` 
+  :param $actionName: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: hasFocus()
 

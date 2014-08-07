@@ -18,5 +18,17 @@ UIMenuItem
 
 
 
+**Properties**
+
+----------
+
+ .. php:attr:: accelerator
+
+  :doc:`string </api_ru/.types/string>`
+
+  Examples: "control DELETE", "alt shift X", "alt shift released X", "typed a"
+
+
+
 .. include:: /api_ru.desc/php/swing/UIMenuItem.footer.rst
 

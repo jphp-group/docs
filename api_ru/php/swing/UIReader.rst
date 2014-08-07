@@ -9,6 +9,18 @@ UIReader
 
 
 
+**Properties**
+
+----------
+
+ .. php:attr:: useInternalForms
+
+  :doc:`bool </api_ru/.types/bool>`
+
+  Enables that the reader will create instances of UIInternalForm insteadof UIForm and UIDialog
+
+
+
 **Methods**
 
 ----------

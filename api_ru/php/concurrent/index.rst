@@ -9,6 +9,7 @@ concurrent
 
    ExecutorService.rst
    Future.rst
+   TimeoutException.rst
 
 .. include:: /api_ru.desc/php/concurrent/index.footer.rst
 

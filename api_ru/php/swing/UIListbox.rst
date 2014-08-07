@@ -56,6 +56,13 @@ UIListbox
 
   :doc:`php\\swing\\string - ALWAYS, HIDDEN, AUTO </api_ru/php/swing/string - ALWAYS, HIDDEN, AUTO>`
 
+ .. php:attr:: itemCount
+
+  :doc:`int </api_ru/.types/int>`
+
+  **read-only**
+
+
 
 
 **Methods**
@@ -86,6 +93,10 @@ UIListbox
 
  .. php:method:: removeAllItems()
 
+
+ .. php:method:: onCellRender($callback = null)
+
+  :param $callback: :doc:`callable </api_ru/.types/callable>`  - (UIListbox $self, UILabel $template, $value, int $index, bool isSelected, bool cellHasFocus)
 
 
 

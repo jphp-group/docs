@@ -60,16 +60,17 @@ And add our maven repository:
 .. code-block:: xml
 
 	<repository>
-	    <id>DevelNext Repo</id>
-	    <url>http://maven.develnext.org/repository/snapshots/</url>
+	    <id>Sonatype Repo</id>
+	    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 	</repository>
 
 You can also try our extensions for jphp (only change ``artifactId`` to the next values):
 
 #. ``jphp-zend-ext`` - Extension for backward capability with Zend PHP
 #. ``jphp-json-ext`` - JSON extension
-#. ``jphp-cli`` - for using JPHP via CLI
 #. ``jphp-swing-ext`` - GUI extension based on Swing.
+#. ``jphp-http-ext`` - HTTP Client extension
+#. ``jphp-cli`` - for using JPHP via CLI
 
 Create executable JAR
 >>>>>>>>>>>>>>>>>>>>>

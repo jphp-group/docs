@@ -9,6 +9,8 @@ UITabs
 
 
  Class UITabs
+ 
+ Events: change
 
 
 
@@ -27,6 +29,13 @@ UITabs
  .. php:attr:: tabPlacement
 
   :doc:`php\\swing\\string - left, right, top, bottom </api_en/php/swing/string - left, right, top, bottom>`
+
+ .. php:attr:: tabCount
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
 
 
 

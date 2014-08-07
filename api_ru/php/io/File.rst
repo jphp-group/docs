@@ -114,10 +114,9 @@ File
 
   :returns: :doc:`void </api_ru/.types/void>` 
 
- .. php:method:: createNewFile()
+ .. php:method:: createNewFile($withDirs = false)
 
-  **throws** :doc:`php\\io\\IOException </api_ru/php/io/IOException>`
-
+  :param $withDirs: :doc:`bool </api_ru/.types/bool>` 
   :returns: :doc:`bool </api_ru/.types/bool>` 
 
  .. php:method:: lastModified()

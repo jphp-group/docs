@@ -15,6 +15,7 @@ UITextElement
 
  * **class** :doc:`php\\swing\\UIEdit </api_en/php/swing/UIEdit>`
  * **class** :doc:`php\\swing\\UIEditorArea </api_en/php/swing/UIEditorArea>`
+ * **class** :doc:`php\\swing\\UIRichTextArea </api_en/php/swing/UIRichTextArea>`
  * **class** :doc:`php\\swing\\UITextArea </api_en/php/swing/UITextArea>`
 
 

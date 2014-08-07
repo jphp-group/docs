@@ -62,6 +62,11 @@ ResourceStream
 
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
+ .. php:staticmethod:: getResources($name)
+
+  :param $name: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\io\\ResourceStream[] </api_en/php/io/ResourceStream>` 
+
 
 
 .. include:: /api_en.desc/php/io/ResourceStream.footer.rst

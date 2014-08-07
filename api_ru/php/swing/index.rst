@@ -14,6 +14,8 @@ swing
    Graphics.rst
    Image.rst
    SwingUtilities.rst
+   SwingWorker.rst
+   text/index
    Timer.rst
    tree/index
    UIAbstractIButton.rst
@@ -23,6 +25,7 @@ swing
    UIColorChooser.rst
    UICombobox.rst
    UIContainer.rst
+   UIDesktopPanel.rst
    UIDialog.rst
    UIEdit.rst
    UIEditorArea.rst
@@ -30,6 +33,7 @@ swing
    UIFileChooser.rst
    UIForm.rst
    UIImage.rst
+   UIInternalForm.rst
    UILabel.rst
    UIListbox.rst
    UIManager.rst
@@ -41,6 +45,7 @@ swing
    UIProgress.rst
    UIRadioButton.rst
    UIReader.rst
+   UIRichTextArea.rst
    UIScrollPanel.rst
    UISlider.rst
    UITable.rst
