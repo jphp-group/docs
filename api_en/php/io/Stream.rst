@@ -14,6 +14,7 @@ Stream
  * **class** :doc:`php\\io\\FileStream </api_en/php/io/FileStream>`
  * **class** :doc:`php\\io\\MiscStream </api_en/php/io/MiscStream>`
  * **class** :doc:`php\\io\\ResourceStream </api_en/php/io/ResourceStream>`
+ * **class** :doc:`php\\net\\NetStream </api_en/php/net/NetStream>`
 
 
 
@@ -40,6 +41,14 @@ Stream
 **Methods**
 
 ----------
+
+ .. php:method:: getPath()
+
+  :returns: :doc:`string </api_en/.types/string>` 
+
+ .. php:method:: getMode()
+
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: read($length)
 

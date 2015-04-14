@@ -7,15 +7,19 @@ php
 .. toctree::
    :maxdepth: 3
 
+   android/index
    concurrent/index
    format/index
+   gdx/index
    io/index
+   jsoup/index
    lang/index
    lib/index
    net/index
    swing/index
    time/index
    util/index
+   xml/index
 
 .. include:: /api_en.desc/php/index.footer.rst
 

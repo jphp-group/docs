@@ -30,15 +30,20 @@ JsonProcessor
 
   :param $flags: :doc:`int </api_ru/.types/int>` 
 
- .. php:method:: parse($jsonString)
+ .. php:method:: parse($json)
 
-  :param $jsonString: :doc:`string </api_ru/.types/string>` 
+  :param $json: :doc:`string </api_ru/.types/string>`, :doc:`php\\io\\Stream </api_ru/php/io/Stream>` 
   :returns: :doc:`mixed </api_ru/.types/mixed>` 
 
  .. php:method:: format($value)
 
   :param $value: :doc:`mixed </api_ru/.types/mixed>` 
   :returns: :doc:`string </api_ru/.types/string>` 
+
+ .. php:method:: formatTo($value, $output)
+
+  :param $value: :doc:`mixed </api_ru/.types/mixed>` 
+  :param $output: :doc:`php\\io\\Stream </api_ru/php/io/Stream>` 
 
  .. php:method:: onSerialize($nameOfType, $handler = null)
 

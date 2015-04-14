@@ -10,6 +10,7 @@ lib
    bin.rst
    char.rst
    items.rst
+   mirror.rst
    num.rst
    str.rst
 

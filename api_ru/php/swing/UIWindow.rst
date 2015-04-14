@@ -5,6 +5,8 @@ UIWindow
 
 .. php:class:: php\\swing\\UIWindow
 
+ **abstract** class
+
  **extends**: :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
 
 **Children**

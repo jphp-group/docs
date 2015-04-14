@@ -13,10 +13,11 @@ Process
 
 ----------
 
- .. php:method:: __construct($commands, $directory = null)
+ .. php:method:: __construct($commands, $directory = null, $environment = null)
 
   :param $commands: :doc:`array </api_en/.types/array>` 
   :param $directory: :doc:`null </api_en/.types/null>`, :doc:`string </api_en/.types/string>`, :doc:`php\\io\\File </api_en/php/io/File>` 
+  :param $environment: :doc:`array </api_en/.types/array>` 
 
  .. php:method:: start()
 

@@ -10,6 +10,20 @@ UIForm
 
 
 
+**Constants**
+
+----------
+
+ .. php:const:: NOTHING_ON_CLOSE
+
+ .. php:const:: HIDE_ON_CLOSE
+
+ .. php:const:: DISPOSE_ON_CLOSE
+
+ .. php:const:: EXIT_ON_CLOSE
+
+
+
 **Properties**
 
 ----------
@@ -27,6 +41,10 @@ UIForm
  .. php:method:: setDefaultCloseOperation($action)
 
   :param $action: :doc:`int </api_en/.types/int>` 
+
+ .. php:method:: setIconImage($image = null)
+
+  :param $image: :doc:`php\\swing\\Image </api_en/php/swing/Image>` 
 
 
 

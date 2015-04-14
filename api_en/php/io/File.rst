@@ -175,7 +175,7 @@ File
 
   **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
 
-  :param $filter: :doc:`callable </api_en/.types/callable>` 
+  :param $filter: :doc:`callable </api_en/.types/callable>`  - (File $directory, $name)
   :returns: :doc:`php\\io\\File[] </api_en/php/io/File>` 
 
  .. php:staticmethod:: createTemp($prefix, $suffix, $directory = null)
@@ -193,6 +193,11 @@ File
   The array will be empty if there are no filesystem roots.
 
   :returns: :doc:`php\\io\\File[] </api_en/php/io/File>` 
+
+ .. php:staticmethod:: of($path)
+
+  :param $path: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\io\\File </api_en/php/io/File>` 
 
 
 

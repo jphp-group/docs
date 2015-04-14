@@ -31,6 +31,12 @@ Flow
 
   :returns: :doc:`php\\util\\Flow </api_ru/php/util/Flow>` 
 
+ .. php:method:: onlyKeys($keys, $ignoreCase = false)
+
+  :param $keys: :doc:`array </api_ru/.types/array>`, :doc:`Traversable </api_ru/Traversable>` 
+  :param $ignoreCase: :doc:`bool </api_ru/.types/bool>` 
+  :returns: :doc:`php\\util\\Flow </api_ru/php/util/Flow>` 
+
  .. php:method:: append($collection)
 
   Appends a new collection to the current flow,

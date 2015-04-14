@@ -14,6 +14,7 @@ UIContainer
 ----------------------
 
  * **abstract** **class** :doc:`php\\swing\\UITextElement </api_ru/php/swing/UITextElement>`
+ * **abstract** **class** :doc:`php\\swing\\UIWindow </api_ru/php/swing/UIWindow>`
  * **class** :doc:`php\\swing\\UIAbstractIButton </api_ru/php/swing/UIAbstractIButton>`
  * **class** :doc:`php\\swing\\UIColorChooser </api_ru/php/swing/UIColorChooser>`
  * **class** :doc:`php\\swing\\UICombobox </api_ru/php/swing/UICombobox>`
@@ -34,7 +35,6 @@ UIContainer
  * **class** :doc:`php\\swing\\UIToolBar </api_ru/php/swing/UIToolBar>`
  * **class** :doc:`php\\swing\\UITree </api_ru/php/swing/UITree>`
  * **class** :doc:`php\\swing\\UIUnknown </api_ru/php/swing/UIUnknown>`
- * **class** :doc:`php\\swing\\UIWindow </api_ru/php/swing/UIWindow>`
 
 
 

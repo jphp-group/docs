@@ -13,6 +13,8 @@ swing
    Font.rst
    Graphics.rst
    Image.rst
+   Scope.rst
+   ScopeValue.rst
    SwingUtilities.rst
    SwingWorker.rst
    text/index

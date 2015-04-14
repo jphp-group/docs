@@ -80,6 +80,21 @@ UIElement
 
   Position (x and y), [int, int]
 
+ .. php:attr:: screenPosition
+
+  :doc:`array </api_ru/.types/array>`
+
+  Screen Position (x and y), [int, int]
+
+ .. php:attr:: absolutePosition
+
+  :doc:`array </api_ru/.types/array>`
+
+  **read-only**
+
+
+  Absolute Position (x and y), [int, int]
+
  .. php:attr:: visible
 
   :doc:`bool </api_ru/.types/bool>`
@@ -156,6 +171,18 @@ UIElement
  .. php:attr:: padding
 
   :doc:`php\\swing\\array [int, int, int, int] </api_ru/php/swing/array [int, int, int, int]>`
+
+ .. php:attr:: owner
+
+  :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
+
+ .. php:attr:: parent
+
+  :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
+
+ .. php:attr:: firstParent
+
+  :doc:`php\\swing\\UIContainer </api_ru/php/swing/UIContainer>`
 
 
 
@@ -296,6 +323,31 @@ UIElement
   :param $h: :doc:`int </api_ru/.types/int>` 
 
  .. php:method:: grabFocus()
+
+
+ .. php:method:: getTextWidth($str)
+
+  Return width of str for drawText + current font
+
+  :param $str: 
+  :returns: :doc:`int </api_ru/.types/int>` 
+
+ .. php:method:: getTextHeight()
+
+  Return height of one line text with current font
+
+  :returns: :doc:`int </api_ru/.types/int>` 
+
+ .. php:method:: show()
+
+
+ .. php:method:: hide()
+
+
+ .. php:method:: toggle()
+
+
+ .. php:method:: removeSelf()
 
 
  .. php:staticmethod:: getByUid($uid)

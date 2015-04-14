@@ -21,6 +21,10 @@ Module
   :param $compiled: :doc:`bool </api_en/.types/bool>` 
   :param $debugInformation: :doc:`bool </api_en/.types/bool>` 
 
+ .. php:method:: getName()
+
+  :returns: :doc:`string </api_en/.types/string>` 
+
  .. php:method:: call($variables = null)
 
   Include module and return result

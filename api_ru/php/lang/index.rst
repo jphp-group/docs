@@ -8,6 +8,7 @@ lang
    :maxdepth: 3
 
    Environment.rst
+   GettersSetters.rst
    IllegalArgumentException.rst
    IllegalStateException.rst
    InterruptedException.rst

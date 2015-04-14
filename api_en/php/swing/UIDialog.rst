@@ -68,6 +68,9 @@ UIDialog
 
   :param $owner: :doc:`php\\swing\\UIWindow </api_en/php/swing/UIWindow>` 
 
+ .. php:method:: showModal()
+
+
  .. php:staticmethod:: message($text, $title, $type = ::)
 
   Show basic message

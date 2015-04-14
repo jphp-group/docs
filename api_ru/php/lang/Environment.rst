@@ -37,7 +37,7 @@ Environment
 
  .. php:method:: importClass($className)
 
-  Импортирует класс в свое окружение
+  �?мпортирует класс в свое окружение
 
   **throws** :doc:`php\\lang\\\\Exception </api_ru/php/lang//Exception>` - if class not found or already registered
 
@@ -53,7 +53,7 @@ Environment
 
  .. php:method:: importFunction($functionName)
 
-  Импортирует функцию в свое окружение
+  �?мпортирует функцию в свое окружение
 
   **throws** :doc:`php\\lang\\\\Exception </api_ru/php/lang//Exception>` если функция не найдена или уже объявлена
 

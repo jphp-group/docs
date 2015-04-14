@@ -12,6 +12,7 @@ Processor
 ----------------------
 
  * **class** :doc:`php\\format\\JsonProcessor </api_en/php/format/JsonProcessor>`
+ * **class** :doc:`php\\xml\\XmlProcessor </api_en/php/xml/XmlProcessor>`
 
 
 
@@ -25,6 +26,14 @@ Processor
 
 
   :param $value: 
+
+ .. php:method:: formatTo($value, $output)
+
+  **abstract**
+
+
+  :param $value: 
+  :param $output: :doc:`php\\io\\Stream </api_en/php/io/Stream>` 
 
  .. php:method:: parse($string)
 
