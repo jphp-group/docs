@@ -15,6 +15,7 @@ API (English)
    php/jsoup/index
    php/lang/index
    php/lib/index
+   php/mail/index
    php/net/index
    php/swing/index
    php/time/index

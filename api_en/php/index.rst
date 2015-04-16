@@ -15,6 +15,7 @@ php
    jsoup/index
    lang/index
    lib/index
+   mail/index
    net/index
    swing/index
    time/index
