@@ -5,13 +5,30 @@ ConnectionResponse
 
 .. php:class:: php\\jsoup\\ConnectionResponse
 
- Class ConnectionResponse
+ **abstract** class
+
 
 
 
 **Methods**
 
 ----------
+
+ .. php:method:: statusCode()
+
+  Get the status code of the response.
+
+  :returns: :doc:`int </api_en/.types/int>` 
+
+ .. php:method:: statusMessage()
+
+  Get the status message of the response.
+
+  :returns: :doc:`string </api_en/.types/string>` 
+
+ .. php:method:: charset()
+
+  :returns: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: body()
 
@@ -23,7 +40,13 @@ ConnectionResponse
 
  .. php:method:: contentType()
 
+  Get the response content type (e.g. "text/html");
+
   :returns: :doc:`string </api_en/.types/string>` 
+
+ .. php:method:: parse()
+
+  :returns: :doc:`php\\jsoup\\Document </api_en/php/jsoup/Document>` 
 
 
 

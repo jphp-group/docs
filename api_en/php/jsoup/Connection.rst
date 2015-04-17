@@ -5,7 +5,8 @@ Connection
 
 .. php:class:: php\\jsoup\\Connection
 
- Class Connection
+ **abstract** class
+
 
 
 
@@ -48,6 +49,41 @@ Connection
   :param $method: :doc:`string </api_en/.types/string>`  - POST or GET
   :returns: :doc:`php\\jsoup\\Connection </api_en/php/jsoup/Connection>` 
 
+ .. php:method:: userAgent($userAgent)
+
+  :param $userAgent: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\jsoup\\Connection </api_en/php/jsoup/Connection>` 
+
+ .. php:method:: maxBodySize($bytes)
+
+  :param $bytes: :doc:`int </api_en/.types/int>` 
+  :returns: :doc:`php\\jsoup\\Connection </api_en/php/jsoup/Connection>` 
+
+ .. php:method:: timeout($millis)
+
+  :param $millis: :doc:`int </api_en/.types/int>` 
+  :returns: :doc:`php\\jsoup\\Connection </api_en/php/jsoup/Connection>` 
+
+ .. php:method:: referrer($referrer)
+
+  :param $referrer: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\jsoup\\Connection </api_en/php/jsoup/Connection>` 
+
+ .. php:method:: followRedirects($enable)
+
+  :param $enable: :doc:`bool </api_en/.types/bool>` 
+  :returns: :doc:`php\\jsoup\\Connection </api_en/php/jsoup/Connection>` 
+
+ .. php:method:: ignoreHttpErrors($enable)
+
+  :param $enable: :doc:`bool </api_en/.types/bool>` 
+  :returns: :doc:`php\\jsoup\\Connection </api_en/php/jsoup/Connection>` 
+
+ .. php:method:: ignoreContentType($enable)
+
+  :param $enable: :doc:`bool </api_en/.types/bool>` 
+  :returns: :doc:`php\\jsoup\\Connection </api_en/php/jsoup/Connection>` 
+
  .. php:method:: execute()
 
   :returns: :doc:`php\\jsoup\\ConnectionResponse </api_en/php/jsoup/ConnectionResponse>` 
@@ -63,6 +99,14 @@ Connection
   
 
   :returns: :doc:`php\\jsoup\\Document </api_en/php/jsoup/Document>` 
+
+ .. php:method:: request()
+
+  :returns: :doc:`php\\jsoup\\ConnectionRequest </api_en/php/jsoup/ConnectionRequest>` 
+
+ .. php:method:: response()
+
+  :returns: :doc:`php\\jsoup\\ConnectionResponse </api_en/php/jsoup/ConnectionResponse>` 
 
 
 

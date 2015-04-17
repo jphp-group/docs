@@ -8,6 +8,7 @@ jsoup
    :maxdepth: 3
 
    Connection.rst
+   ConnectionRequest.rst
    ConnectionResponse.rst
    Document.rst
    Element.rst

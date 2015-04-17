@@ -5,10 +5,10 @@ Elements
 
 .. php:class:: php\\jsoup\\Elements
 
- **implements**: :doc:`Traversable </api_en/Traversable>`
+ **abstract** class
 
+ **implements**: :doc:`Iterator </api_en/Iterator>`
 
- Class Elements
 
 
 
@@ -33,14 +33,40 @@ Elements
 
   :returns: :doc:`string </api_en/.types/string>` 
 
- .. php:method:: attr($attributeKey)
+ .. php:method:: attr($attributeKey, $value)
 
   :param $attributeKey: :doc:`string </api_en/.types/string>` 
-  :returns: :doc:`string </api_en/.types/string>` 
+  :param $value:  - (optional)
+  :returns: :doc:`string </api_en/.types/string>`, :doc:`php\\jsoup\\$this </api_en/php/jsoup/$this>` 
 
  .. php:method:: hasAttr($attributeKey)
 
   :param $attributeKey: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
+
+ .. php:method:: removeAttr($attributeKey)
+
+  :param $attributeKey: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\jsoup\\Elements </api_en/php/jsoup/Elements>` 
+
+ .. php:method:: addClass($class)
+
+  :param $class: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\jsoup\\Elements </api_en/php/jsoup/Elements>` 
+
+ .. php:method:: removeClass($class)
+
+  :param $class: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\jsoup\\Elements </api_en/php/jsoup/Elements>` 
+
+ .. php:method:: hasClass($class)
+
+  :param $class: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
+
+ .. php:method:: toggleClass($class)
+
+  :param $class: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: val($value)
@@ -72,6 +98,14 @@ Elements
 
   :param $query: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`php\\jsoup\\Elements </api_en/php/jsoup/Elements>` 
+
+ .. php:method:: first()
+
+  :returns: :doc:`php\\jsoup\\Element </api_en/php/jsoup/Element>` 
+
+ .. php:method:: last()
+
+  :returns: :doc:`php\\jsoup\\Element </api_en/php/jsoup/Element>` 
 
  .. php:method:: not($query)
 

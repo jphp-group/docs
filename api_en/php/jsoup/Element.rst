@@ -5,7 +5,8 @@ Element
 
 .. php:class:: php\\jsoup\\Element
 
- Class Element
+ **abstract** class
+
 
 
 
@@ -42,7 +43,7 @@ Element
  .. php:method:: attr($attributeKey, $attributeValue)
 
   :param $attributeKey: 
-  :param $attributeValue: 
+  :param $attributeValue:  - (optional)
   :returns: :doc:`php\\jsoup\\$this </api_en/php/jsoup/$this>` 
 
  .. php:method:: dataset()

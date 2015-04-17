@@ -5,7 +5,8 @@ Document
 
 .. php:class:: php\\jsoup\\Document
 
- Class Document
+ **abstract** class
+
 
 
 
@@ -29,6 +30,11 @@ Document
  .. php:method:: body()
 
   :returns: :doc:`php\\jsoup\\Element </api_en/php/jsoup/Element>` 
+
+ .. php:method:: select($cssQuery)
+
+  :param $cssQuery: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\jsoup\\Elements </api_en/php/jsoup/Elements>` 
 
 
 
