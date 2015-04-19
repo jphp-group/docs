@@ -18,6 +18,7 @@ JavaException
  * **class** :doc:`php\\lang\\InterruptedException </api_en/php/lang/InterruptedException>`
  * **class** :doc:`php\\lang\\NumberFormatException </api_en/php/lang/NumberFormatException>`
  * **class** :doc:`php\\net\\SocketException </api_en/php/net/SocketException>`
+ * **class** :doc:`php\\sql\\SqlException </api_en/php/sql/SqlException>`
  * **class** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
 
  Class JavaException

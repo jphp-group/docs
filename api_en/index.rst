@@ -17,6 +17,7 @@ API (English)
    php/lib/index
    php/mail/index
    php/net/index
+   php/sql/index
    php/swing/index
    php/time/index
    php/util/index

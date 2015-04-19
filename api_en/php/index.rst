@@ -17,6 +17,7 @@ php
    lib/index
    mail/index
    net/index
+   sql/index
    swing/index
    time/index
    util/index
