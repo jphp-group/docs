@@ -21,6 +21,7 @@ API (English)
    php/swing/index
    php/time/index
    php/util/index
+   php/webserver/index
    php/xml/index
 
 .. include:: /api_en.desc/index.footer.rst

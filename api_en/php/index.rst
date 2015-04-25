@@ -21,6 +21,7 @@ php
    swing/index
    time/index
    util/index
+   webserver/index
    xml/index
 
 .. include:: /api_en.desc/php/index.footer.rst

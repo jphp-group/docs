@@ -1,9 +1,9 @@
-char
+Char
 ------------
 
-.. include:: /api_en.desc/php/lib/char.header.rst
+.. include:: /api_en.desc/php/lib/Char.header.rst
 
-.. php:class:: php\\lib\\char
+.. php:class:: php\\lib\\Char
 
  Char Utils for working with unicode chars
  (using string[0] char)
@@ -160,5 +160,5 @@ char
 
 
 
-.. include:: /api_en.desc/php/lib/char.footer.rst
+.. include:: /api_en.desc/php/lib/Char.footer.rst
 

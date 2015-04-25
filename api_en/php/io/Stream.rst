@@ -136,6 +136,26 @@ Stream
   :param $mode: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`php\\io\\Stream </api_en/php/io/Stream>` 
 
+ .. php:staticmethod:: getContents($path, $mode = 'r')
+
+  Create a stream, call and return the result of the readFully() method, finally call the close() method.
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
+  :param $path: :doc:`string </api_en/.types/string>` 
+  :param $mode: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`string </api_en/.types/string>` binary
+
+ .. php:staticmethod:: putContents($path, $data, $mode = 'w+')
+
+  Create a stream, call and return the result of the write() method, finally call the close() method.
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
+  :param $path: :doc:`string </api_en/.types/string>` 
+  :param $data: :doc:`string </api_en/.types/string>` 
+  :param $mode: :doc:`string </api_en/.types/string>` 
+
  .. php:staticmethod:: register($protocol, $className)
 
   :param $protocol: :doc:`string </api_en/.types/string>` 

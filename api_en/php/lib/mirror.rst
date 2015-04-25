@@ -1,12 +1,13 @@
-mirror
+Mirror
 --------------
 
-.. include:: /api_en.desc/php/lib/mirror.header.rst
+.. include:: /api_en.desc/php/lib/Mirror.header.rst
 
-.. php:class:: php\\lib\\mirror
+.. php:class:: php\\lib\\Mirror
 
- **final** class
-
+ Reflection Lib.
+ 
+ Class mirror
 
 
 
@@ -35,5 +36,5 @@ mirror
 
 
 
-.. include:: /api_en.desc/php/lib/mirror.footer.rst
+.. include:: /api_en.desc/php/lib/Mirror.footer.rst
 

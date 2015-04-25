@@ -29,6 +29,10 @@ System
  .. php:staticmethod:: gc()
 
 
+ .. php:staticmethod:: getEnv()
+
+  :returns: :doc:`string[] </api_en/.types/string>` 
+
  .. php:staticmethod:: getProperty($name, $def = '')
 
   Gets a system property by name

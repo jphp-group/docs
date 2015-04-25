@@ -7,12 +7,12 @@ lib
 .. toctree::
    :maxdepth: 3
 
-   bin.rst
-   char.rst
-   items.rst
-   mirror.rst
-   num.rst
-   str.rst
+   Binary.rst
+   Char.rst
+   Items.rst
+   Mirror.rst
+   Number.rst
+   String.rst
 
 .. include:: /api_en.desc/php/lib/index.footer.rst
 

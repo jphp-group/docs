@@ -1,9 +1,9 @@
-bin
------------
+Binary
+--------------
 
-.. include:: /api_en.desc/php/lib/bin.header.rst
+.. include:: /api_en.desc/php/lib/Binary.header.rst
 
-.. php:class:: php\\lib\\bin
+.. php:class:: php\\lib\\Binary
 
  Class for working with binary strings
  
@@ -28,5 +28,5 @@ bin
 
 
 
-.. include:: /api_en.desc/php/lib/bin.footer.rst
+.. include:: /api_en.desc/php/lib/Binary.footer.rst
 

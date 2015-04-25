@@ -1,9 +1,9 @@
-num
------------
+Number
+--------------
 
-.. include:: /api_en.desc/php/lib/num.header.rst
+.. include:: /api_en.desc/php/lib/Number.header.rst
 
-.. php:class:: php\\lib\\num
+.. php:class:: php\\lib\\Number
 
  Utils for numbers
  
@@ -91,5 +91,5 @@ num
 
 
 
-.. include:: /api_en.desc/php/lib/num.footer.rst
+.. include:: /api_en.desc/php/lib/Number.footer.rst
 

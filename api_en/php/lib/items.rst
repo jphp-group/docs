@@ -1,9 +1,9 @@
-items
+Items
 -------------
 
-.. include:: /api_en.desc/php/lib/items.header.rst
+.. include:: /api_en.desc/php/lib/Items.header.rst
 
-.. php:class:: php\\lib\\items
+.. php:class:: php\\lib\\Items
 
  Library for working with collections - arrays, iterators, etc.
 
@@ -80,5 +80,5 @@ items
 
 
 
-.. include:: /api_en.desc/php/lib/items.footer.rst
+.. include:: /api_en.desc/php/lib/Items.footer.rst
 
