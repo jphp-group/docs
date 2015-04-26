@@ -193,7 +193,7 @@ Flow
 
   Creates a new flow for an array of Iterator
 
-  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`php\\util\\\\Iterator </api_en/php/util//Iterator>` 
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Traversable </api_en/Traversable>` 
   :returns: :doc:`php\\util\\Flow </api_en/php/util/Flow>` 
 
  .. php:staticmethod:: ofRange($from, $to, $step = 1)

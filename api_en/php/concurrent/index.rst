@@ -7,13 +7,8 @@ concurrent
 .. toctree::
    :maxdepth: 3
 
-   BlockingQueue.rst
-   ConcurrentQueue.rst
-   Exchanger.rst
    ExecutorService.rst
    Future.rst
-   Lock.rst
-   Semaphore.rst
    TimeoutException.rst
 
 .. include:: /api_en.desc/php/concurrent/index.footer.rst

@@ -78,6 +78,26 @@ Items
   :param $saveKeys: :doc:`bool </api_en/.types/bool>` 
   :returns: :doc:`array </api_en/.types/array>` 
 
+ .. php:staticmethod:: push($array, $values)
+
+  :param $array: :doc:`array </api_en/.types/array>`, :doc:`ArrayAccess </api_en/ArrayAccess>` 
+  :param $values: 
+
+ .. php:staticmethod:: pop($array)
+
+  :param $array: :doc:`array </api_en/.types/array>` 
+  :returns: :doc:`mixed </api_en/.types/mixed>` 
+
+ .. php:staticmethod:: shift($array)
+
+  :param $array: :doc:`array </api_en/.types/array>` 
+  :returns: :doc:`mixed </api_en/.types/mixed>` 
+
+ .. php:staticmethod:: unshift($array, $values)
+
+  :param $array: :doc:`array </api_en/.types/array>` 
+  :param $values: 
+
 
 
 .. include:: /api_en.desc/php/lib/Items.footer.rst

@@ -7,12 +7,6 @@ net
 .. toctree::
    :maxdepth: 3
 
-   HttpClient.rst
-   HttpEntity.rst
-   HttpFileEntity.rst
-   HttpRequest.rst
-   HttpResponse.rst
-   HttpUrlEncodingFormEntity.rst
    NetStream.rst
    Proxy.rst
    ServerSocket.rst
