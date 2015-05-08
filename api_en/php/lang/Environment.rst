@@ -67,6 +67,9 @@ Environment
 
   :param $functionName: :doc:`string </api_en/.types/string>` 
 
+ .. php:method:: importAutoLoaders()
+
+
  .. php:method:: defineConstant($name, $value, $caseSensitive = true)
 
   **throws** :doc:`php\\lang\\\\Exception </api_en/php/lang//Exception>` - if constant already registered or value is not scalar type

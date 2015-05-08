@@ -80,6 +80,10 @@ ServerSocket
   :param $latency: :doc:`int </api_en/.types/int>` 
   :param $bandWidth: :doc:`int </api_en/.types/int>` 
 
+ .. php:staticmethod:: findAvailableLocalPort()
+
+  :returns: :doc:`int </api_en/.types/int>` 
+
 
 
 .. include:: /api_en.desc/php/net/ServerSocket.footer.rst

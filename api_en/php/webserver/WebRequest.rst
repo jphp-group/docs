@@ -69,6 +69,15 @@ WebRequest
   **read-only**
 
 
+ .. php:attr:: cookies
+
+  :doc:`array </api_en/.types/array>`
+
+  **read-only**
+
+
+  Array of arrays [name, value, path, domain, httpOnly, secure, maxAge, comment]
+
 
 
 **Methods**
@@ -145,6 +154,10 @@ WebRequest
 
 
   :returns: :doc:`string </api_en/.types/string>` 
+
+ .. php:staticmethod:: current()
+
+  :returns: :doc:`php\\webserver\\WebRequest </api_en/php/webserver/WebRequest>` 
 
 
 

@@ -7,22 +7,10 @@ API (English)
 .. toctree::
    :maxdepth: 3
 
-   php/android/index
-   php/concurrent/index
-   php/format/index
-   php/gdx/index
-   php/io/index
-   php/jsoup/index
-   php/lang/index
-   php/lib/index
-   php/mail/index
-   php/net/index
-   php/sql/index
-   php/swing/index
-   php/time/index
-   php/util/index
-   php/webserver/index
-   php/xml/index
+   BaseException.rst
+   EngineException.rst
+   ParseException.rst
+   php/index
 
 .. include:: /api_en.desc/index.footer.rst
 

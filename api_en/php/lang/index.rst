@@ -7,8 +7,8 @@ lang
 .. toctree::
    :maxdepth: 3
 
+   ClassLoader.rst
    Environment.rst
-   GettersSetters.rst
    IllegalArgumentException.rst
    IllegalStateException.rst
    InterruptedException.rst
@@ -22,7 +22,6 @@ lang
    Module.rst
    NumberFormatException.rst
    Process.rst
-   SettersGetters.rst
    System.rst
    Thread.rst
    ThreadGroup.rst

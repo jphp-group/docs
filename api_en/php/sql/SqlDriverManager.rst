@@ -27,6 +27,13 @@ SqlDriverManager
   :param $options: :doc:`array </api_en/.types/array>`  - (optional) username, password, etc.
   :returns: :doc:`php\\sql\\SqlConnection </api_en/php/sql/SqlConnection>` 
 
+ .. php:staticmethod:: getPool($url, $driverName, $options)
+
+  :param $url: :doc:`string </api_en/.types/string>` 
+  :param $driverName: :doc:`string </api_en/.types/string>`  - - mysql, pgsql, postgres, mssql, firebird, sybase, sqlite, etc.
+  :param $options: :doc:`array </api_en/.types/array>`  - (optional)
+  :returns: :doc:`php\\sql\\SqlConnectionPool </api_en/php/sql/SqlConnectionPool>` 
+
 
 
 .. include:: /api_en.desc/php/sql/SqlDriverManager.footer.rst

@@ -9,63 +9,130 @@ URLConnection
 
 
 
+**Properties**
+
+----------
+
+ .. php:attr:: doOutput
+
+  :doc:`bool </api_en/.types/bool>`
+
+ .. php:attr:: doInput
+
+  :doc:`bool </api_en/.types/bool>`
+
+ .. php:attr:: requestMethod
+
+  :doc:`string </api_en/.types/string>`
+
+  POST, GET, PUT, etc.
+
+ .. php:attr:: connectTimeout
+
+  :doc:`php\\net\\int millis </api_en/php/net/int millis>`
+
+  that specifies the connect timeout value in milliseconds
+
+ .. php:attr:: readTimeout
+
+  :doc:`php\\net\\int millis </api_en/php/net/int millis>`
+
+  the read timeout to a specified timeout, in milliseconds.
+
+ .. php:attr:: useCaches
+
+  :doc:`bool </api_en/.types/bool>`
+
+ .. php:attr:: ifModifiedSince
+
+  :doc:`php\\net\\int millis </api_en/php/net/int millis>`
+
+ .. php:attr:: followRedirects
+
+  :doc:`bool </api_en/.types/bool>`
+
+ .. php:attr:: url
+
+  :doc:`php\\net\\URL </api_en/php/net/URL>`
+
+  **read-only**
+
+
+ .. php:attr:: responseCode
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: responseMessage
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: contentLength
+
+  :doc:`php\\net\\int bytes </api_en/php/net/int bytes>`
+
+  **read-only**
+
+
+  int the content length of the resource that this connection's URL
+  references, -1 if the content length is not known,
+  or if the content length is greater than Integer.MAX_VALUE.
+
+ .. php:attr:: contentType
+
+  :doc:`string </api_en/.types/string>`
+
+  **read-only**
+
+
+ .. php:attr:: contentEncoding
+
+  :doc:`string </api_en/.types/string>`
+
+  **read-only**
+
+
+ .. php:attr:: expiration
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: lastModified
+
+  :doc:`int </api_en/.types/int>`
+
+  **read-only**
+
+
+ .. php:attr:: usingProxy
+
+  :doc:`bool </api_en/.types/bool>`
+
+  **read-only**
+
+
+
+
 **Methods**
 
 ----------
 
+ .. php:method:: __construct($parent)
+
+  **protected**
+
+
+  :param $parent: :doc:`php\\net\\URLConnection </api_en/php/net/URLConnection>` 
+
  .. php:method:: connect()
 
-
- .. php:method:: setConnectTimeout($timeout)
-
-  :param $timeout: :doc:`int </api_en/.types/int>`  - that specifies the connect timeout value in milliseconds
-
- .. php:method:: getConnectTimeout()
-
-  :returns: :doc:`int </api_en/.types/int>` 
-
- .. php:method:: setReadTimeout($timeout)
-
-  Sets the read timeout to a specified timeout, in
-  milliseconds.
-
-  :param $timeout: :doc:`int </api_en/.types/int>` 
-
- .. php:method:: getReadTimeout()
-
-  :returns: :doc:`int </api_en/.types/int>` 
-
- .. php:method:: getURL()
-
-  :returns: :doc:`php\\net\\URL </api_en/php/net/URL>` 
-
- .. php:method:: getContentLength()
-
-  Returns the value of the ``content-length`` header field.
-
-  :returns: :doc:`int </api_en/.types/int>` the content length of the resource that this connection's URL
-  references, {@code -1} if the content length is not known,
-  or if the content length is greater than Integer.MAX_VALUE.
-
- .. php:method:: getContentType()
-
-  :returns: :doc:`string </api_en/.types/string>` 
-
- .. php:method:: getContentEncoding()
-
-  :returns: :doc:`string </api_en/.types/string>` 
-
- .. php:method:: getExpiration()
-
-  :returns: :doc:`int </api_en/.types/int>` 
-
- .. php:method:: getDate()
-
-  :returns: :doc:`int </api_en/.types/int>` 
-
- .. php:method:: getLastModified()
-
-  :returns: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: getHeaderField($name)
 
@@ -79,45 +146,13 @@ URLConnection
 
   :returns: :doc:`php\\io\\Stream </api_en/php/io/Stream>` 
 
- .. php:method:: getOutputStream()
+ .. php:method:: getErrorStream()
 
   :returns: :doc:`php\\io\\Stream </api_en/php/io/Stream>` 
 
- .. php:method:: toString()
+ .. php:method:: getOutputStream()
 
-  :returns: :doc:`string </api_en/.types/string>` 
-
- .. php:method:: setDoInput($doinput)
-
-  :param $doinput: :doc:`bool </api_en/.types/bool>` 
-
- .. php:method:: getDoInput()
-
-  :returns: :doc:`bool </api_en/.types/bool>` 
-
- .. php:method:: setDoOutput($dooutput)
-
-  :param $dooutput: 
-
- .. php:method:: getDoOutput()
-
-  :returns: :doc:`bool </api_en/.types/bool>` 
-
- .. php:method:: setUseCaches($useCaches)
-
-  :param $useCaches: :doc:`bool </api_en/.types/bool>` 
-
- .. php:method:: getUseCaches()
-
-  :returns: :doc:`bool </api_en/.types/bool>` 
-
- .. php:method:: setIfModifiedSince($ifmodifiedsince)
-
-  :param $ifmodifiedsince: :doc:`int </api_en/.types/int>` 
-
- .. php:method:: getIfModifiedSince()
-
-  :returns: :doc:`int </api_en/.types/int>` 
+  :returns: :doc:`php\\io\\Stream </api_en/php/io/Stream>` 
 
  .. php:method:: setRequestProperty($name, $value)
 
@@ -135,22 +170,6 @@ URLConnection
  .. php:method:: disconnect()
 
 
- .. php:method:: getResponseCode()
-
-  :returns: :doc:`int </api_en/.types/int>` 
-
- .. php:method:: getResponseMessage()
-
-  :returns: :doc:`string </api_en/.types/string>` 
-
- .. php:method:: getInstanceFollowRedirects()
-
-  :returns: :doc:`bool </api_en/.types/bool>` 
-
- .. php:method:: setInstanceFollowRedirects($value)
-
-  :param $value: :doc:`bool </api_en/.types/bool>` 
-
  .. php:method:: setChunkedStreamingMode($chunklen)
 
   This method is used to enable streaming of a HTTP request body
@@ -162,30 +181,6 @@ URLConnection
   :param $chunklen: :doc:`int </api_en/.types/int>`  - The number of bytes to write in each chunk.
   If chunklen is less than or equal to zero, a default
   value will be used.
-
- .. php:method:: setRequestMethod($method)
-
-  Set the method for the URL request, one of:
-  <UL>
-  <LI>GET
-  <LI>POST
-  <LI>HEAD
-  <LI>OPTIONS
-  <LI>PUT
-  <LI>DELETE
-  <LI>TRACE
-  </UL> are legal, subject to protocol restrictions.  The default
-  method is GET.
-
-  :param $method: :doc:`string </api_en/.types/string>` 
-
- .. php:method:: getRequestMethod()
-
-  :returns: :doc:`string </api_en/.types/string>` 
-
- .. php:method:: usingProxy()
-
-  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: guessContentTypeFromStream($stream)
 

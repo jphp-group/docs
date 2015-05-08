@@ -8,6 +8,7 @@ sql
    :maxdepth: 3
 
    SqlConnection.rst
+   SqlConnectionPool.rst
    SqlDriverManager.rst
    SqlException.rst
    SqlResult.rst

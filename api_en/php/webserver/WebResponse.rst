@@ -66,9 +66,10 @@ WebResponse
   :param $name: :doc:`string </api_en/.types/string>` 
   :param $value: :doc:`string </api_en/.types/string>` 
 
- .. php:method:: sendRedirect($location)
+ .. php:method:: redirect($location, $httpStatus = 301)
 
   :param $location: :doc:`string </api_en/.types/string>` 
+  :param $httpStatus: :doc:`int </api_en/.types/int>` 
 
  .. php:method:: encodeRedirectURL($url)
 
@@ -81,6 +82,10 @@ WebResponse
  .. php:method:: setContentLength($length)
 
   :param $length: :doc:`int </api_en/.types/int>` 
+
+ .. php:method:: addCookie($cookie)
+
+  :param $cookie: :doc:`array </api_en/.types/array>`  - [name, value, maxAge, path, domain, httpOnly, secure, comment]
 
  .. php:method:: getStatus()
 
@@ -137,6 +142,10 @@ WebResponse
 
 
   :param $bufferSize: :doc:`int </api_en/.types/int>` 
+
+ .. php:staticmethod:: current()
+
+  :returns: :doc:`php\\webserver\\WebResponse </api_en/php/webserver/WebResponse>` 
 
 
 

@@ -156,6 +156,15 @@ Stream
   :param $data: :doc:`string </api_en/.types/string>` 
   :param $mode: :doc:`string </api_en/.types/string>` 
 
+ .. php:staticmethod:: exists($path)
+
+  Checks stream is exists. It tries to open a stream and if all is ok, returns true and closes it.
+
+  **throws** :doc:`php\\io\\\\Exception </api_en/php/io//Exception>` if you check external streams like http or ftp
+
+  :param $path: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
+
  .. php:staticmethod:: register($protocol, $className)
 
   :param $protocol: :doc:`string </api_en/.types/string>` 
