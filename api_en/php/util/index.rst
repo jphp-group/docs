@@ -7,6 +7,7 @@ util
 .. toctree::
    :maxdepth: 3
 
+   Configuration.rst
    Flow.rst
    Locale.rst
    Promise.rst

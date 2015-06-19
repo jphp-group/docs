@@ -156,6 +156,16 @@ Stream
   :param $data: :doc:`string </api_en/.types/string>` 
   :param $mode: :doc:`string </api_en/.types/string>` 
 
+ .. php:staticmethod:: tryAccess($path, $onAccess, $mode = 'r')
+
+  Open a stream and close it after calling $onAccess automatically.
+
+  **throws** :doc:`php\\io\\IOException </api_en/php/io/IOException>`
+
+  :param $path: :doc:`string </api_en/.types/string>` 
+  :param $onAccess: :doc:`callable </api_en/.types/callable>`  - (Stream $stream)
+  :param $mode: :doc:`string </api_en/.types/string>` 
+
  .. php:staticmethod:: exists($path)
 
   Checks stream is exists. It tries to open a stream and if all is ok, returns true and closes it.

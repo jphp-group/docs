@@ -34,6 +34,13 @@ WebRequest
   **read-only**
 
 
+ .. php:attr:: servletPath
+
+  :doc:`string </api_en/.types/string>`
+
+  **read-only**
+
+
  .. php:attr:: queryString
 
   :doc:`string </api_en/.types/string>`

@@ -196,6 +196,12 @@ URLConnection
 
   :param $name: :doc:`string </api_en/.types/string>` 
 
+ .. php:staticmethod:: create($url, $proxy = null)
+
+  :param $url: :doc:`string </api_en/.types/string>` 
+  :param $proxy: :doc:`php\\net\\Proxy </api_en/php/net/Proxy>` 
+  :returns: :doc:`php\\net\\URLConnection </api_en/php/net/URLConnection>` 
+
 
 
 .. include:: /api_en.desc/php/net/URLConnection.footer.rst

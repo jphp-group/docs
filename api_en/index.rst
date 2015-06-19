@@ -11,6 +11,7 @@ API (English)
    EngineException.rst
    ParseException.rst
    php/index
+   Timer.rst
 
 .. include:: /api_en.desc/index.footer.rst
 

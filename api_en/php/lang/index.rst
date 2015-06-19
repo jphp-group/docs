@@ -25,6 +25,7 @@ lang
    System.rst
    Thread.rst
    ThreadGroup.rst
+   ThreadPool.rst
 
 .. include:: /api_en.desc/php/lang/index.footer.rst
 

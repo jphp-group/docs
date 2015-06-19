@@ -1,11 +1,11 @@
-ExecutorService
-------------------------------
+ThreadPool
+-------------------
 
-.. include:: /api_en.desc/php/concurrent/ExecutorService.header.rst
+.. include:: /api_en.desc/php/lang/ThreadPool.header.rst
 
-.. php:class:: php\\concurrent\\ExecutorService
+.. php:class:: php\\lang\\ThreadPool
 
- Class ExecutorService
+ Class ThreadPool
 
 
 
@@ -67,36 +67,43 @@ ExecutorService
   request, or the timeout occurs, or the current thread is
   interrupted, whichever happens first.
 
-  **throws** :doc:`php\\concurrent\\\\Exception </api_en/php/concurrent//Exception>`
+  **throws** :doc:`php\\lang\\\\Exception </api_en/php/lang//Exception>`
 
   :param $timeout: :doc:`int </api_en/.types/int>`  - - in milliseconds
   :returns: :doc:`bool </api_en/.types/bool>` 
 
- .. php:staticmethod:: newFixedThreadPool($max)
+ .. php:staticmethod:: create($coreSize, $maxSize, $keepAliveTime = 0)
+
+  :param $coreSize: :doc:`int </api_en/.types/int>`  - the number of threads to keep in the pool, even if they are idle
+  :param $maxSize: :doc:`int </api_en/.types/int>`  - the maximum number of threads to allow in the pool
+  :param $keepAliveTime: :doc:`int </api_en/.types/int>`  - in millis
+  :returns: :doc:`php\\lang\\ThreadPool </api_en/php/lang/ThreadPool>` 
+
+ .. php:staticmethod:: createFixed($max)
 
   :param $max: :doc:`int </api_en/.types/int>` 
-  :returns: :doc:`php\\concurrent\\ExecutorService </api_en/php/concurrent/ExecutorService>` 
+  :returns: :doc:`php\\lang\\ThreadPool </api_en/php/lang/ThreadPool>` 
 
- .. php:staticmethod:: newCachedThreadPool()
+ .. php:staticmethod:: createCached()
 
-  :returns: :doc:`php\\concurrent\\ExecutorService </api_en/php/concurrent/ExecutorService>` 
+  :returns: :doc:`php\\lang\\ThreadPool </api_en/php/lang/ThreadPool>` 
 
- .. php:staticmethod:: newSingleThreadExecutor()
+ .. php:staticmethod:: createSingle()
 
   Creates an Executor that uses a single worker thread operating
   off an unbounded queue.
 
-  :returns: :doc:`php\\concurrent\\ExecutorService </api_en/php/concurrent/ExecutorService>` 
+  :returns: :doc:`php\\lang\\ThreadPool </api_en/php/lang/ThreadPool>` 
 
- .. php:staticmethod:: newScheduledThreadPool($corePoolSize)
+ .. php:staticmethod:: createScheduled($corePoolSize)
 
   Creates a thread pool that can schedule commands to run after a
   given delay, or to execute periodically.
 
   :param $corePoolSize: :doc:`int </api_en/.types/int>` 
-  :returns: :doc:`php\\concurrent\\ExecutorService </api_en/php/concurrent/ExecutorService>` 
+  :returns: :doc:`php\\lang\\ThreadPool </api_en/php/lang/ThreadPool>` 
 
 
 
-.. include:: /api_en.desc/php/concurrent/ExecutorService.footer.rst
+.. include:: /api_en.desc/php/lang/ThreadPool.footer.rst
 

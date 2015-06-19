@@ -101,11 +101,6 @@ Thread
 
   :returns: :doc:`php\\lang\\Thread </api_en/php/lang/Thread>` 
 
- .. php:staticmethod:: sync($object, $runnable)
-
-  :param $object: :doc:`object </api_en/.types/object>` 
-  :param $runnable: :doc:`callable </api_en/.types/callable>` 
-
 
 
 .. include:: /api_en.desc/php/lang/Thread.footer.rst
