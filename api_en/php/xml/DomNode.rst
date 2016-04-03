@@ -142,6 +142,7 @@ DomNode
  .. php:method:: cloneNode($deep)
 
   :param $deep: :doc:`bool </api_en/.types/bool>` 
+  :returns: :doc:`php\\xml\\DomNode </api_en/php/xml/DomNode>` 
 
  .. php:method:: appendChild($node)
 

@@ -75,6 +75,10 @@ DomElement
 
   :param $attributes: :doc:`array </api_en/.types/array>`, :doc:`Traversable </api_en/Traversable>` 
 
+ .. php:method:: getAttributes()
+
+  :returns: :doc:`array </api_en/.types/array>` 
+
  .. php:method:: removeAttribute($name)
 
   :param $name: :doc:`string </api_en/.types/string>` 

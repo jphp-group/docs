@@ -7,6 +7,11 @@ ClassLoader
 
  **abstract** class
 
+**Children**
+
+----------------------
+
+ * **class** :doc:`php\\util\\LauncherClassLoader </api_en/php/util/LauncherClassLoader>`
 
 
 

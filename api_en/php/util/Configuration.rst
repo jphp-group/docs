@@ -13,9 +13,10 @@ Configuration
 
 ----------
 
- .. php:method:: __construct($source = null)
+ .. php:method:: __construct($source = null, $encoding = 'UTF-8')
 
   :param $source: :doc:`string </api_en/.types/string>`, :doc:`php\\io\\Stream </api_en/php/io/Stream>` 
+  :param $encoding: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: has($key)
 
@@ -65,13 +66,15 @@ Configuration
  .. php:method:: clear()
 
 
- .. php:method:: load($in)
+ .. php:method:: load($in, $encoding = 'UTF-8')
 
   :param $in: :doc:`string </api_en/.types/string>`, :doc:`php\\io\\Stream </api_en/php/io/Stream>` 
+  :param $encoding: :doc:`string </api_en/.types/string>` 
 
- .. php:method:: save($out)
+ .. php:method:: save($out, $encoding = 'UTF-8')
 
   :param $out: :doc:`string </api_en/.types/string>`, :doc:`php\\io\\Stream </api_en/php/io/Stream>` 
+  :param $encoding: :doc:`string </api_en/.types/string>` 
 
  .. php:method:: toArray()
 

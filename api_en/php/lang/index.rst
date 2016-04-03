@@ -20,8 +20,10 @@ lang
    JavaObject.rst
    JavaReflection.rst
    Module.rst
+   NotImplementedException.rst
    NumberFormatException.rst
    Process.rst
+   SourceMap.rst
    System.rst
    Thread.rst
    ThreadGroup.rst

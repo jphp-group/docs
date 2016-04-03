@@ -61,6 +61,12 @@ Flow
   :param $filter: :doc:`callable </api_en/.types/callable>` 
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
+ .. php:method:: findValue($value, $strict = false)
+
+  :param $value: 
+  :param $strict: :doc:`bool </api_en/.types/bool>` 
+  :returns: :doc:`int </api_en/.types/int>`, :doc:`null </api_en/.types/null>`, :doc:`string </api_en/.types/string>` return null if not found, else - key of value
+
  .. php:method:: group($callback)
 
   :param $callback: :doc:`callable </api_en/.types/callable>` 
@@ -188,6 +194,10 @@ Flow
   **private**
 
 
+
+ .. php:staticmethod:: ofEmpty()
+
+  :returns: :doc:`php\\util\\Flow </api_en/php/util/Flow>` 
 
  .. php:staticmethod:: of($collection)
 

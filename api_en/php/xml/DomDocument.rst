@@ -73,6 +73,12 @@ DomDocument
   :param $qualifiedName: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`php\\xml\\DomElement </api_en/php/xml/DomElement>` 
 
+ .. php:method:: createProcessingInstruction($name, $value)
+
+  :param $name: :doc:`string </api_en/.types/string>` 
+  :param $value: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\xml\\DomNode </api_en/php/xml/DomNode>` 
+
  .. php:method:: importNode($importedNode, $deep)
 
   :param $importedNode: :doc:`php\\xml\\DomNode </api_en/php/xml/DomNode>` 

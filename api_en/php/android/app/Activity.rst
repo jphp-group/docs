@@ -41,7 +41,6 @@ Activity
 
  .. php:method:: onCreate()
 
-  :returns: :doc:`php\\android\\app\\Activity </api_en/php/android/app/Activity>` 
 
 
 

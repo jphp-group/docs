@@ -9,6 +9,7 @@ format
 
    JsonProcessor.rst
    Processor.rst
+   ProcessorException.rst
 
 .. include:: /api_en.desc/php/format/index.footer.rst
 

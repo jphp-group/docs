@@ -8,6 +8,7 @@ php
    :maxdepth: 3
 
    android/index
+   compress/index
    concurrent/index
    format/index
    gdx/index
@@ -17,6 +18,7 @@ php
    lib/index
    mail/index
    net/index
+   orientdb/index
    sql/index
    swing/index
    time/index

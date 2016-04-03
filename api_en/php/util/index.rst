@@ -9,6 +9,7 @@ util
 
    Configuration.rst
    Flow.rst
+   LauncherClassLoader.rst
    Locale.rst
    Promise.rst
    Regex.rst

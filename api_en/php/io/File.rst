@@ -106,6 +106,11 @@ File
 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
+ .. php:method:: matches($pattern)
+
+  :param $pattern: :doc:`string </api_en/.types/string>`  - the "glob" and "regex" syntaxes, and may support others.
+  :returns: :doc:`bool </api_en/.types/bool>` 
+
  .. php:method:: delete()
 
   :returns: :doc:`bool </api_en/.types/bool>` 
@@ -126,6 +131,15 @@ File
  .. php:method:: length()
 
   :returns: :doc:`int </api_en/.types/int>` 
+
+ .. php:method:: crc32()
+
+  :returns: :doc:`int </api_en/.types/int>`, :doc:`null </api_en/.types/null>` null if not exists or io exception
+
+ .. php:method:: hash($algorithm = 'MD5')
+
+  :param $algorithm: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`string </api_en/.types/string>`, :doc:`null </api_en/.types/null>` if not exists or io exception
 
  .. php:method:: renameTo($newName)
 

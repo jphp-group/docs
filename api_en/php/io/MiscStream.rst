@@ -11,6 +11,8 @@ MiscStream
 
 ----------------------
 
+ * **class** :doc:`php\\compress\\ArchiveInputStream </api_en/php/compress/ArchiveInputStream>`
+ * **class** :doc:`php\\compress\\ArchiveOutputStream </api_en/php/compress/ArchiveOutputStream>`
  * **class** :doc:`php\\io\\MemoryStream </api_en/php/io/MemoryStream>`
 
  Class MiscStream

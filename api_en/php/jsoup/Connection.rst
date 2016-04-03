@@ -39,6 +39,12 @@ Connection
   :param $data: :doc:`array </api_en/.types/array>` 
   :returns: :doc:`php\\jsoup\\Connection </api_en/php/jsoup/Connection>` 
 
+ .. php:method:: header($name, $value)
+
+  :param $name: :doc:`string </api_en/.types/string>` 
+  :param $value: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\jsoup\\Connection </api_en/php/jsoup/Connection>` 
+
  .. php:method:: url($url)
 
   :param $url: :doc:`string </api_en/.types/string>` 

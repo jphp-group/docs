@@ -62,6 +62,10 @@ ResourceStream
 
   :returns: :doc:`mixed </api_en/.types/mixed>` 
 
+ .. php:method:: toExternalForm()
+
+  :returns: :doc:`string </api_en/.types/string>` 
+
  .. php:staticmethod:: getResources($name)
 
   :param $name: :doc:`string </api_en/.types/string>` 

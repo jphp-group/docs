@@ -1,9 +1,9 @@
-Items
--------------
+arr
+-----------
 
-.. include:: /api_en.desc/php/lib/Items.header.rst
+.. include:: /api_en.desc/php/lib/arr.header.rst
 
-.. php:class:: php\\lib\\Items
+.. php:class:: php\\lib\\arr
 
  Library for working with collections - arrays, iterators, etc.
 
@@ -28,12 +28,27 @@ Items
   :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Countable </api_en/Countable>`, :doc:`Iterator </api_en/Iterator>` 
   :returns: :doc:`int </api_en/.types/int>` element count
 
+ .. php:staticmethod:: has($collection, $value, $strict = false)
+
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Traversable </api_en/Traversable>` 
+  :param $value: :doc:`mixed </api_en/.types/mixed>` 
+  :param $strict: :doc:`bool </api_en/.types/bool>` 
+  :returns: :doc:`bool </api_en/.types/bool>` 
+
  .. php:staticmethod:: toArray($collection, $withKeys = false)
 
   Converts $collection to array
 
   :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
   :param $withKeys: :doc:`bool </api_en/.types/bool>` 
+  :returns: :doc:`array </api_en/.types/array>` 
+
+ .. php:staticmethod:: of($collection, $withKeys = false)
+
+  Alias of toArray()
+
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $withKeys: :doc:`bool </api_en/.types/bool>`, :doc:`php\\lib\\false </api_en/php/lib/false>` 
   :returns: :doc:`array </api_en/.types/array>` 
 
  .. php:staticmethod:: toList($collection)
@@ -49,6 +64,19 @@ Items
 
   :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
   :returns: :doc:`array </api_en/.types/array>` 
+
+ .. php:staticmethod:: combine($keys, $values)
+
+  Combines two collections to array.
+
+  :param $keys: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $values: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :returns: :doc:`array </api_en/.types/array>`, :doc:`null </api_en/.types/null>` returns null if size of arrays is not equals.
+
+ .. php:staticmethod:: map($collection, $callback)
+
+  :param $collection: :doc:`array </api_en/.types/array>`, :doc:`Iterator </api_en/Iterator>` 
+  :param $callback: :doc:`callable </api_en/.types/callable>` 
 
  .. php:staticmethod:: flatten($collection, $maxLevel = -1)
 
@@ -78,6 +106,13 @@ Items
   :param $saveKeys: :doc:`bool </api_en/.types/bool>` 
   :returns: :doc:`array </api_en/.types/array>` 
 
+ .. php:staticmethod:: peak($array)
+
+  Returns the last element of array.
+
+  :param $array: 
+  :returns: :doc:`mixed </api_en/.types/mixed>` last value of array
+
  .. php:staticmethod:: push($array, $values)
 
   :param $array: :doc:`array </api_en/.types/array>`, :doc:`ArrayAccess </api_en/ArrayAccess>` 
@@ -98,7 +133,22 @@ Items
   :param $array: :doc:`array </api_en/.types/array>` 
   :param $values: 
 
+ .. php:staticmethod:: first($collection)
+
+  :param $collection: :doc:`Traversable </api_en/Traversable>`, :doc:`array </api_en/.types/array>` 
+  :returns: :doc:`mixed </api_en/.types/mixed>` 
+
+ .. php:staticmethod:: firstKey($collection)
+
+  :param $collection: :doc:`Traversable </api_en/Traversable>`, :doc:`array </api_en/.types/array>` 
+  :returns: :doc:`string </api_en/.types/string>`, :doc:`int </api_en/.types/int>`, :doc:`null </api_en/.types/null>` 
+
+ .. php:staticmethod:: reverse($array)
+
+  :param $array: :doc:`array </api_en/.types/array>` 
+  :returns: :doc:`array </api_en/.types/array>` 
 
 
-.. include:: /api_en.desc/php/lib/Items.footer.rst
+
+.. include:: /api_en.desc/php/lib/arr.footer.rst
 

@@ -14,6 +14,14 @@ ConnectionResponse
 
 ----------
 
+ .. php:method:: headers()
+
+  :returns: :doc:`array </api_en/.types/array>` 
+
+ .. php:method:: cookies()
+
+  :returns: :doc:`array </api_en/.types/array>` 
+
  .. php:method:: statusCode()
 
   Get the status code of the response.

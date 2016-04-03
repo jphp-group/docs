@@ -110,6 +110,14 @@ Regex
   :param $replacement: :doc:`string </api_en/.types/string>` 
   :returns: :doc:`string </api_en/.types/string>` 
 
+ .. php:method:: replaceGroup($group, $replacement)
+
+  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
+
+  :param $group: :doc:`int </api_en/.types/int>` 
+  :param $replacement: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`string </api_en/.types/string>` 
+
  .. php:method:: replaceWithCallback($callback)
 
   **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
@@ -242,7 +250,6 @@ Regex
 
  .. php:method:: next()
 
-  :returns: :doc:`null </api_en/.types/null>`, :doc:`string </api_en/.types/string>` 
 
  .. php:method:: key()
 
@@ -254,7 +261,6 @@ Regex
 
  .. php:method:: rewind()
 
-  :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:method:: __clone()
 
@@ -262,15 +268,14 @@ Regex
 
 
 
- .. php:staticmethod:: match($pattern, $string)
+ .. php:staticmethod:: match($pattern, $string, $flags = 0)
 
   Tells whether or not this string matches the given regular expression.
   See also java.lang.String.matches()
 
-  **throws** :doc:`php\\util\\RegexException </api_en/php/util/RegexException>`
-
   :param $pattern: :doc:`string </api_en/.types/string>`  - regular expression
   :param $string: :doc:`string </api_en/.types/string>` 
+  :param $flags: :doc:`int </api_en/.types/int>` 
   :returns: :doc:`bool </api_en/.types/bool>` 
 
  .. php:staticmethod:: split($pattern, $string, $limit = 0)

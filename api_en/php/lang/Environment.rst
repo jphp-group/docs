@@ -28,6 +28,14 @@ Environment
   :param $parent: :doc:`php\\lang\\Environment </api_en/php/lang/Environment>` 
   :param $flags: :doc:`int </api_en/.types/int>`  - Environment::HOT_RELOAD, Environment::CONCURRENT
 
+ .. php:method:: registerSourceMap($sourceMap)
+
+  :param $sourceMap: :doc:`php\\lang\\SourceMap </api_en/php/lang/SourceMap>` 
+
+ .. php:method:: unregisterSourceMap($sourceMap)
+
+  :param $sourceMap: :doc:`php\\lang\\SourceMap </api_en/php/lang/SourceMap>` 
+
  .. php:method:: execute($runnable)
 
   Executes $runnable in the environment
@@ -84,12 +92,21 @@ Environment
 
   :param $callback: :doc:`callable </api_en/.types/callable>` 
 
+ .. php:method:: onOutput($callback)
+
+  :param $callback: :doc:`callable </api_en/.types/callable>` 
+
  .. php:method:: sendMessage($message)
 
   Send message to the environment
 
   :param $message: :doc:`mixed </api_en/.types/mixed>` 
   :returns: :doc:`mixed </api_en/.types/mixed>` 
+
+ .. php:method:: findModule($path)
+
+  :param $path: :doc:`string </api_en/.types/string>` 
+  :returns: :doc:`php\\lang\\Module </api_en/php/lang/Module>`, :doc:`null </api_en/.types/null>` 
 
  .. php:staticmethod:: current()
 
